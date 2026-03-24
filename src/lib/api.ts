@@ -1,5 +1,5 @@
-const API_BASE_CORE = "http://inoovo-new.local/wp-json/wp/v2";
-const API_BASE_STORE = "http://inoovo-new.local/wp-json/wc/store";
+const API_BASE_CORE = "https://innovo-eg.com/wp-json/wp/v2";
+const API_BASE_STORE = "https://innovo-eg.com/wp-json/wc/store";
 
 export const BRAND_ATTR_ID = 1;
 

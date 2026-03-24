@@ -176,9 +176,13 @@ const OurPartners = () => {
     return (
       <div className="min-h-screen flex flex-col bg-white">
         <Header />
-        <div className="flex-1 flex items-center justify-center">
-          <Loader2 className="w-12 h-12 animate-spin text-[#dd0000]" />
-        </div>
+        <main className="flex-1">
+          {Array.from({ length: 3 }).map((_, i) => (
+            <div key={i} className="h-screen w-full flex items-center justify-end pr-10 border-b border-gray-100">
+              <div className="w-full max-w-[700px] aspect-[4/3] bg-black/5 animate-pulse" />
+            </div>
+          ))}
+        </main>
         <Footer />
       </div>
     );

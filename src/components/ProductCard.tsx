@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Eye } from "lucide-react";
+import LazyImage from "./ui/LazyImage";
 
 interface ProductCardProps {
   name: string;
@@ -9,15 +9,16 @@ interface ProductCardProps {
 }
 
 const ProductCard = ({ name, image, slug, brand }: ProductCardProps) => {
+
   return (
     <div className="group">
       <Link to={`/product/${slug}`} className="block">
         <div className="relative aspect-square bg-white border border-black/5 rounded-sm overflow-hidden flex items-center justify-center transition-colors">
-          <img
+          <LazyImage
             src={image}
             alt={name}
-            className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
-            loading="lazy"
+            className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
+            containerClassName="w-full h-full flex items-center justify-center p-8"
           />
         </div>
         <div className="mt-4 text-center px-2">

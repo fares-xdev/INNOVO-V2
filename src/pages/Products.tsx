@@ -587,13 +587,23 @@ const Products = () => {
               <Loader2 className="w-8 h-8 animate-spin text-primary" />
             </div>
           )}
-          {productsLoading ? (
-            <div className="flex flex-col items-center justify-center py-20 gap-4">
-              <Loader2 className="w-8 h-8 animate-spin text-primary" />
-              <p className="text-muted-foreground">Loading products...</p>
+          {(productsLoading || !filters) ? (
+            <div className={`grid gap-6 ${
+              gridCols === 1 ? "grid-cols-1" :
+              gridCols === 2 ? "grid-cols-2" :
+              gridCols === 3 ? "grid-cols-2 md:grid-cols-3" :
+              "grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+            }`}>
+              {Array.from({ length: itemsPerPage }).map((_, i) => (
+                <div key={i} className="space-y-4">
+                  <div className="aspect-square bg-black/5 animate-pulse rounded-2xl" />
+                  <div className="h-4 w-2/3 bg-black/5 animate-pulse rounded" />
+                  <div className="h-4 w-1/3 bg-black/5 animate-pulse rounded" />
+                </div>
+              ))}
             </div>
           ) : productsError ? (
-            <div className="text-center py-20">
+            <div className="text-center py-20 min-h-[400px] flex flex-col items-center justify-center">
               <p className="text-red-500 font-medium mb-4">{productsError instanceof Error ? productsError.message : "Failed to fetch products"}</p>
               <button 
                 onClick={() => {
@@ -601,21 +611,21 @@ const Products = () => {
                   newParams.set("page", "1");
                   setSearchParams(newParams);
                 }}
-                className="px-4 py-2 bg-primary text-white rounded-sm hover:bg-primary/90 transition-colors"
+                className="px-6 py-2 bg-primary text-white rounded-full hover:bg-primary/90 transition-all font-bold uppercase tracking-widest text-xs"
               >
                 Reset Filters
               </button>
             </div>
-          ) : products.length === 0 ? (
-            <div className="text-center py-20">
-              <p className="text-muted-foreground mb-4">No products found {searchQuery ? `for "${searchQuery}"` : ""}.</p>
+          ) : filters && products.length === 0 ? (
+            <div className="text-center py-20 min-h-[400px] flex flex-col items-center justify-center">
+              <div className="mb-6 opacity-20">
+                <X className="w-16 h-16 mx-auto" />
+              </div>
+              <p className="text-[#242424] font-bold text-xl mb-2">No products found</p>
+              <p className="text-muted-foreground mb-8">We couldn't find any products matching your current filters.</p>
               <button 
-                onClick={() => {
-                  const newParams = new URLSearchParams();
-                  newParams.set("page", "1");
-                  setSearchParams(newParams);
-                }}
-                className="text-primary hover:underline"
+                onClick={clearFilters}
+                className="px-8 py-3 bg-black text-white rounded-full font-bold uppercase tracking-widest text-xs hover:bg-[#CD2727] transition-all"
               >
                 View all products
               </button>

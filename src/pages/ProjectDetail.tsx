@@ -4,9 +4,10 @@ import { useParams, Link } from "react-router-dom";
 import { ChevronRight, ChevronLeft, Loader2, X } from "lucide-react";
 import { useState, useEffect } from "react";
 
-import { fetchProjectBySlug, getOriginalImage } from "@/lib/api";
+import { fetchProjectBySlug, getOriginalImage, decodeHtmlEntities } from "@/lib/api";
 import { useQuery } from "@tanstack/react-query";
 import { useCallback } from "react";
+import LazyImage from "@/components/ui/LazyImage";
 
 const ProjectDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -107,12 +108,36 @@ const ProjectDetail = () => {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [selectedImageIndex, gallery.length, navigateLightbox]);
 
-  if (isLoading) return <div className="min-h-screen flex items-center justify-center bg-background"><Loader2 className="animate-spin" /></div>;
+  if (isLoading) return (
+    <div className="min-h-screen flex flex-col bg-background">
+      <Header />
+      <main className="bg-[#F9F9F9] flex-1">
+        <section className="py-10 text-center container">
+          <div className="h-10 w-2/3 bg-black/5 animate-pulse mx-auto rounded-lg mb-3" />
+        </section>
+        <section className="w-full max-w-6xl mx-auto px-4 md:px-6 mb-12">
+          <div className="w-full aspect-video md:aspect-[21/9] bg-black/5 animate-pulse rounded-xl" />
+        </section>
+        <section className="w-full max-w-6xl mx-auto px-4 md:px-6 pb-20">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1">
+            {Array.from({ length: 9 }).map((_, i) => (
+              <div key={i} className="aspect-[16/9] md:aspect-square bg-black/5 animate-pulse rounded-lg" />
+            ))}
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </div>
+  );
+
   if (error || !project) return (
     <div className="min-h-screen flex flex-col bg-background">
       <Header />
-      <div className="flex-1 flex items-center justify-center text-red-500">
-        {error instanceof Error ? error.message : "Project not found"}
+      <div className="flex-1 flex items-center justify-center text-red-500 font-bold p-10 text-center">
+        <div>
+          <h2 className="text-2xl mb-4">Project not found</h2>
+          <Link to="/projects" className="text-primary hover:underline uppercase text-sm font-bold tracking-widest">Back to projects</Link>
+        </div>
       </div>
       <Footer />
     </div>
@@ -126,7 +151,7 @@ const ProjectDetail = () => {
         {/* Title Section */}
         <section className="py-10 text-center">
           <h1 
-            className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-3 uppercase tracking-widest"
+            className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-3 uppercase tracking-widest px-4"
             dangerouslySetInnerHTML={{ __html: project!.title.rendered }}
           />
         </section>
@@ -140,14 +165,16 @@ const ProjectDetail = () => {
                 className="w-full h-full border-0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
+                loading="lazy"
               />
             </div>
           ) : featuredImage && (
             <div className="w-full aspect-video md:aspect-[21/9] rounded-xl overflow-hidden shadow-md">
-              <img 
+              <LazyImage
                 src={featuredImage} 
                 className="w-full h-full object-cover transition-transform duration-1000 hover:scale-105" 
-                alt={project?.title.rendered} 
+                alt={decodeHtmlEntities(project?.title.rendered)} 
+                containerClassName="w-full h-full"
               />
             </div>
           )}
@@ -164,10 +191,11 @@ const ProjectDetail = () => {
                   className="aspect-[16/9] md:aspect-square rounded-lg overflow-hidden bg-muted group cursor-pointer"
                   onClick={() => setSelectedImageIndex(idx)}
                 >
-                  <img 
+                  <LazyImage
                     src={img} 
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
-                    alt="" 
+                    alt={`Gallery ${idx + 1}`} 
+                    containerClassName="w-full h-full"
                   />
                 </div>
               ))}

@@ -36,8 +36,8 @@ const Footer = () => {
 
         {/* Copyright Section */}
         <div className="mt-3 text-center">
-          <p className="text-[12px] md:text-sm text-muted-foreground uppercase font-bold tracking-wider">
-            <span className="text-foreground font-extrabold">Innovo</span>© 2025 CREATED BY <a href="https://movico-eg.com/" target="_blank" rel="noopener noreferrer" className="text-foreground font-extrabold hover:text-primary transition-colors">Movico</a>. PREMIUM WEB SOLUTIONS.
+          <p className="text-xs md:text-sm text-muted-foreground font-light ">
+            <span className="text-[#333] font-black">Innovo</span>© 2025 CREATED BY <a href="https://movico-eg.com/" target="_blank" rel="noopener noreferrer" className="text-[#333] font-black hover:text-black transition-colors">Movico</a>. PREMIUM WEB SOLUTIONS.
           </p>
         </div>
       </div>

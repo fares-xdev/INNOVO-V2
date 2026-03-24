@@ -6,6 +6,7 @@ import { useState, useEffect, useCallback } from "react";
 import ProductCard from "@/components/ProductCard";
 import ProjectCard from "@/components/ProjectCard";
 import { BlogCardHome } from "@/components/BlogCardHome";
+import LazyImage from "@/components/ui/LazyImage";
 import { 
   fetchProducts, 
   fetchProductCategories, 
@@ -116,16 +117,26 @@ const Home = () => {
     const loadHomeData = async () => {
       setIsLoading(true);
       try {
-        const [productsData, categoriesData, customersResponse, partnersSliderResponse, heroResponse, homeCategoriesResponse, homeVideoResponse, projectsResponse, postsResponse] = await Promise.all([
-          fetchProducts({ per_page: 8 }),
-          fetchProductCategories(),
-          fetchCustomers(),
-          fetchPartnersSlider(),
-          fetchHeroSlides(),
-          fetchHomeCategories(),
-          fetchHomeVideo(),
-          fetchProjects(1, 8),
-          fetchPosts(1, 3)
+        const [
+          productsData, 
+          categoriesData, 
+          customersResponse, 
+          partnersSliderResponse, 
+          heroResponse, 
+          homeCategoriesResponse, 
+          homeVideoResponse, 
+          projectsResponse, 
+          postsResponse
+        ] = await Promise.all([
+          fetchProducts({ per_page: 8 }).catch(e => ({ data: [] })),
+          fetchProductCategories().catch(e => []),
+          fetchCustomers().catch(e => []),
+          fetchPartnersSlider().catch(e => []),
+          fetchHeroSlides().catch(e => []),
+          fetchHomeCategories().catch(e => []),
+          fetchHomeVideo().catch(e => []),
+          fetchProjects(1, 8).catch(e => ({ data: [] })),
+          fetchPosts(1, 3).catch(e => ({ data: [] }))
         ]);
         setFeaturedProducts(productsData.data);
         setCategories(categoriesData);
@@ -301,131 +312,163 @@ const Home = () => {
     return () => clearInterval(interval);
   }, [sliderApi, partnersSlider]);
 
+  useEffect(() => {
+    if (!categoryApi || homeCategories.length === 0) return;
+    const interval = setInterval(() => {
+      categoryApi.scrollNext();
+    }, 5000);
+    return () => clearInterval(interval);
+  }, [categoryApi, homeCategories]);
+
+  useEffect(() => {
+    if (!portfolioApi || projects.length === 0) return;
+    const interval = setInterval(() => {
+      portfolioApi.scrollNext();
+    }, 6000);
+    return () => clearInterval(interval);
+  }, [portfolioApi, projects]);
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Header />
 
       {/* Hero Slider */}
-      <section className="relative h-[600px] md:h-screen overflow-hidden group">
-        {slides.map((slide, index) => (
-          <div
-            key={index}
-            className={`absolute inset-0 transition-opacity duration-1000 ${
-              index === currentSlide 
-                ? "opacity-100" 
-                : "opacity-0 pointer-events-none"
-            }`}
-          >
-            <div className="absolute inset-0 bg-black/30 z-10" />
-            <img
-              src={slide.image}
-              alt={slide.title}
-              className={`absolute inset-0 w-full h-full object-cover ${
-                index === currentSlide || index === prevSlideIndex 
-                ? "animate-ken-burns" 
-                : ""
+      {isLoading ? (
+        <section className="h-[600px] md:h-screen w-full bg-black/5 animate-pulse flex items-center justify-center">
+          <Loader2 className="w-12 h-12 animate-spin text-primary/20" />
+        </section>
+      ) : (
+        <section className="relative h-[600px] md:h-screen overflow-hidden group">
+          {slides.map((slide, index) => (
+            <div
+              key={index}
+              className={`absolute inset-0 transition-opacity duration-1000 ${
+                index === currentSlide 
+                  ? "opacity-100" 
+                  : "opacity-0 pointer-events-none"
               }`}
-            />            <div className="relative z-20 h-full flex flex-col items-center justify-center text-center text-white px-4 md:px-0">
-              <h1 
-                className="text-4xl md:text-7xl font-bold mb-4 leading-tight tracking-tight max-w-4xl"
-                dangerouslySetInnerHTML={{ __html: slide.title }}
+            >
+              <div className="absolute inset-0 bg-black/30 z-10" />
+              <img
+                src={slide.image}
+                alt={slide.title}
+                className={`absolute inset-0 w-full h-full object-cover ${
+                  index === currentSlide || index === prevSlideIndex 
+                  ? "animate-ken-burns" 
+                  : ""
+                }`}
               />
-              <div className="max-w-2xl">
-                <p 
-                  className="text-lg md:text-xl text-white/90 font-light leading-relaxed"
-                  dangerouslySetInnerHTML={{ __html: slide.description }}
+              <div className="relative z-20 h-full flex flex-col items-center justify-center text-center text-white px-4 md:px-0">
+                <h1 
+                  className="text-4xl md:text-7xl font-bold mb-4 leading-tight tracking-tight max-w-4xl"
+                  dangerouslySetInnerHTML={{ __html: slide.title }}
                 />
+                <div className="max-w-2xl">
+                  <p 
+                    className="text-lg md:text-xl text-white/90 font-light leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: slide.description }}
+                  />
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
 
-
-        {/* Navigation Arrows */}
-        <button
-          onClick={prevSlide}
-          className="absolute left-6 top-1/2 -translate-y-1/2 z-30 p-2 text-white transition-all opacity-0 group-hover:opacity-100 flex items-center justify-center"
-          aria-label="Previous slide"
-        >
-          <ChevronLeft className="w-10 h-10" strokeWidth={1} />
-        </button>
-        <button
-          onClick={nextSlide}
-          className="absolute right-6 top-1/2 -translate-y-1/2 z-30 p-2 text-white transition-all opacity-0 group-hover:opacity-100 flex items-center justify-center"
-          aria-label="Next slide"
-        >
-          <ChevronRight className="w-10 h-10" strokeWidth={1} />
-        </button>
-      </section>
+          {/* Navigation Arrows */}
+          <button
+            onClick={prevSlide}
+            className="absolute left-6 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full border border-white/30 text-white transition-all opacity-0 group-hover:opacity-100 flex items-center justify-center hover:bg-white hover:text-black"
+            aria-label="Previous slide"
+          >
+            <ChevronLeft className="w-6 h-6" />
+          </button>
+          <button
+            onClick={nextSlide}
+            className="absolute right-6 top-1/2 -translate-y-1/2 z-30 w-12 h-12 rounded-full border border-white/30 text-white transition-all opacity-0 group-hover:opacity-100 flex items-center justify-center hover:bg-white hover:text-black"
+            aria-label="Next slide"
+          >
+            <ChevronRight className="w-6 h-6" />
+          </button>
+        </section>
+      )}
 
       {/* Our Customers */}
-      {partners.length > 0 && (
+      {(isLoading || partners.length > 0) && (
         <section className="pt-10 pb-10 bg-white">
           <div className="container">
-            <h2 className="font-heading text-2xl md:text-3xl font-bold text-center mb-6 text-[#333]">
-              Our Customers
-            </h2>
-            <div className="relative px-12">
-              <Carousel
-                setApi={setApi}
-                opts={{
-                  align: "center",
-                  loop: true,
-                  duration: 40,
-                  skipSnaps: false,
-                }}
-                className="w-full"
-              >
-                <CarouselContent className="">
-                  {partners.map((partner, index) => {
-                    const logoUrl = partner.logo;
-                    // Correctly handle the active state for both original and duplicated items
-                    const isActive = index % (partners.length / 2) === current;
-
-                    if (!logoUrl) return null;
-
-                    return (
-                      <CarouselItem 
-                        key={`${partner.id}-${index}`} 
-                        className="basis-1/2 md:basis-1/5 transition-all duration-500 flex items-center justify-center h-[160px]"
-                      >
-                        <div className={`transition-all duration-700 h-full w-full flex items-center justify-center p-2 ${
-                          isActive 
-                            ? "scale-110 opacity-100 grayscale-0" 
-                            : "scale-90 opacity-40 grayscale"
-                        }`}>
-                          <img
-                            src={logoUrl}
-                            alt={partner.name || "Customer"}
-                            className="max-h-[80px] w-auto max-w-[80%] object-contain"
-                          />
-                        </div>
-                      </CarouselItem>
-                    );
-                  })}
-                </CarouselContent>
-                <CarouselPrevious className="-left-20 border-none bg-black/30 hover:bg-black/50 text-white h-9 w-9 [&>svg]:w-5 [&>svg]:h-5" />
-                <CarouselNext className="-right-20 border-none bg-black/30 hover:bg-black/50 text-white h-9 w-9 [&>svg]:w-5 [&>svg]:h-5" />
-              </Carousel>
-              
-              {/* Dots */}
-              <div className="flex justify-center gap-1.5 mt-2">
-                {Array.from({ length: count }).map((_, index) => (
-                  <button
-                    key={index}
-                    onClick={() => api?.scrollTo(index)}
-                    className={`w-2.5 h-2.5 rounded-full border border-black/40 transition-all ${
-                      index === current 
-                        ? "bg-black/60 scale-110" 
-                        : "bg-transparent hover:bg-black/10"
-                    }`}
-                  />
+            <div className="text-center mb-12">
+              <h2 className="font-heading text-4xl md:text-5xl font-bold text-[#333] mb-4 tracking-wide max-w-[90%] lg:max-w-2xl mx-auto whitespace-nowrap">
+                Our Customers
+              </h2>
+            </div>
+            {isLoading ? (
+              <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <div key={i} className="h-24 bg-black/5 animate-pulse rounded-lg" />
                 ))}
               </div>
-            </div>
+            ) : (
+              <div className="relative px-12">
+                <Carousel
+                  setApi={setApi}
+                  opts={{
+                    align: "center",
+                    loop: true,
+                    duration: 40,
+                    skipSnaps: false,
+                  }}
+                  className="w-full"
+                >
+                  <CarouselContent className="">
+                    {partners.map((partner, index) => {
+                      const logoUrl = partner.logo;
+                      const isActive = index % (partners.length / 2) === current;
+
+                      if (!logoUrl) return null;
+
+                      return (
+                        <CarouselItem 
+                          key={`${partner.id}-${index}`} 
+                          className="basis-1/2 md:basis-1/5 transition-all duration-500 flex items-center justify-center h-[160px]"
+                        >
+                          <div className={`transition-all duration-700 h-full w-full flex items-center justify-center p-2 ${
+                            isActive 
+                              ? "scale-110 opacity-100 grayscale-0" 
+                              : "scale-90 opacity-40 grayscale"
+                          }`}>
+                            <img
+                              src={logoUrl}
+                              alt={partner.name || "Customer"}
+                              className="max-h-[80px] w-auto max-w-[80%] object-contain"
+                            />
+                          </div>
+                        </CarouselItem>
+                      );
+                    })}
+                  </CarouselContent>
+                  <CarouselPrevious className="-left-16 border border-black/10 bg-white hover:bg-black hover:text-white h-12 w-12 [&>svg]:w-5 [&>svg]:h-5" />
+                  <CarouselNext className="-right-16 border border-black/10 bg-white hover:bg-black hover:text-white h-12 w-12 [&>svg]:w-5 [&>svg]:h-5" />
+                </Carousel>
+                
+                {/* Dots */}
+                <div className="flex justify-center gap-2 mt-8">
+                  {Array.from({ length: count }).map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => api?.scrollTo(index)}
+                      className={`h-1.5 rounded-full transition-all duration-300 ${
+                        index === current 
+                          ? "bg-primary w-8" 
+                          : "bg-black/10 w-4 hover:bg-black/30"
+                      }`}
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </section>
       )}
+
 
       {/* Full Width Video Section */}
       <section className="w-full relative h-[400px] md:h-[600px] lg:h-[750px] overflow-hidden">
@@ -488,291 +531,303 @@ const Home = () => {
       )}
 
       {/* Our Partners Slider */}
-      {partnersSlider.length > 0 && (
+      {(isLoading || partnersSlider.length > 0) && (
         <section className="pt-10 pb-10 bg-white">
           <div className="container">
-            <h2 className="font-heading text-2xl md:text-3xl font-bold text-center mb-6 text-black">
-              Our Partners
-            </h2>
-            <div className="relative px-12">
-              <Carousel
-                setApi={setSliderApi}
-                opts={{
-                  align: "center",
-                  loop: true,
-                  duration: 40,
-                  skipSnaps: false,
-                }}
-                className="w-full"
-              >
-                <CarouselContent className="">
-                  {partnersSlider.map((partner, index) => {
-                    const logoUrl = partner.logo;
-                    const isActive = index % (partnersSlider.length / 2) === sliderCurrent;
-
-                    if (!logoUrl) return null;
-
-                    return (
-                      <CarouselItem 
-                        key={`${partner.id}-${index}`} 
-                        className="basis-1/2 md:basis-1/5 transition-all duration-500 flex items-center justify-center h-[160px]"
-                      >
-                        <div className={`transition-all duration-700 h-full w-full flex items-center justify-center p-2 ${
-                          isActive 
-                            ? "scale-110 opacity-100 grayscale-0" 
-                            : "scale-90 opacity-40 grayscale"
-                        }`}>
-                          <img
-                            src={logoUrl}
-                            alt={partner.name || "Partner"}
-                            className="max-h-[80px] w-auto max-w-[80%] object-contain"
-                          />
-                        </div>
-                      </CarouselItem>
-                    );
-                  })}
-                </CarouselContent>
-                <CarouselPrevious className="-left-20 border-none bg-black/30 hover:bg-black/50 text-white h-9 w-9 [&>svg]:w-5 [&>svg]:h-5" />
-                <CarouselNext className="-right-20 border-none bg-black/30 hover:bg-black/50 text-white h-9 w-9 [&>svg]:w-5 [&>svg]:h-5" />
-              </Carousel>
-              
-              {/* Dots */}
-              <div className="flex justify-center gap-1.5 mt-2">
-                {Array.from({ length: sliderCount }).map((_, index) => (
-                  <button
-                    key={index}
-                    onClick={() => sliderApi?.scrollTo(index)}
-                    className={`w-2.5 h-2.5 rounded-full border border-black/40 transition-all ${
-                      index === sliderCurrent 
-                        ? "bg-black/60 scale-110" 
-                        : "bg-transparent hover:bg-black/10"
-                    }`}
-                  />
+            <div className="text-center mb-12">
+              <h2 className="font-heading text-4xl md:text-5xl font-bold text-[#333] mb-4 tracking-wide max-w-[90%] lg:max-w-2xl mx-auto whitespace-nowrap">
+                Our Partners
+              </h2>
+            </div>
+            {isLoading ? (
+              <div className="grid grid-cols-3 md:grid-cols-6 gap-4">
+                {Array.from({ length: 6 }).map((_, i) => (
+                  <div key={i} className="h-20 bg-black/5 animate-pulse rounded-md" />
                 ))}
               </div>
-            </div>
+            ) : (
+              <div className="relative px-12">
+                <Carousel
+                  setApi={setSliderApi}
+                  opts={{
+                    align: "center",
+                    loop: true,
+                    duration: 40,
+                    skipSnaps: false,
+                  }}
+                  className="w-full"
+                >
+                  <CarouselContent className="">
+                    {partnersSlider.map((partner, index) => {
+                      const logoUrl = partner.logo;
+                      const isActive = index % (partnersSlider.length / 2) === sliderCurrent;
+
+                      if (!logoUrl) return null;
+
+                      return (
+                        <CarouselItem 
+                          key={`${partner.id}-${index}`} 
+                          className="basis-1/2 md:basis-1/5 transition-all duration-500 flex items-center justify-center h-[160px]"
+                        >
+                          <div className={`transition-all duration-700 h-full w-full flex items-center justify-center p-2 ${
+                            isActive 
+                              ? "scale-110 opacity-100 grayscale-0" 
+                              : "scale-90 opacity-40 grayscale"
+                          }`}>
+                            <img
+                              src={logoUrl}
+                              alt={partner.name || "Partner"}
+                              className="max-h-[80px] w-auto max-w-[80%] object-contain"
+                            />
+                          </div>
+                        </CarouselItem>
+                      );
+                    })}
+                  </CarouselContent>
+                  <CarouselPrevious className="-left-16 border border-black/10 bg-white hover:bg-black hover:text-white h-12 w-12 [&>svg]:w-5 [&>svg]:h-5" />
+                  <CarouselNext className="-right-16 border border-black/10 bg-white hover:bg-black hover:text-white h-12 w-12 [&>svg]:w-5 [&>svg]:h-5" />
+                </Carousel>
+                
+                {/* Dots */}
+                <div className="flex justify-center gap-2 mt-8">
+                  {Array.from({ length: sliderCount }).map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => sliderApi?.scrollTo(index)}
+                      className={`h-1.5 rounded-full transition-all duration-300 ${
+                        index === sliderCurrent 
+                          ? "bg-primary w-8" 
+                          : "bg-black/10 w-4 hover:bg-black/30"
+                      }`}
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </section>
       )}
 
       {/* Categories 3D Slider */}
-      {homeCategories.length > 0 && (
+      {(isLoading || homeCategories.length > 0) && (
         <section className="py-24 bg-white">
           <div className="container">
-            <h2 className="font-heading text-4xl md:text-5xl font-extrabold text-black mb-20 text-center">
-              Categories
-            </h2>
+            <div className="text-center mb-16">
+              <h2 className="font-heading text-4xl md:text-5xl font-bold text-[#333] mb-4 tracking-wide max-w-[90%] lg:max-w-2xl mx-auto whitespace-nowrap">
+                Categories
+              </h2>
+            </div>
             
-            <div className="relative max-w-6xl mx-auto px-4">
-              <Carousel
-                setApi={setCategoryApi}
-                opts={{
-                  align: "start",
-                  loop: false,
-                }}
-                className="w-full"
-              >
-                <CarouselContent className="-ml-4 md:-ml-8">
-                  {homeCategories.map((item) => {
-                    const cat = item.category_details;
-                    const customImage = item.custom_image;
-                    
-                    if (!cat) return null;
-
-                    return (
-                      <CarouselItem key={item.id} className="pl-4 md:pl-8 basis-[85%] md:basis-1/3 pt-24">
-                        <Link to={`/products?category=${cat.id}`} className="block group">
-                          <div className="bg-[#E5E5E5] rounded-[3rem] h-[240px] relative flex flex-col items-center justify-end pb-8">
-                            {/* 3D Pop-out Image */}
-                            <div className="absolute -top-28 left-1/2 -translate-x-1/2 w-[90%] h-auto drop-shadow-[0_25px_35px_rgba(0,0,0,0.3)]">
-                              <img 
-                                src={customImage || "https://inoovo-new.local/wp-content/uploads/2020/09/Interstuhl-pure-is3-1-300x300.png"} 
-                                alt={cat.name}
-                                className="w-full h-auto object-contain max-h-[260px]"
-                                onError={(e) => {
-                                  (e.target as HTMLImageElement).src = "https://inoovo-new.local/wp-content/uploads/2020/09/Interstuhl-pure-is3-1-300x300.png";
-                                }}
-                              />
-                            </div>
-                            <span 
-                              className="text-white font-bold text-xl tracking-normal px-4 text-center leading-none"
-                              dangerouslySetInnerHTML={{ __html: cat.name }}
-                            />
-                          </div>
-                        </Link>
-                      </CarouselItem>
-                    );
-                  })}
-                </CarouselContent>
-                
-                {/* Custom Stylized Arrows based on User Image */}
-                <div className="hidden lg:block">
-                  <button 
-                    onClick={() => categoryApi?.scrollPrev()}
-                    disabled={!canScrollPrev}
-                    className={`absolute top-1/2 -left-16 -translate-y-1/2 z-10 transition-all ${
-                      !canScrollPrev ? "opacity-20 cursor-not-allowed grayscale" : "active:scale-95 opacity-100"
-                    }`}
-                  >
-                    <ChevronLeft className="w-16 h-16 text-black stroke-[1.5px]" />
-                  </button>
-                  <button 
-                    onClick={() => categoryApi?.scrollNext()}
-                    disabled={!canScrollNext}
-                    className={`absolute top-1/2 -right-16 -translate-y-1/2 z-10 transition-all ${
-                      !canScrollNext ? "opacity-20 cursor-not-allowed grayscale" : "active:scale-95 opacity-100"
-                    }`}
-                  >
-                    <ChevronRight className="w-16 h-16 text-red-600 stroke-[1.5px]" />
-                  </button>
-                </div>
-              </Carousel>
-
-              {/* Dots */}
-              <div className="flex justify-center gap-2 mt-12">
-                {categoryScrollSnaps.map((_, index) => (
-                  <button
-                    key={index}
-                    onClick={() => categoryApi?.scrollTo(index)}
-                    className={`w-2.5 h-2.5 rounded-full transition-all duration-300 border border-black/20 ${
-                      index === categoryCurrent 
-                        ? "bg-black w-5" 
-                        : "bg-black/10 hover:bg-black/30"
-                    }`}
-                  />
+            {isLoading ? (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                {Array.from({ length: 3 }).map((_, i) => (
+                  <div key={i} className="h-64 bg-black/5 animate-pulse rounded-2xl" />
                 ))}
               </div>
-            </div>
+            ) : (
+              <div className="relative max-w-5xl mx-auto px-4 md:px-12">
+                <Carousel
+                  setApi={setCategoryApi}
+                  opts={{
+                    align: "start",
+                    loop: true,
+                  }}
+                  className="w-full"
+                >
+                  <CarouselContent className="-ml-4">
+                    {homeCategories.map((item) => {
+                      const cat = item.category_details;
+                      const customImage = item.custom_image;
+                      
+                      if (!cat) return null;
+
+                      return (
+                        <CarouselItem key={item.id} className="pl-4 basis-full sm:basis-1/2 md:basis-1/3 pt-32 md:pt-40">
+                          <Link to={`/products?category=${cat.id}`} className="block group">
+                            <div className="bg-[#E5E5E5] rounded-2xl h-[160px] md:h-[200px] max-w-[280px] mx-auto relative flex flex-col items-center justify-end pb-6 md:pb-8">
+                              {/* 3D Pop-out Image */}
+                              <div className="absolute -top-28 md:-top-32 left-1/2 -translate-x-1/2 w-[95%] md:w-[100%] h-auto drop-shadow-[0_25px_35px_rgba(0,0,0,0.3)] transition-transform duration-300 group-hover:-translate-y-2">
+                                <img 
+                                  src={customImage || "https://inoovo-new.local/wp-content/uploads/2020/09/Interstuhl-pure-is3-1-300x300.png"} 
+                                  alt={cat.name}
+                                  className="w-full h-auto object-contain max-h-[220px] md:max-h-[300px]"
+                                  onError={(e) => {
+                                    (e.target as HTMLImageElement).src = "https://inoovo-new.local/wp-content/uploads/2020/09/Interstuhl-pure-is3-1-300x300.png";
+                                  }}
+                                />
+                              </div>
+                              <span 
+                                className="text-white font-bold text-lg md:text-xl tracking-normal px-4 text-center leading-none"
+                                dangerouslySetInnerHTML={{ __html: cat.name }}
+                              />
+                            </div>
+                          </Link>
+                        </CarouselItem>
+                      );
+                    })}
+                  </CarouselContent>
+                  
+                  {/* Unified Custom Arrows for Categories */}
+                  <div className="hidden md:block">
+                    <button 
+                      onClick={() => categoryApi?.scrollPrev()}
+                      className="absolute top-1/2 -left-4 md:-left-12 -translate-y-1/2 z-10 w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full border border-black/10 bg-white shadow-sm hover:bg-black hover:text-white transition-all"
+                    >
+                      <ChevronLeft className="w-5 h-5" />
+                    </button>
+                    <button 
+                      onClick={() => categoryApi?.scrollNext()}
+                      className="absolute top-1/2 -right-4 md:-right-12 -translate-y-1/2 z-10 w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full border border-black/10 bg-white shadow-sm hover:bg-black hover:text-white transition-all"
+                    >
+                      <ChevronRight className="w-5 h-5" />
+                    </button>
+                  </div>
+                </Carousel>
+
+                {/* Dots */}
+                <div className="flex justify-center gap-2 mt-12">
+                  {categoryScrollSnaps.map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => categoryApi?.scrollTo(index)}
+                      className={`h-1.5 rounded-full transition-all duration-300 ${
+                        index === categoryCurrent 
+                          ? "bg-primary w-8" 
+                          : "bg-black/10 w-4 hover:bg-black/30"
+                      }`}
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </section>
       )}
 
       {/* Portfolio Slider Section */}
-      {projects.length > 0 && (
+      {(isLoading || projects.length > 0) && (
         <section className="py-24 bg-[#F9F9F9]">
           <div className="container">
-            <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
-              <div>
-                <h2 className="font-heading text-4xl md:text-5xl font-extrabold text-black mb-4">
-                  Portfolio
-                </h2>
-                <div className="w-20 h-1.5 bg-primary rounded-full" />
-              </div>
+            <div className="text-center mb-12 relative">
+              <h2 className="font-heading text-4xl md:text-5xl font-bold text-[#333] mb-4 tracking-wide max-w-[90%] lg:max-w-2xl mx-auto whitespace-nowrap">
+                Portfolio
+              </h2>
               
-              <div className="flex items-center gap-3">
-                <button 
-                  onClick={onPortfolioPrev}
-                  disabled={!canScrollPrevPortfolio}
-                  className={`w-12 h-12 flex items-center justify-center rounded-full border border-black/10 transition-all ${
-                    !canScrollPrevPortfolio ? "opacity-30 cursor-not-allowed" : "hover:bg-black hover:text-white"
-                  }`}
-                >
-                  <ArrowLeft className="w-5 h-5" />
-                </button>
-                <button 
-                  onClick={onPortfolioNext}
-                  disabled={!canScrollNextPortfolio}
-                  className={`w-12 h-12 flex items-center justify-center rounded-full border border-black/10 transition-all ${
-                    !canScrollNextPortfolio ? "opacity-30 cursor-not-allowed" : "hover:bg-black hover:text-white"
-                  }`}
-                >
-                  <ArrowRight className="w-5 h-5" />
-                </button>
-              </div>
+              {!isLoading && (
+                <div className="flex items-center justify-center lg:justify-end lg:absolute lg:right-0 lg:bottom-0 gap-3 mt-6 lg:mt-0">
+                  <button 
+                    onClick={onPortfolioPrev}
+                    disabled={!canScrollPrevPortfolio}
+                    className={`w-12 h-12 flex items-center justify-center rounded-full border border-black/10 transition-all ${
+                      !canScrollPrevPortfolio ? "opacity-30 cursor-not-allowed" : "hover:bg-black hover:text-white"
+                    }`}
+                  >
+                    <ArrowLeft className="w-5 h-5" />
+                  </button>
+                  <button 
+                    onClick={onPortfolioNext}
+                    disabled={!canScrollNextPortfolio}
+                    className={`w-12 h-12 flex items-center justify-center rounded-full border border-black/10 transition-all ${
+                      !canScrollNextPortfolio ? "opacity-30 cursor-not-allowed" : "hover:bg-black hover:text-white"
+                    }`}
+                  >
+                    <ArrowRight className="w-5 h-5" />
+                  </button>
+                </div>
+              )}
             </div>
 
-            <Carousel
-              setApi={setPortfolioApi}
-              opts={{
-                align: "start",
-                loop: false,
-              }}
-              className="w-full"
-            >
-              <CarouselContent className="-ml-3 pb-8">
-                {projects.map((project, index) => {
-                  const media = project._embedded?.["wp:featuredmedia"]?.[0];
-                  const featuredImage = getOriginalImage(media?.media_details?.sizes?.full?.source_url || media?.source_url);
-                  return (
-                    <CarouselItem key={project.id} className="pl-3 basis-[85%] md:basis-1/3">
-                      <ProjectCard
-                        title={project.title.rendered}
-                        image={featuredImage}
-                        slug={project.slug}
-                        delay={index * 100}
-                      />
-                    </CarouselItem>
-                  );
-                })}
-              </CarouselContent>
-            </Carousel>
+            {isLoading ? (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {Array.from({ length: 3 }).map((_, i) => (
+                  <div key={i} className="aspect-[4/3] bg-black/5 animate-pulse rounded-xl" />
+                ))}
+              </div>
+            ) : (
+              <Carousel
+                setApi={setPortfolioApi}
+                opts={{
+                  align: "start",
+                  loop: true,
+                }}
+                className="w-full"
+              >
+                <CarouselContent className="-ml-3 pb-8">
+                  {projects.map((project, index) => {
+                    const media = project._embedded?.["wp:featuredmedia"]?.[0];
+                    const featuredImage = getOriginalImage(media?.media_details?.sizes?.full?.source_url || media?.source_url);
+                    return (
+                      <CarouselItem key={project.id} className="pl-3 basis-[85%] md:basis-1/3">
+                        <ProjectCard
+                          title={project.title.rendered}
+                          image={featuredImage}
+                          slug={project.slug}
+                          delay={index * 100}
+                        />
+                      </CarouselItem>
+                    );
+                  })}
+                </CarouselContent>
+              </Carousel>
+            )}
             
             {/* Dots */}
-            <div className="flex justify-center gap-2 mt-8">
-              {portfolioScrollSnaps.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => portfolioApi?.scrollTo(index)}
-                  className={`h-1.5 rounded-full transition-all duration-300 ${
-                    index === portfolioCurrent 
-                      ? "bg-primary w-8" 
-                      : "bg-black/10 w-4 hover:bg-black/30"
-                  }`}
-                />
-              ))}
-            </div>
-            
-            <div className="mt-16 text-center">
-              <Link 
-                to="/projects"
-                className="inline-flex items-center gap-2 text-black font-bold group border-b-2 border-black pb-1 hover:text-red-600 hover:border-red-600 transition-all duration-300 uppercase tracking-widest text-sm"
-              >
-                VIEW ALL PROJECTS
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Link>
-            </div>
+            {!isLoading && (
+              <div className="flex justify-center gap-2 mt-8">
+                {portfolioScrollSnaps.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => portfolioApi?.scrollTo(index)}
+                    className={`h-1.5 rounded-full transition-all duration-300 ${
+                      index === portfolioCurrent 
+                        ? "bg-primary w-8" 
+                        : "bg-black/10 w-4 hover:bg-black/30"
+                    }`}
+                  />
+                ))}
+              </div>
+            )}
           </div>
         </section>
       )}
 
       {/* Blog Cards Section */}
-      {posts.length > 0 && (
+      {(isLoading || posts.length > 0) && (
         <section className="py-24 bg-[#F9F9F9] overflow-hidden">
           <div className="w-full">
             <div className="text-center mb-16 px-6">
-              <h2 className="font-heading text-4xl md:text-5xl font-extrabold text-black mb-4">
-                Latest News
-              </h2>
-              <div className="w-20 h-1.5 bg-primary mx-auto rounded-full" />
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 px-5">
-              {posts.map((post) => (
-                <BlogCardHome 
-                  key={post.id}
-                  title={decodeHtmlEntities(post.title.rendered)}
-                  excerpt={cleanWordPressContent(post.excerpt.rendered).replace(/<[^>]+>/g, '').substring(0, 100) + "..."}
-                  image={getOriginalImage(post._embedded?.["wp:featuredmedia"]?.[0]?.source_url)}
-                  category={post._embedded?.["wp:term"]?.[0]?.find((t: any) => t.taxonomy === "category")?.name || "News"}
-                  author={{
-                    name: post._embedded?.["author"]?.[0]?.name || "Admin",
-                    avatar: post._embedded?.["author"]?.[0]?.avatar_urls?.["96"] || ""
-                  }}
-                  slug={post.slug}
-                  className="rounded-xl hover:z-10 transition-transform"
-                />
-              ))}
-            </div>
-
-            <div className="mt-16 text-center px-4">
-              <Link 
-                to="/blog"
-                className="inline-flex items-center gap-2 text-black font-bold group border-b-2 border-black pb-1 hover:text-red-600 hover:border-red-600 transition-all duration-300 uppercase tracking-widest text-sm"
-              >
-                VISIT OUR BLOG
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <Link to="/blog" className="inline-block group">
+                <h2 className="font-heading text-4xl md:text-5xl font-bold text-[#333] mb-4 tracking-wide max-w-[90%] lg:max-w-2xl mx-auto cursor-pointer hover:text-primary transition-colors whitespace-nowrap">
+                  Latest News
+                </h2>
               </Link>
             </div>
+            
+            {isLoading ? (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-5">
+                {Array.from({ length: 3 }).map((_, i) => (
+                  <div key={i} className="h-96 bg-black/5 animate-pulse rounded-xl" />
+                ))}
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-5 px-5">
+                {posts.map((post) => (
+                  <BlogCardHome 
+                    key={post.id}
+                    title={decodeHtmlEntities(post.title.rendered)}
+                    excerpt={cleanWordPressContent(post.excerpt.rendered).replace(/<[^>]+>/g, '').substring(0, 100) + "..."}
+                    image={getOriginalImage(post._embedded?.["wp:featuredmedia"]?.[0]?.source_url)}
+                    category={post._embedded?.["wp:term"]?.[0]?.find((t: any) => t.taxonomy === "category")?.name || "News"}
+                    author={{
+                      name: post._embedded?.["author"]?.[0]?.name || "Admin",
+                      avatar: post._embedded?.["author"]?.[0]?.avatar_urls?.["96"] || ""
+                    }}
+                    slug={post.slug}
+                    className="rounded-xl hover:z-10 transition-transform"
+                  />
+                ))}
+              </div>
+            )}
           </div>
         </section>
       )}

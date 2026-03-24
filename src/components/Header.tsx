@@ -1,4 +1,4 @@
-import { Search, Menu, X, Instagram, ChevronDown } from "lucide-react";
+import { Search, Menu, X, ChevronDown } from "lucide-react";
 import { useState, useEffect } from "react";
 import { fetchPartners } from "@/lib/api";
 import { Link, useLocation, useNavigate } from "react-router-dom";
@@ -63,13 +63,13 @@ const Header = () => {
         {/* Mobile Menu Toggle - Left */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="md:hidden text-foreground p-2 -ml-2"
+          className="xl:hidden text-foreground p-2 -ml-2"
         >
           {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
 
-        {/* Logo - Centered on Mobile, Left on Desktop */}
-        <div className="flex-1 flex justify-center md:justify-start">
+        {/* Logo - Centered on Mobile/Tablet, Left on Desktop */}
+        <div className="flex-1 flex justify-center xl:justify-start">
           <Link to="/" className="flex items-center">
             <img 
               src="http://inoovo-new.local/wp-content/uploads/2020/10/Innovo-Logo-Small.png" 
@@ -80,7 +80,7 @@ const Header = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2 h-full">
+        <nav className="hidden xl:flex items-center gap-4 lg:gap-8 absolute left-1/2 -translate-x-1/2 h-full">
           {navLinks.map((link) => {
             const isActive = location.pathname === link.href;
             
@@ -94,7 +94,7 @@ const Header = () => {
                 >
                   <Link
                     to={link.href}
-                    className={`relative py-1 text-xs uppercase tracking-widest font-semibold transition-colors flex items-center gap-1 ${
+                    className={`relative py-1 text-xs uppercase tracking-widest font-semibold transition-colors flex items-center gap-1 whitespace-nowrap ${
                       isActive ? "text-[#CD2727]" : "text-muted-foreground hover:text-[#CD2727]"
                     }`}
                   >
@@ -135,7 +135,7 @@ const Header = () => {
               <Link
                 key={link.label}
                 to={link.href}
-                className={`relative py-1 text-xs uppercase tracking-widest font-semibold transition-colors group ${
+                className={`relative py-1 text-xs uppercase tracking-widest font-semibold transition-colors whitespace-nowrap group ${
                   link.isCta
                     ? "text-nav-cta hover:text-nav-cta/80 font-bold"
                     : isActive
@@ -163,12 +163,6 @@ const Header = () => {
           >
             <Search className="w-5 h-5 md:w-6 md:h-6" />
           </button>
-          <a href="#" className="hidden sm:block text-foreground hover:text-primary transition-colors p-1">
-            <Instagram className="w-5 h-5 md:w-6 md:h-6" />
-          </a>
-          <a href="#" className="hidden sm:flex items-center justify-center text-foreground hover:text-primary transition-colors p-1 font-heading text-lg md:text-xl font-bold">
-            in
-          </a>
         </div>
       </div>
 
@@ -201,10 +195,10 @@ const Header = () => {
       {mobileMenuOpen && (
         <>
           <div 
-            className="md:hidden fixed inset-0 bg-black/40 z-40 animate-in fade-in duration-300"
+            className="xl:hidden fixed inset-0 bg-black/40 z-40 animate-in fade-in duration-300"
             onClick={() => setMobileMenuOpen(false)}
           />
-          <div className="md:hidden fixed inset-y-0 left-0 w-[80%] max-w-[300px] h-screen bg-white z-50 animate-in slide-in-from-left duration-300 flex flex-col shadow-xl overflow-y-auto">
+          <div className="xl:hidden fixed inset-y-0 left-0 w-[80%] max-w-[300px] h-screen bg-white z-50 animate-in slide-in-from-left duration-300 flex flex-col shadow-xl overflow-y-auto">
             <div className="flex items-center justify-between p-4 border-b border-gray-100 min-h-[64px]">
               <img 
                 src="http://inoovo-new.local/wp-content/uploads/2020/10/Innovo-Logo-Small.png" 

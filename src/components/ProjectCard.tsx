@@ -1,5 +1,7 @@
-import { ArrowRight, Share2, Mail, Phone } from "lucide-react";
+import { ArrowRight, Share2, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import { Skeleton } from "./ui/skeleton";
 
 interface ProjectCardProps {
   title: string;
@@ -9,6 +11,7 @@ interface ProjectCardProps {
 }
 
 const ProjectCard = ({ title, image, slug, delay = 0 }: ProjectCardProps) => {
+  const [isLoaded, setIsLoaded] = useState(false);
   const projectUrl = `${window.location.origin}/project/${slug}`;
   const encodedUrl = encodeURIComponent(projectUrl);
   const encodedTitle = encodeURIComponent(title);
@@ -34,19 +37,24 @@ const ProjectCard = ({ title, image, slug, delay = 0 }: ProjectCardProps) => {
         animation: `fadeInUp 0.6s ease-out ${delay}ms both`,
       }}
     >
-      <div className="aspect-[16/9] overflow-hidden">
+      <div className="aspect-[16/9] overflow-hidden relative">
+        {!isLoaded && (
+          <Skeleton className="absolute inset-0 w-full h-full z-10" />
+        )}
         <img
           src={image}
           alt={title}
-          className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+          className={`h-full w-full object-cover transition-all duration-700 ease-out ${
+            isLoaded ? "opacity-100 scale-100" : "opacity-0 scale-105"
+          } group-hover:scale-105`}
           loading="lazy"
+          onLoad={() => setIsLoaded(true)}
         />
       </div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-60 transition-opacity duration-500 group-hover:opacity-90" />
 
       {/* Share button & popup */}
       <div className="group/share absolute top-4 right-4 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-        {/* Share popup - appears on hover */}
         <div className="absolute right-8 top-1/2 -translate-y-1/2 flex items-center gap-3 rounded-xl bg-black px-4 py-2.5 transition-all duration-300 origin-right scale-x-0 opacity-0 group-hover/share:scale-x-100 group-hover/share:opacity-100">
           <button
             className="flex items-center justify-center text-white/80 transition-colors hover:text-white"
@@ -75,13 +83,11 @@ const ProjectCard = ({ title, image, slug, delay = 0 }: ProjectCardProps) => {
             </svg>
           </button>
         </div>
-
         <span className="relative z-10 text-primary-foreground/50 transition-colors hover:text-primary-foreground cursor-pointer">
           <Share2 className="h-5 w-5" />
         </span>
       </div>
 
-      {/* Title & Arrow */}
       <div className="absolute bottom-0 left-0 right-0 flex items-end justify-between p-5">
         <h3 className="text-lg font-semibold text-primary-foreground transition-transform duration-300 group-hover:translate-x-1">
           {title}

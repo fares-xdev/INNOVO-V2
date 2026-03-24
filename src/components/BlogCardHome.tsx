@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Share2, MessageCircle, Mail } from "lucide-react";
+import LazyImage from "./ui/LazyImage";
 
 interface BlogCardHomeProps {
   image: string;
@@ -61,16 +62,15 @@ export function BlogCardHome({
       {/* Image Thumbnail Area */}
       <div className="relative overflow-hidden aspect-[3/2] w-full">
         <Link to={`/blog/${slug}`} className="block w-full h-full">
-          <img
+          <LazyImage
             src={image}
             alt={title}
-            className={`w-full h-full object-cover transition-transform duration-700 ease-out ${
-              isHovered ? "scale-110" : "scale-100"
-            }`}
+            className={`w-full h-full object-cover transition-transform duration-700 ease-out ${isHovered ? "scale-110" : "scale-100"}`}
+            containerClassName="w-full h-full"
           />
           
           {/* Hover Overlay "Continue Reading" */}
-          <div className="absolute inset-0 bg-black/20 flex items-center justify-center pointer-events-none">
+          <div className="absolute inset-0 bg-black/20 flex items-center justify-center pointer-events-none z-20">
             <div className={`bg-white text-black text-[11px] font-bold uppercase tracking-widest px-6 py-2.5 transition-all duration-300 ${isHovered ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
               Continue reading
             </div>

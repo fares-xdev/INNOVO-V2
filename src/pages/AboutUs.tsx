@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import LazyImage from "@/components/ui/LazyImage";
 
 const AboutUs = () => {
   return (
@@ -37,10 +38,11 @@ const AboutUs = () => {
 
             {/* Right - Image (7/12) */}
             <div className="lg:col-span-7 pr-6 lg:pr-10">
-              <img
+              <LazyImage
                 src="https://innovo-eg.com/wp-content/uploads/2021/08/raya-scaled.jpg"
                 alt="Raya Office"
                 className="w-full h-auto rounded-xl"
+                containerClassName="w-full h-auto"
               />
             </div>
           </div>

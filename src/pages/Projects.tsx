@@ -40,9 +40,10 @@ const Projects = () => {
 
         <section className="w-full max-w-[1920px] mx-auto px-4 md:px-6 pb-16">
           {isLoading ? (
-            <div className="flex flex-col items-center justify-center py-20 gap-4">
-              <Loader2 className="w-8 h-8 animate-spin text-primary" />
-              <p className="text-muted-foreground">Loading projects...</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+              {Array.from({ length: 6 }).map((_, i) => (
+                <div key={i} className="aspect-[16/9] bg-black/5 animate-pulse rounded-xl" />
+              ))}
             </div>
           ) : error ? (
             <div className="text-center py-20">

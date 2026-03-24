@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Share2, MessageCircle, Mail } from "lucide-react";
+import LazyImage from "./ui/LazyImage";
 
 interface BlogCardProps {
   image: string;
@@ -75,12 +76,11 @@ export function BlogCard({
         size === "medium" ? "h-[500px]" :
         size === "compact" ? "h-[400px]" : "h-[600px]"
       }`}>
-        <img
+        <LazyImage
           src={image}
           alt={title}
-          className={`w-full h-full object-cover transition-transform duration-700 ease-out ${
-            isHovered ? "scale-110" : "scale-100"
-          }`}
+          className={`w-full h-full object-cover transition-transform duration-700 ease-out ${isHovered ? "scale-110" : "scale-100"}`}
+          containerClassName="w-full h-full"
         />
         
         {/* Gradient Overlay - Darker for better text readability */}

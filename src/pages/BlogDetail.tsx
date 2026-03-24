@@ -14,6 +14,7 @@ import {
   ChevronLeft,
   Loader2
 } from "lucide-react";
+import LazyImage from "@/components/ui/LazyImage";
 import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { 
@@ -84,11 +85,44 @@ export default function BlogDetail() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-white flex flex-col">
+      <div className="min-h-screen bg-white flex flex-col font-montserrat">
         <Header />
-        <div className="flex-1 flex items-center justify-center">
-          <Loader2 className="w-10 h-10 animate-spin text-primary" />
-        </div>
+        <main className="flex-1 w-full px-4 md:px-8 lg:px-12 py-12">
+          {/* Breadcrumbs Skeleton */}
+          <div className="max-w-[1400px] mx-auto w-full mb-8">
+            <div className="h-4 w-48 bg-black/5 animate-pulse rounded" />
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr,320px] gap-12 max-w-[1800px] mx-auto">
+            <article>
+              <div className="h-6 w-24 bg-black/5 animate-pulse rounded mb-4" />
+              <div className="h-12 w-full bg-black/5 animate-pulse rounded mb-6" />
+              <div className="h-8 w-64 bg-black/5 animate-pulse rounded mb-10" />
+              <div className="w-full aspect-video bg-black/5 animate-pulse rounded-xl mb-10" />
+              <div className="space-y-4">
+                <div className="h-4 w-full bg-black/5 animate-pulse rounded" />
+                <div className="h-4 w-full bg-black/5 animate-pulse rounded" />
+                <div className="h-4 w-3/4 bg-black/5 animate-pulse rounded" />
+              </div>
+            </article>
+
+            <aside className="space-y-12">
+              <div className="h-12 w-full bg-black/5 animate-pulse rounded" />
+              <div className="space-y-6">
+                <div className="h-4 w-32 bg-black/5 animate-pulse rounded mb-8" />
+                {Array.from({ length: 4 }).map((_, i) => (
+                  <div key={i} className="flex gap-4">
+                    <div className="w-16 h-16 bg-black/5 animate-pulse rounded-md" />
+                    <div className="flex-1 space-y-2">
+                      <div className="h-3 w-full bg-black/5 animate-pulse rounded" />
+                      <div className="h-3 w-1/2 bg-black/5 animate-pulse rounded" />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </aside>
+          </div>
+        </main>
         <Footer />
       </div>
     );
@@ -98,9 +132,9 @@ export default function BlogDetail() {
     return (
       <div className="min-h-screen bg-white flex flex-col">
         <Header />
-        <div className="flex-1 flex flex-col items-center justify-center gap-4">
-          <h2 className="text-2xl font-bold">Post not found</h2>
-          <Link to="/blog" className="text-primary hover:underline">Back to Blog</Link>
+        <div className="flex-1 flex flex-col items-center justify-center gap-4 text-center p-10">
+          <h2 className="text-2xl font-bold font-montserrat uppercase tracking-widest text-[#242424]">Post not found</h2>
+          <Link to="/blog" className="text-primary hover:underline font-bold uppercase text-sm tracking-widest">Back to Blog</Link>
         </div>
         <Footer />
       </div>
@@ -167,10 +201,11 @@ export default function BlogDetail() {
             {/* Featured Image */}
             {featuredImage && (
               <div className="mb-10 rounded-xl overflow-hidden shadow-sm">
-                <img 
+                <LazyImage 
                   src={featuredImage} 
                   alt={post.title.rendered} 
                   className="w-full h-auto object-cover max-h-[600px]"
+                  containerClassName="w-full h-auto"
                 />
               </div>
             )}
@@ -220,10 +255,11 @@ export default function BlogDetail() {
                 {adjacentPosts?.previous ? (
                   <>
                     <Link to={`/blog/${adjacentPosts.previous.slug}`} className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 relative">
-                      <img 
+                      <LazyImage 
                         src={getOriginalImage(adjacentPosts.previous._embedded?.["wp:featuredmedia"]?.[0]?.source_url)} 
                         alt="" 
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
+                        containerClassName="w-full h-full"
                       />
                       <div className="absolute inset-0 bg-black/20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                         <ChevronLeft className="w-6 h-6 text-white" />
@@ -260,10 +296,11 @@ export default function BlogDetail() {
                       </Link>
                     </div>
                     <Link to={`/blog/${adjacentPosts.next.slug}`} className="w-20 h-20 rounded-full overflow-hidden flex-shrink-0 relative">
-                      <img 
+                      <LazyImage 
                         src={getOriginalImage(adjacentPosts.next._embedded?.["wp:featuredmedia"]?.[0]?.source_url)} 
                         alt="" 
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
+                        containerClassName="w-full h-full"
                       />
                       <div className="absolute inset-0 bg-black/20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                         <ChevronRight className="w-6 h-6 text-white" />
@@ -355,10 +392,11 @@ export default function BlogDetail() {
                 {sidebarData?.recent?.data?.map((p: WordPressPost) => (
                   <Link key={p.id} to={`/blog/${p.slug}`} className="flex gap-4 group cursor-pointer">
                     <div className="w-16 h-16 rounded-md overflow-hidden flex-shrink-0">
-                      <img 
+                      <LazyImage 
                         src={getOriginalImage(p._embedded?.["wp:featuredmedia"]?.[0]?.source_url)} 
                         alt="" 
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                        containerClassName="w-full h-full"
                       />
                     </div>
                     <div>

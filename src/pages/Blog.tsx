@@ -39,9 +39,14 @@ export default function Blog() {
         {/* Blog Grid */}
         <section className="w-full px-5 pb-12">
           {isLoading ? (
-            <div className="flex flex-col items-center justify-center py-20">
-              <Loader2 className="w-10 h-10 animate-spin text-primary" />
-              <p className="mt-4 text-muted-foreground">Loading posts...</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {Array.from({ length: 6 }).map((_, i) => (
+                <div key={i} className="space-y-4">
+                  <div className="aspect-[16/9] bg-black/5 animate-pulse rounded-xl" />
+                  <div className="h-4 w-3/4 bg-black/5 animate-pulse rounded" />
+                  <div className="h-4 w-1/2 bg-black/5 animate-pulse rounded" />
+                </div>
+              ))}
             </div>
           ) : isError ? (
             <div className="text-center py-20">

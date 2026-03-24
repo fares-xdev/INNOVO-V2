@@ -6,10 +6,17 @@ import { useState, useEffect } from "react";
 import { fetchProductBySlug, fetchProducts, Product, BRAND_ATTR_ID, getOriginalImage, decodeHtmlEntities } from "@/lib/api";
 import ProductCard from "@/components/ProductCard";
 import { useQuery } from "@tanstack/react-query";
+import LazyImage from "@/components/ui/LazyImage";
 
 const ProductDetail = () => {
   const { slug } = useParams<{ slug: string }>();
   const [selectedImage, setSelectedImage] = useState(0);
+
+  // Scroll to top and reset image index when slug changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    setSelectedImage(0);
+  }, [slug]);
 
   const { data: product, isLoading, error } = useQuery({
     queryKey: ["product", slug],
@@ -26,15 +33,48 @@ const ProductDetail = () => {
     enabled: !!product?.categories?.[0]?.id,
   });
 
-  const relatedProducts = relatedData?.data.filter((p: Product) => p.id !== product?.id).slice(0, 4) || [];
+  const relatedProducts = (relatedData?.data || [])
+    .filter((p: Product) => p.id !== product?.id)
+    .map((p: Product) => {
+      // Ensure we have a slug
+      if (!p.slug && p.permalink) {
+        p.slug = p.permalink.split('/').filter(Boolean).pop() || "";
+      }
+      return p;
+    })
+    .slice(0, 4);
 
   if (isLoading) {
     return (
       <div className="min-h-screen flex flex-col bg-background">
         <Header />
-        <div className="flex-1 flex items-center justify-center">
-          <Loader2 className="w-8 h-8 animate-spin text-primary" />
+        <div className="container py-4">
+          <div className="h-4 w-64 bg-black/5 animate-pulse rounded" />
         </div>
+        <main className="container pb-16 flex-1">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            {/* Gallery Skeleton */}
+            <div className="space-y-4">
+              <div className="aspect-square bg-black/5 animate-pulse rounded-sm" />
+              <div className="flex gap-3 overflow-hidden">
+                {Array.from({ length: 4 }).map((_, i) => (
+                  <div key={i} className="w-20 h-20 bg-black/5 animate-pulse rounded-sm" />
+                ))}
+              </div>
+            </div>
+            {/* Info Skeleton */}
+            <div className="space-y-6 pt-2">
+              <div className="h-4 w-24 bg-black/5 animate-pulse rounded" />
+              <div className="h-10 w-full bg-black/5 animate-pulse rounded" />
+              <div className="space-y-2">
+                <div className="h-4 w-full bg-black/5 animate-pulse rounded" />
+                <div className="h-4 w-full bg-black/5 animate-pulse rounded" />
+                <div className="h-4 w-3/4 bg-black/5 animate-pulse rounded" />
+              </div>
+              <div className="h-24 w-full bg-black/5 animate-pulse rounded" />
+            </div>
+          </div>
+        </main>
         <Footer />
       </div>
     );
@@ -108,10 +148,12 @@ const ProductDetail = () => {
                   e.currentTarget.style.setProperty('--y', `${y}%`);
                 }}
               >
-                <img
+                <LazyImage
+                  key={product.images[selectedImage]?.src}
                   src={getOriginalImage(product.images[selectedImage]?.src)}
                   alt={decodeHtmlEntities(product.images[selectedImage]?.alt || product.name)}
-                  className="max-w-full max-h-full object-contain transition-transform duration-300 ease-out origin-[var(--x,center)_var(--y,center)] group-hover/zoom:scale-[1.5]"
+                  className="max-w-full max-h-full object-contain origin-[var(--x,center)_var(--y,center)] group-hover/zoom:scale-[1.5] transition-transform duration-300"
+                  containerClassName="w-full h-full flex items-center justify-center"
                 />
               </div>
 
@@ -145,7 +187,12 @@ const ProductDetail = () => {
                       i === selectedImage ? "border-[#CD2727] scale-95" : "border-gray-100 hover:border-[#CD2727]/50"
                     }`}
                   >
-                    <img src={getOriginalImage(img.src)} alt="" className="w-full h-full object-contain p-1" />
+                    <LazyImage 
+                      src={getOriginalImage(img.src)} 
+                      alt="" 
+                      className="w-full h-full object-contain p-1" 
+                      containerClassName="w-full h-full"
+                    />
                   </button>
                 ))}
               </div>
@@ -158,7 +205,7 @@ const ProductDetail = () => {
             {product.attributes?.find(attr => attr.id === BRAND_ATTR_ID || attr.name.toLowerCase() === "brand")?.terms[0] && (
               <div className="mb-2">
                 <span className="text-xs font-bold uppercase tracking-widest text-primary drop-shadow-sm">
-                  {product.attributes.find(attr => attr.id === BRAND_ATTR_ID || attr.name.toLowerCase() === "brand")?.terms[0].name}
+                   {product.attributes.find(attr => attr.id === BRAND_ATTR_ID || attr.name.toLowerCase() === "brand")?.terms[0].name}
                 </span>
               </div>
             )}
