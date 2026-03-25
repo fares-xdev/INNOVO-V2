@@ -14,6 +14,8 @@ import ContactUs from "./pages/ContactUs.tsx";
 import OurPartners from "./pages/OurPartners.tsx";
 import Blog from "./pages/Blog.tsx";
 import BlogDetail from "./pages/BlogDetail.tsx";
+import CatalogueGrid from "./pages/CatalogueGrid.tsx";
+import CatalogueDetail from "./pages/CatalogueDetail.tsx";
 import ProductsOverlay from "./pages/ProductsOverlay.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
@@ -43,6 +45,8 @@ const App = () => (
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/our-partners" element={<OurPartners />} />
+          <Route path="/catalogues" element={<CatalogueGrid />} />
+          <Route path="/catalogue/:slug" element={<CatalogueDetail />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogDetail />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

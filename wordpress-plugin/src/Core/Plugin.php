@@ -133,6 +133,16 @@ final class Plugin {
 		$this->loader->add_action( 'save_post', $home_video_meta, 'save_meta_box' );
 		$this->loader->add_action( 'rest_api_init', $home_video_meta, 'register_rest_fields' );
 
+		// 3.11 Catalogues CPT
+		$catalogue_cpt = new \ProjectCore\PostTypes\Catalogue();
+		$this->loader->add_action( 'init', $catalogue_cpt, 'register_post_type' );
+
+		$catalogue_meta = new \ProjectCore\Admin\CatalogueMeta();
+		$this->loader->add_action( 'add_meta_boxes', $catalogue_meta, 'add_meta_boxes' );
+		$this->loader->add_action( 'save_post', $catalogue_meta, 'save_metadata' );
+		$this->loader->add_action( 'admin_enqueue_scripts', $catalogue_meta, 'enqueue_media_scripts' );
+		$this->loader->add_action( 'rest_api_init', $catalogue_meta, 'register_rest_fields' );
+
 		// Add more core hooks here as needed...
 	}
 }

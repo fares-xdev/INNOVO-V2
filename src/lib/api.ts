@@ -341,6 +341,17 @@ export async function fetchHomeVideo() {
   return await response.json();
 }
 
+export async function fetchCatalogues() {
+  const response = await fetch(`${API_BASE_CORE}/catalogues?_embed`);
+  return await response.json();
+}
+
+export async function fetchCatalogueBySlug(slug: string) {
+  const response = await fetch(`${API_BASE_CORE}/catalogues?slug=${slug}&_embed`);
+  const data = await response.json();
+  return data.length > 0 ? data[0] : null;
+}
+
 export async function fetchPosts(page = 1, perPage = 10, category?: number) {
   let url = `${API_BASE_CORE}/posts?_embed&page=${page}&per_page=${perPage}`;
   if (category) url += `&categories=${category}`;
