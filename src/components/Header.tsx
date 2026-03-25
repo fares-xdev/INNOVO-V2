@@ -7,6 +7,7 @@ const navLinks = [
   { label: "Home", href: "/" },
   { label: "Our Partners", href: "/our-partners", hasDropdown: true },
   { label: "Products", href: "/products" },
+  { label: "Catalogues", href: "/catalogues" },
   { label: "Projects", href: "/projects" },
   { label: "About us", href: "/about-us" },
   { label: "Blog", href: "/blog" },

@@ -2,8 +2,8 @@
 /**
  * Plugin Name:       Project Core
  * Description:       A professional foundation for Headless WordPress & WooCommerce projects.
- * Version:           1.0.0
- * Author:            Project Core Team
+ * Version:           1.2.0
+ * Author:            Fares
  * Text Domain:       project-core
  * Domain Path:       /languages
  *
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Define constants.
  */
-define( 'PROJECT_CORE_VERSION', '1.0.0' );
+define( 'PROJECT_CORE_VERSION', '1.2.0' );
 define( 'PROJECT_CORE_PATH', plugin_dir_path( __FILE__ ) );
 define( 'PROJECT_CORE_URL', plugin_dir_url( __FILE__ ) );
 
