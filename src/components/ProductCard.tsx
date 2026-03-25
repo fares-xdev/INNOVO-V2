@@ -17,8 +17,8 @@ const ProductCard = ({ name, image, slug, brand }: ProductCardProps) => {
           <LazyImage
             src={image}
             alt={name}
-            className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
-            containerClassName="w-full h-full flex items-center justify-center p-8"
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            containerClassName="w-full h-full"
           />
         </div>
         <div className="mt-4 text-center px-2">

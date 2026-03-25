@@ -2,6 +2,7 @@ import { ArrowRight, Share2, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Skeleton } from "./ui/skeleton";
+import { decodeHtmlEntities } from "@/lib/api";
 
 interface ProjectCardProps {
   title: string;
@@ -13,8 +14,9 @@ interface ProjectCardProps {
 const ProjectCard = ({ title, image, slug, delay = 0 }: ProjectCardProps) => {
   const [isLoaded, setIsLoaded] = useState(false);
   const projectUrl = `${window.location.origin}/project/${slug}`;
+  const decodedTitle = decodeHtmlEntities(title);
   const encodedUrl = encodeURIComponent(projectUrl);
-  const encodedTitle = encodeURIComponent(title);
+  const encodedTitle = encodeURIComponent(decodedTitle);
 
   const shareActions = {
     email: () => `mailto:?subject=${encodedTitle}&body=Check out this project: ${encodedUrl}`,
@@ -43,7 +45,7 @@ const ProjectCard = ({ title, image, slug, delay = 0 }: ProjectCardProps) => {
         )}
         <img
           src={image}
-          alt={title}
+          alt={decodedTitle}
           className={`h-full w-full object-cover transition-all duration-700 ease-out ${
             isLoaded ? "opacity-100 scale-100" : "opacity-0 scale-105"
           } group-hover:scale-105`}
@@ -90,7 +92,7 @@ const ProjectCard = ({ title, image, slug, delay = 0 }: ProjectCardProps) => {
 
       <div className="absolute bottom-0 left-0 right-0 flex items-end justify-between p-5">
         <h3 className="text-lg font-semibold text-primary-foreground transition-transform duration-300 group-hover:translate-x-1">
-          {title}
+          {decodedTitle}
         </h3>
         <span className="flex h-8 w-8 items-center justify-center text-primary-foreground opacity-0 transition-all duration-300 group-hover:opacity-100">
           <ArrowRight className="h-5 w-5" />

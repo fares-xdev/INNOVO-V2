@@ -13,11 +13,20 @@ const navLinks = [
   { label: "Contact us", href: "/contact-us", isCta: true },
 ];
 
+interface Partner {
+  id: number;
+  partner_details: {
+    brand_name: string;
+    brand_id?: string;
+    order?: number;
+  };
+}
+
 const Header = () => {
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [partners, setPartners] = useState<any[]>([]);
+  const [partners, setPartners] = useState<Partner[]>([]);
   const [partnersOpen, setPartnersOpen] = useState(false);
   const [mobilePartnersOpen, setMobilePartnersOpen] = useState(false);
   const location = useLocation();
@@ -72,7 +81,7 @@ const Header = () => {
         <div className="flex-1 flex justify-center xl:justify-start">
           <Link to="/" className="flex items-center">
             <img 
-              src="http://inoovo-new.local/wp-content/uploads/2020/10/Innovo-Logo-Small.png" 
+              src="https://innovo-eg.com/wp-content/uploads/2020/10/Innovo-Logo-Small.png" 
               alt="Innovo" 
               className="h-8 md:h-12 w-auto object-contain"
             />
@@ -201,7 +210,7 @@ const Header = () => {
           <div className="xl:hidden fixed inset-y-0 left-0 w-[80%] max-w-[300px] h-screen bg-white z-50 animate-in slide-in-from-left duration-300 flex flex-col shadow-xl overflow-y-auto">
             <div className="flex items-center justify-between p-4 border-b border-gray-100 min-h-[64px]">
               <img 
-                src="http://inoovo-new.local/wp-content/uploads/2020/10/Innovo-Logo-Small.png" 
+                src="https://innovo-eg.com/wp-content/uploads/2020/10/Innovo-Logo-Small.png" 
                 alt="Innovo" 
                 className="h-8 w-auto object-contain"
               />
