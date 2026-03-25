@@ -10,6 +10,21 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { Badge } from "@/components/ui/badge";
 
+interface AttributeCount {
+  term?: number;
+  id?: number;
+  term_id?: number;
+  count: number;
+}
+
+interface AttributeData {
+  attribute_counts?: AttributeCount[];
+}
+
+interface HierarchicalTerm extends Term {
+  children?: Term[];
+}
+
 const DEFAULT_ITEMS_PER_PAGE = 12;
 const BRAND_ATTR_ID = 1;
 const CATEGORY_ATTR_ID = 5;
@@ -56,7 +71,7 @@ const Products = () => {
     if (!filters?.types) return [];
     const allTypes = filters.types;
     const parents = allTypes.filter((t: Term) => !t.parent || t.parent === 0);
-    return parents.map((parent: Term) => ({
+    return parents.map((parent: Term): HierarchicalTerm => ({
       ...parent,
       children: allTypes.filter((child: Term) => child.parent === parent.id)
     }));
@@ -204,7 +219,7 @@ const Products = () => {
     else if (taxonomy === "product_cat") rawData = typeCountsQuery.data;
 
     if (!rawData) return 0;
-    const data = rawData as any;
+    const data = rawData as AttributeData;
     
     // In this API version, we found that requesting 'product_cat' counts via 'calculate_attribute_counts'
     // returns them in the 'attribute_counts' array.
@@ -212,7 +227,7 @@ const Products = () => {
     
     if (!Array.isArray(list)) return 0;
 
-    const found = list.find((c: any) => {
+    const found = list.find((c: AttributeCount) => {
       const cId = Number(c.term || c.id || c.term_id);
       return cId === Number(termId);
     });
@@ -354,7 +369,7 @@ const Products = () => {
                     {/* Children / Sub Types - Collapsible */}
                     {hasChildren && isExpanded && (
                       <div className="pl-6 space-y-1 border-l border-gray-100 ml-2">
-                        {parent.children.map((child: any) => (
+                        {parent.children!.map((child: Term) => (
                           <div 
                             key={child.id} 
                             className="flex items-center space-x-3 group cursor-pointer p-1.5 rounded-md hover:bg-gray-50 transition-all"
@@ -562,14 +577,14 @@ const Products = () => {
             </div>
 
             <div className="flex items-center gap-2 border-l border-border pl-6">
-              {[3, 4, 5].map((col) => (
+              {[3, 4].map((col) => (
                 <button
                   key={col}
                   onClick={() => setGridCols(col)}
                   className={`p-1 transition-colors ${gridCols === col ? "text-foreground" : "text-muted-foreground hover:text-foreground"}`}
                   title={`${col} Column View`}
                 >
-                  <div className={`grid gap-[1px] ${col === 3 ? "grid-cols-3" : col === 4 ? "grid-cols-4" : "grid-cols-5"}`}>
+                  <div className={`grid gap-[1px] ${col === 3 ? "grid-cols-3" : "grid-cols-4"}`}>
                     {Array.from({ length: col }).map((_, i) => (
                       <div key={i} className="w-1 h-3 border-[1px] border-current opacity-60" />
                     ))}

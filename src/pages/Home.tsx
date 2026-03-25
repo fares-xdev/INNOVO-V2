@@ -25,6 +25,47 @@ import {
   cleanWordPressContent
 } from "@/lib/api";
 
+interface EmbeddedMedia {
+  'wp:featuredmedia'?: Array<{
+    source_url: string;
+    media_details?: {
+      sizes?: {
+        medium?: { source_url: string };
+        full?: { source_url: string };
+        large?: { source_url: string };
+      };
+    };
+  }>;
+  'wp:term'?: Array<Array<{
+    id: number;
+    name: string;
+    slug: string;
+    taxonomy: string;
+  }>>;
+  'author'?: Array<{
+    name: string;
+    avatar_urls?: {
+      [key: string]: string;
+    };
+  }>;
+}
+
+interface HomeProject {
+  id: number;
+  title: { rendered: string };
+  slug: string;
+  _embedded?: EmbeddedMedia;
+}
+
+interface HomePost {
+  id: number;
+  title: { rendered: string };
+  slug: string;
+  excerpt: { rendered: string };
+  date: string;
+  _embedded?: EmbeddedMedia;
+}
+
 import heroHome from "@/assets/hero-home.jpg";
 
 import {
@@ -79,13 +120,8 @@ const Home = () => {
     }
   } | null>(null);
   const [partners, setPartners] = useState<Partner[]>([]);
-  const [projects, setProjects] = useState<{
-    id: number;
-    title: { rendered: string };
-    slug: string;
-    _embedded?: any;
-  }[]>([]);
-  const [posts, setPosts] = useState<any[]>([]);
+  const [projects, setProjects] = useState<HomeProject[]>([]);
+  const [posts, setPosts] = useState<HomePost[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [api, setApi] = useState<CarouselApi>();
   const [current, setCurrent] = useState(0);
@@ -648,11 +684,11 @@ const Home = () => {
                               {/* 3D Pop-out Image */}
                               <div className="absolute -top-28 md:-top-32 left-1/2 -translate-x-1/2 w-[95%] md:w-[100%] h-auto drop-shadow-[0_25px_35px_rgba(0,0,0,0.3)] transition-transform duration-300 group-hover:-translate-y-2">
                                 <img 
-                                  src={customImage || "https://inoovo-new.local/wp-content/uploads/2020/09/Interstuhl-pure-is3-1-300x300.png"} 
+                                  src={customImage || "https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl-pure-is3-1-300x300.png"} 
                                   alt={cat.name}
                                   className="w-full h-auto object-contain max-h-[220px] md:max-h-[300px]"
                                   onError={(e) => {
-                                    (e.target as HTMLImageElement).src = "https://inoovo-new.local/wp-content/uploads/2020/09/Interstuhl-pure-is3-1-300x300.png";
+                                    (e.target as HTMLImageElement).src = "https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl-pure-is3-1-300x300.png";
                                   }}
                                 />
                               </div>
@@ -812,12 +848,12 @@ const Home = () => {
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-3 gap-5 px-5">
                 {posts.map((post) => (
-                  <BlogCardHome 
+                   <BlogCardHome 
                     key={post.id}
                     title={decodeHtmlEntities(post.title.rendered)}
                     excerpt={cleanWordPressContent(post.excerpt.rendered).replace(/<[^>]+>/g, '').substring(0, 100) + "..."}
                     image={getOriginalImage(post._embedded?.["wp:featuredmedia"]?.[0]?.source_url)}
-                    category={post._embedded?.["wp:term"]?.[0]?.find((t: any) => t.taxonomy === "category")?.name || "News"}
+                    category={post._embedded?.["wp:term"]?.[1]?.find(t => t.taxonomy === "category")?.name || "News"}
                     author={{
                       name: post._embedded?.["author"]?.[0]?.name || "Admin",
                       avatar: post._embedded?.["author"]?.[0]?.avatar_urls?.["96"] || ""
