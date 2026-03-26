@@ -1,7 +1,8 @@
 import { Search, Menu, X, ChevronDown } from "lucide-react";
 import { useState, useEffect } from "react";
-import { fetchPartners } from "@/lib/api";
+import { fetchPartners, decodeHtmlEntities } from "@/lib/api";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { cn } from "@/lib/utils";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -38,16 +39,10 @@ const Header = () => {
       try {
         const data = await fetchPartners();
         if (Array.isArray(data)) {
-          // Sort by the 'order' field (ascending)
           const sorted = [...data].sort((a, b) => {
             const orderA = a.partner_details?.order || 0;
             const orderB = b.partner_details?.order || 0;
-            
-            if (orderA === orderB) return 0;
-            if (orderA === 0) return 1;
-            if (orderB === 0) return -1;
-            
-            return orderA - orderB;
+            return (orderA || 999) - (orderB || 999);
           });
           setPartners(sorted);
         }
@@ -68,74 +63,90 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-[999] bg-white border-b border-border/40 shadow-sm">
-      <div className="w-full max-w-[1920px] mx-auto px-4 md:px-6 flex items-center h-16 md:h-20">
-        {/* Mobile Menu Toggle - Left */}
-        <button
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          className="xl:hidden text-foreground p-2 -ml-2"
-        >
-          {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-        </button>
+    <header className="fixed top-0 left-0 right-0 z-[999] bg-white border-b border-gray-100 shadow-[0_2px_15px_rgba(0,0,0,0.03)] transition-all duration-300">
+      <div className="w-full max-w-[1920px] mx-auto px-4 md:px-6 lg:px-10 flex items-center h-16 md:h-20 lg:h-24">
+        
+        {/* Mobile Menu Button - Left */}
+        <div className="min-[1387px]:hidden flex-1">
+          <button
+            onClick={() => setMobileMenuOpen(true)}
+            className="p-2 -ml-2 text-[#1a1a1a] hover:bg-gray-100 rounded-md transition-colors"
+          >
+            <Menu className="w-6 h-6" />
+          </button>
+        </div>
 
-        {/* Logo - Centered on Mobile/Tablet, Left on Desktop */}
-        <div className="flex-1 flex justify-center xl:justify-start">
-          <Link to="/" className="flex items-center">
+        {/* Logo - Centered on Mobile, Left on Desktop */}
+        <div className="flex-none min-[1387px]:flex-1 flex justify-center min-[1387px]:xl:justify-start">
+          <Link to="/" className="flex items-center group">
             <img 
               src="https://innovo-eg.com/wp-content/uploads/2020/10/Innovo-Logo-Small.png" 
               alt="Innovo" 
-              className="h-8 md:h-12 w-auto object-contain"
+              className="h-8 md:h-10 lg:h-12 w-auto object-contain"
             />
           </Link>
         </div>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden xl:flex items-center gap-3 lg:gap-6 absolute left-1/2 -translate-x-1/2 h-full">
+        {/* Desktop Navigation - Optimized Spacing */}
+        <nav className="hidden min-[1387px]:flex min-[1387px]:flex-[4] items-center justify-center gap-1">
           {navLinks.map((link) => {
             const isActive = location.pathname === link.href;
             
+            if (link.isCta) {
+              return (
+                <Link
+                  key={link.label}
+                  to={link.href}
+                  className="ml-4 bg-[#CD2727] text-white px-5 py-2.5 rounded-md text-[13px] font-bold uppercase tracking-wider hover:bg-[#b22020] transition-all duration-300 shadow-sm active:scale-95"
+                >
+                  {link.label}
+                </Link>
+              );
+            }
+
             if (link.hasDropdown) {
               return (
                 <div 
                   key={link.label}
-                  className="relative h-full flex items-center group/dropdown"
+                  className="relative group/dropdown py-4 px-2"
                   onMouseEnter={() => setPartnersOpen(true)}
                   onMouseLeave={() => setPartnersOpen(false)}
                 >
                   <Link
                     to={link.href}
-                    className={`relative py-1 text-xs uppercase tracking-widest font-semibold transition-colors flex items-center gap-1 whitespace-nowrap ${
-                      isActive ? "text-[#CD2727]" : "text-muted-foreground hover:text-[#CD2727]"
-                    }`}
+                    className={cn(
+                      "flex items-center gap-1.5 text-[13px] font-bold uppercase tracking-wider transition-all duration-300 relative group",
+                      isActive ? "text-[#CD2727]" : "text-[#333] hover:text-[#CD2727]"
+                    )}
                   >
                     {link.label}
-                    <ChevronDown className={`w-3 h-3 transition-transform duration-300 ${partnersOpen ? "rotate-180" : ""}`} />
-                    <span 
-                      className={`absolute bottom-0 left-0 h-[1.5px] w-full bg-[#CD2727] transition-transform duration-300 ease-out origin-left scale-x-0 group-hover/dropdown:scale-x-100 ${isActive ? "scale-x-100" : ""}`}
-                    />
+                    <ChevronDown className={cn("w-3.5 h-3.5 transition-transform duration-300", partnersOpen ? "rotate-180" : "")} />
+                    <span className={cn(
+                      "absolute -bottom-1 left-0 right-0 h-[2px] bg-[#CD2727] transition-transform duration-300 ease-in-out origin-left scale-x-0 group-hover:scale-x-100 will-change-transform transform-gpu",
+                      isActive && "scale-x-100"
+                    )} />
                   </Link>
-
-                  {/* Dropdown Menu */}
-                  <div className={`absolute top-full left-1/2 -translate-x-1/2 min-w-[200px] bg-white shadow-xl rounded-b-md border-t-2 border-[#CD2727] py-2 transition-all duration-300 ${
-                    partnersOpen ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-2"
-                  }`}>
-                    {partners.length > 0 ? (
-                      partners.map((p) => {
+                  
+                  {/* Dropdown Box */}
+                  <div className={cn(
+                    "absolute top-[calc(100%-8px)] left-1/2 -translate-x-1/2 min-w-[220px] bg-white shadow-xl rounded-lg border-t-2 border-[#CD2727] py-3 transition-all duration-300 before:absolute before:-top-4 before:left-0 before:right-0 before:h-4 before:content-[''] z-50",
+                    partnersOpen ? "opacity-100 visible translate-y-2" : "opacity-0 invisible translate-y-4"
+                  )}>
+                    <div className="max-h-[70vh] overflow-y-auto scrollbar-none px-2">
+                      {partners.map((p) => {
                         const brandId = p.partner_details.brand_id || p.partner_details.brand_name.toLowerCase().replace(/\s+/g, '-');
                         return (
                           <Link
                             key={p.id}
                             to={`/our-partners#${brandId}`}
-                            className="block px-6 py-3 text-[13px] font-bold text-gray-600 hover:text-[#CD2727] hover:bg-gray-50 transition-colors border-b border-gray-50 last:border-0"
+                            className="block px-4 py-3 text-[13px] font-bold text-gray-600 hover:text-[#CD2727] hover:bg-gray-50 rounded-md transition-all border-b border-gray-50/50 last:border-0"
                             onClick={() => setPartnersOpen(false)}
                           >
-                            {p.partner_details.brand_name}
+                            {decodeHtmlEntities(p.partner_details.brand_name)}
                           </Link>
                         );
-                      })
-                    ) : (
-                      <div className="px-6 py-3 text-[10px] text-gray-400">Loading brands...</div>
-                    )}
+                      })}
+                    </div>
                   </div>
                 </div>
               );
@@ -145,123 +156,117 @@ const Header = () => {
               <Link
                 key={link.label}
                 to={link.href}
-                className={`relative py-1 text-xs uppercase tracking-widest font-semibold transition-colors whitespace-nowrap group ${
-                  link.isCta
-                    ? "text-nav-cta hover:text-nav-cta/80 font-bold"
-                    : isActive
-                    ? "text-[#CD2727]"
-                    : "text-muted-foreground hover:text-[#CD2727]"
-                }`}
+                className={cn(
+                  "px-3 py-4 text-[13px] font-bold uppercase tracking-wider transition-all duration-300 relative group",
+                  isActive ? "text-[#CD2727]" : "text-[#333] hover:text-[#CD2727]"
+                )}
               >
                 {link.label}
-                {!link.isCta && (
-                  <span 
-                    className={`absolute bottom-0 left-0 h-[1.5px] w-full bg-[#CD2727] transition-transform duration-300 ease-out origin-left scale-x-0 group-hover:scale-x-100 ${isActive ? "scale-x-100" : ""}`}
-                  />
-                )}
+                <span className={cn(
+                  "absolute bottom-3 left-3 right-3 h-[2px] bg-[#CD2727] transition-transform duration-300 ease-in-out origin-left scale-x-0 group-hover:scale-x-100 will-change-transform transform-gpu",
+                  isActive && "scale-x-100"
+                )} />
               </Link>
             );
           })}
         </nav>
 
-        {/* Icons - Right */}
-        <div className="flex items-center gap-3 md:gap-4">
+        {/* Right Section - Search & Placeholder for Balance */}
+        <div className="flex-1 min-[1387px]:flex-1 flex items-center justify-end gap-2 md:gap-4">
           <button
             onClick={() => setSearchOpen(!searchOpen)}
-            className={`text-foreground hover:text-primary transition-colors p-1 ${searchOpen ? "text-primary" : ""}`}
-            title="Toggle Search"
+            className={cn(
+              "p-2 text-[#1a1a1a] hover:bg-gray-100 rounded-full transition-all",
+              searchOpen && "text-[#CD2727] bg-red-50"
+            )}
           >
-            <Search className="w-5 h-5 md:w-6 md:h-6" />
+            <Search className="w-5 h-5 md:w-6 h-6" />
           </button>
         </div>
       </div>
 
-      {/* Search Bar Overlay */}
+      {/* Search Overlay */}
       {searchOpen && (
-        <div className="absolute inset-x-0 top-full bg-background border-b border-border animate-in slide-in-from-top duration-200">
-          <div className="w-full max-w-[1920px] mx-auto px-4 md:px-6 py-4">
-            <form onSubmit={handleSearchSubmit} className="relative flex items-center">
+        <div className="absolute inset-x-0 top-full bg-white border-b border-gray-100 shadow-xl animate-in slide-in-from-top-2 duration-200 z-[1001]">
+          <div className="max-w-4xl mx-auto px-6 py-6 lg:py-10">
+            <form onSubmit={handleSearchSubmit} className="relative group">
               <input
                 type="text"
                 autoFocus
-                placeholder="Search products..."
+                placeholder="Search for products, styles or brands..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full bg-secondary/30 border-none focus:ring-1 focus:ring-primary rounded-sm px-4 py-3 text-sm"
+                className="w-full bg-gray-50 border-none rounded-2xl px-8 py-5 text-lg focus:ring-2 focus:ring-[#CD2727]/20 transition-all placeholder:text-gray-400"
               />
-              <button 
-                type="button"
-                onClick={() => setSearchOpen(false)}
-                className="absolute right-4 text-muted-foreground hover:text-foreground"
-              >
-                <X className="w-4 h-4" />
+              <button type="button" onClick={() => setSearchOpen(false)} className="absolute right-6 top-1/2 -translate-y-1/2 text-gray-400 hover:text-[#CD2727]">
+                <X className="w-6 h-6" />
               </button>
             </form>
           </div>
         </div>
       )}
 
-      {/* Mobile Menu Overlay */}
-      {mobileMenuOpen && (
-        <>
-          <div 
-            className="xl:hidden fixed inset-0 bg-black/40 z-40 animate-in fade-in duration-300"
-            onClick={() => setMobileMenuOpen(false)}
-          />
-          <div className="xl:hidden fixed inset-y-0 left-0 w-[80%] max-w-[300px] h-screen bg-white z-50 animate-in slide-in-from-left duration-300 flex flex-col shadow-xl overflow-y-auto">
-            <div className="flex items-center justify-between p-4 border-b border-gray-100 min-h-[64px]">
-              <img 
-                src="https://innovo-eg.com/wp-content/uploads/2020/10/Innovo-Logo-Small.png" 
-                alt="Innovo" 
-                className="h-8 w-auto object-contain"
-              />
-              <button onClick={() => setMobileMenuOpen(false)}>
-                <X className="w-6 h-6 text-foreground" />
-              </button>
-            </div>
-            <nav className="flex flex-col flex-grow bg-white">
-              {navLinks.map((link) => (
-                <div key={link.label} className="border-b border-gray-100 last:border-0">
+      {/* Mobile Sidebar Navigation */}
+      <div className={cn(
+        "fixed inset-0 z-[2000] pointer-events-none transition-all duration-500 min-[1387px]:hidden",
+        mobileMenuOpen ? "pointer-events-auto opacity-100" : "opacity-0"
+      )}>
+        <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" onClick={() => setMobileMenuOpen(false)} />
+        <div className={cn(
+          "absolute inset-y-0 left-0 w-[80%] max-w-[320px] bg-white transition-transform duration-500 ease-out flex flex-col",
+          mobileMenuOpen ? "translate-x-0" : "-translate-x-full"
+        )}>
+          <div className="p-6 flex items-center justify-between border-b border-gray-50">
+            <img src="https://innovo-eg.com/wp-content/uploads/2020/10/Innovo-Logo-Small.png" alt="Innovo" className="h-8 w-auto" />
+            <button onClick={() => setMobileMenuOpen(false)} className="p-2 hover:bg-gray-50 rounded-full"><X className="w-6 h-6" /></button>
+          </div>
+
+          <nav className="flex-1 overflow-y-auto py-6">
+            {navLinks.map((link) => {
+              const isActive = location.pathname === link.href;
+              return (
+                <div key={link.label}>
                   {link.hasDropdown ? (
                     <>
                       <button
                         onClick={() => setMobilePartnersOpen(!mobilePartnersOpen)}
-                        className="w-full flex items-center justify-between px-6 py-4 text-[15px] font-medium text-foreground tracking-wide hover:bg-gray-50 transition-colors"
+                        className="w-full flex items-center justify-between px-8 py-4 text-[15px] font-bold text-[#333] tracking-wide"
                       >
                         {link.label}
-                        <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${mobilePartnersOpen ? "rotate-180" : ""}`} />
+                        <ChevronDown className={cn("w-4 h-4 transition-transform", mobilePartnersOpen ? "rotate-180" : "")} />
                       </button>
-                      <div className={`bg-gray-50/50 overflow-hidden transition-all duration-300 ${mobilePartnersOpen ? "max-h-[500px]" : "max-h-0"}`}>
-                        {partners.map((p) => {
-                          const brandId = p.partner_details.brand_id || p.partner_details.brand_name.toLowerCase().replace(/\s+/g, '-');
-                          return (
-                            <Link
-                              key={p.id}
-                              to={`/our-partners#${brandId}`}
-                              onClick={() => setMobileMenuOpen(false)}
-                              className="block px-10 py-4 text-[15px] text-gray-600 hover:text-primary transition-colors border-b border-gray-100/50 last:border-0"
-                            >
-                              {p.partner_details.brand_name}
-                            </Link>
-                          );
-                        })}
+                      <div className={cn("bg-gray-50 overflow-hidden transition-all duration-300", mobilePartnersOpen ? "max-h-[800px]" : "max-h-0")}>
+                        {partners.map((p) => (
+                          <Link
+                            key={p.id}
+                            to={`/our-partners#${p.partner_details.brand_id || p.partner_details.brand_name.toLowerCase().replace(/\s+/g, '-')}`}
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="block px-12 py-3 text-gray-500 font-medium text-sm hover:text-[#CD2727]"
+                          >
+                            {p.partner_details.brand_name}
+                          </Link>
+                        ))}
                       </div>
                     </>
                   ) : (
                     <Link
                       to={link.href}
                       onClick={() => setMobileMenuOpen(false)}
-                      className="block px-6 py-4 text-[15px] font-medium text-foreground tracking-wide hover:bg-gray-50 transition-colors"
+                      className={cn(
+                        "block px-8 py-4 text-[15px] font-bold tracking-wide transition-colors",
+                        isActive ? "text-[#CD2727]" : "text-[#333] hover:text-[#CD2727]",
+                        link.isCta && "bg-red-50/50 mt-4 text-[#CD2727] text-center"
+                      )}
                     >
                       {link.label}
                     </Link>
                   )}
                 </div>
-              ))}
-            </nav>
-          </div>
-        </>
-      )}
+              );
+            })}
+          </nav>
+        </div>
+      </div>
     </header>
   );
 };

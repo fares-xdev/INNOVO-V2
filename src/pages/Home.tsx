@@ -197,7 +197,7 @@ const Home = () => {
             title?: { rendered: string },
             hero_details?: { description: string, slide_order?: number }
           }) => ({
-            image: s._embedded?.['wp:featuredmedia']?.[0]?.source_url || heroHome,
+            image: getOriginalImage(s._embedded?.['wp:featuredmedia']?.[0]?.source_url) || heroHome,
             title: s.title?.rendered || "",
             description: s.hero_details?.description || "",
             order: s.hero_details?.slide_order || 0,
@@ -220,7 +220,7 @@ const Home = () => {
             (c.logos_gallery || []).map((img) => ({
               id: img.id,
               name: img.title,
-              logo: img.url
+              logo: getOriginalImage(img.url)
             }))
           ).filter(p => p.logo);
           
@@ -235,7 +235,7 @@ const Home = () => {
             (c.logos_gallery || []).map((img) => ({
               id: img.id,
               name: img.title,
-              logo: img.url
+              logo: getOriginalImage(img.url)
             }))
           ).filter(p => p.logo);
           
@@ -681,22 +681,22 @@ const Home = () => {
                       if (!cat) return null;
 
                       return (
-                        <CarouselItem key={item.id} className="pl-4 basis-full sm:basis-1/2 md:basis-1/3 pt-32 md:pt-40">
+                        <CarouselItem key={item.id} className="pl-4 basis-full sm:basis-1/2 md:basis-1/3 pt-24 md:pt-32">
                           <Link to={`/products?category=${cat.id}`} className="block group">
-                            <div className="bg-[#E5E5E5] rounded-2xl h-[160px] md:h-[200px] max-w-[280px] mx-auto relative flex flex-col items-center justify-end pb-6 md:pb-8">
+                            <div className="bg-[#E5E5E5] rounded-2xl h-[160px] md:h-[200px] max-w-[280px] mx-auto relative flex flex-col items-center justify-end pb-6 md:pb-8 shadow-sm">
                               {/* 3D Pop-out Image */}
-                              <div className="absolute -top-28 md:-top-32 left-1/2 -translate-x-1/2 w-[95%] md:w-[100%] h-auto drop-shadow-[0_25px_35px_rgba(0,0,0,0.3)] transition-transform duration-300 group-hover:-translate-y-2">
+                              <div className="absolute -top-16 md:-top-24 left-1/2 -translate-x-1/2 w-[85%] md:w-[95%] h-[140px] md:h-[200px] flex items-center justify-center drop-shadow-[0_20px_30px_rgba(0,0,0,0.15)] transition-transform duration-500 group-hover:-translate-y-3 z-10">
                                 <img 
-                                  src={customImage || "https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl-pure-is3-1-300x300.png"} 
+                                  src={getOriginalImage(customImage) || "https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl-pure-is3-1-300x300.png"} 
                                   alt={cat.name}
-                                  className="w-full h-auto object-contain max-h-[220px] md:max-h-[300px]"
+                                  className="w-full h-full object-contain mix-blend-multiply"
                                   onError={(e) => {
                                     (e.target as HTMLImageElement).src = "https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl-pure-is3-1-300x300.png";
                                   }}
                                 />
                               </div>
                               <span 
-                                className="text-white font-bold text-lg md:text-xl tracking-normal px-4 text-center leading-none"
+                                className="text-white font-bold text-lg md:text-xl tracking-tight px-4 text-center leading-tight relative z-20"
                                 dangerouslySetInnerHTML={{ __html: cat.name }}
                               />
                             </div>

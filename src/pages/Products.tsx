@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import { ChevronRight, ChevronLeft, ChevronDown, ChevronUp, Menu, X, Loader2 } from "lucide-react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { fetchProducts, fetchCollectionData, fetchProductCategories, fetchProductAttributes, Product, Term, getOriginalImage, decodeHtmlEntities } from "@/lib/api";
@@ -62,20 +62,19 @@ const Products = () => {
     staleTime: 1000 * 60 * 60, // 1 hour
   });
 
-  const types = filters?.types || [];
-  const brands = filters?.brands || [];
-  const categories = filters?.categories || [];
+  const types = useMemo(() => filters?.types || [], [filters?.types]);
+  const brands = useMemo(() => filters?.brands || [], [filters?.brands]);
+  const categories = useMemo(() => filters?.categories || [], [filters?.categories]);
 
   // Hierarchical categories for sidebar
-  const hierarchicalTypes = (() => {
-    if (!filters?.types) return [];
-    const allTypes = filters.types;
-    const parents = allTypes.filter((t: Term) => !t.parent || t.parent === 0);
+  const hierarchicalTypes = useMemo(() => {
+    if (!types.length) return [];
+    const parents = types.filter((t: Term) => !t.parent || t.parent === 0);
     return parents.map((parent: Term): HierarchicalTerm => ({
       ...parent,
-      children: allTypes.filter((child: Term) => child.parent === parent.id)
+      children: types.filter((child: Term) => child.parent === parent.id)
     }));
-  })();
+  }, [types]);
 
   const [expandedTypes, setExpandedTypes] = useState<number[]>([]);
 
@@ -190,6 +189,9 @@ const Products = () => {
 
       if (typeIds.length > 0) {
         params.category = typeIds.join(",");
+      } else if (searchParams.get("category")) {
+        // Direct ID fallback if no slug mapping exists yet
+        params.category = searchParams.get("category")!;
       }
 
       let attrIndex = 0;
@@ -260,6 +262,38 @@ const Products = () => {
     newParams.set("page", "1");
     setSearchParams(newParams);
   };
+
+  // Handle ?category=[ID] from homepage links for backward compatibility and deeper integration
+  useEffect(() => {
+    const categoryId = searchParams.get("category");
+    if (categoryId && filters) {
+      const numericId = parseInt(categoryId, 10);
+      if (!isNaN(numericId)) {
+        // Find if this ID exists in Types or Categories
+        const foundType = types.find(t => t.id === numericId);
+        const foundCat = categories.find(c => c.id === numericId);
+        
+        const newParams = new URLSearchParams(searchParams);
+        newParams.delete("category"); // Remove the raw ID param
+        
+        if (foundType) {
+          // It's a "Type" (product_cat)
+          const currentTypes = newParams.get("filter_type")?.split(",").filter(Boolean) || [];
+          if (!currentTypes.includes(foundType.slug)) {
+            newParams.set("filter_type", [...currentTypes, foundType.slug].join(","));
+          }
+        } else if (foundCat) {
+          // It's a "Category" (pa_category_furniture)
+          const currentCats = newParams.get("filter_cat")?.split(",").filter(Boolean) || [];
+          if (!currentCats.includes(foundCat.slug)) {
+            newParams.set("filter_cat", [...currentCats, foundCat.slug].join(","));
+          }
+        }
+        
+        setSearchParams(newParams);
+      }
+    }
+  }, [searchParams, filters, types, categories, setSearchParams]);
 
   const clearFilters = () => {
     const newParams = new URLSearchParams();
