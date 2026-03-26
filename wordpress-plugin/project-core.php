@@ -81,12 +81,14 @@ add_filter( 'register_post_type_args', function( $args, $post_type ) {
 	if ( 'portfolio' === $post_type ) {
 		$args['show_in_rest'] = true;
 		$args['rest_base']    = 'projects'; // Access via /wp-json/wp/v2/projects
+		$args['show_in_menu'] = 'project-core';
 	}
 
 	// Enable Partners (Logos from Showcase plugin)
 	if ( 'logoshowcase' === $post_type ) {
 		$args['show_in_rest'] = true;
 		$args['rest_base']    = 'partners'; // Access via /wp-json/wp/v2/partners
+		$args['show_in_menu'] = 'project-core';
 	}
 
 	return $args;

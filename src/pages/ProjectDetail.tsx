@@ -220,7 +220,7 @@ const ProjectDetail = () => {
 
       {/* Lightbox / Slider Modal */}
       {selectedImageIndex !== null && (
-        <div className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center animate-in fade-in duration-300">
+        <div className="fixed inset-0 z-[1000] bg-black/95 flex items-center justify-center animate-in fade-in duration-300">
           <button 
             onClick={() => setSelectedImageIndex(null)}
             className="absolute top-6 right-6 text-white/70 hover:text-white transition-colors z-50 p-2"

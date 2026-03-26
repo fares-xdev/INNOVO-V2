@@ -71,7 +71,7 @@ final class Plugin {
 
 		// 2. Our Partners CPT
 		$partners_cpt = new \ProjectCore\PostTypes\OurPartners();
-		$this->loader->add_action( 'init', $partners_cpt, 'register_post_type' );
+		$this->loader->add_action( 'init', $partners_cpt, 'register_post_type', 20 );
 
 		// 3. Our Partners Meta Boxes & REST API
 		$partners_meta = new \ProjectCore\Admin\OurPartnersMeta();
@@ -82,7 +82,7 @@ final class Plugin {
 
 		// 3.5 Our Customers CPT
 		$customers_cpt = new \ProjectCore\PostTypes\OurCustomers();
-		$this->loader->add_action( 'init', $customers_cpt, 'register_post_type' );
+		$this->loader->add_action( 'init', $customers_cpt, 'register_post_type', 20 );
 
 		// 3.6 Our Customers Meta & Gallery
 		$customers_meta = new \ProjectCore\Admin\CustomersMeta();
@@ -93,7 +93,7 @@ final class Plugin {
 
 		// 3.7 Our Partners Slider (Simple Logo Slider)
 		$partners_slider_cpt = new \ProjectCore\PostTypes\OurPartnersSlider();
-		$this->loader->add_action( 'init', $partners_slider_cpt, 'register_post_type' );
+		$this->loader->add_action( 'init', $partners_slider_cpt, 'register_post_type', 20 );
 
 		$partners_slider_meta = new \ProjectCore\Admin\PartnersSliderMeta();
 		$this->loader->add_action( 'add_meta_boxes', $partners_slider_meta, 'add_meta_boxes' );
@@ -103,7 +103,7 @@ final class Plugin {
 
 		// 3.8 Hero Slider (Main Homepage Slides)
 		$hero_slider_cpt = new \ProjectCore\PostTypes\HeroSlider();
-		$this->loader->add_action( 'init', $hero_slider_cpt, 'register_post_type' );
+		$this->loader->add_action( 'init', $hero_slider_cpt, 'register_post_type', 20 );
 
 		$hero_meta = new \ProjectCore\Admin\HeroMeta();
 		$this->loader->add_action( 'add_meta_boxes', $hero_meta, 'add_meta_boxes' );
@@ -112,7 +112,7 @@ final class Plugin {
 
 		// 3.9 Home Categories (3D Category Slider)
 		$home_categories_cpt = new \ProjectCore\PostTypes\HomeCategories();
-		$this->loader->add_action( 'init', $home_categories_cpt, 'register_post_type' );
+		$this->loader->add_action( 'init', $home_categories_cpt, 'register_post_type', 20 );
 
 		$home_categories_meta = new \ProjectCore\Admin\HomeCategoriesMeta();
 		$this->loader->add_action( 'add_meta_boxes', $home_categories_meta, 'add_meta_boxes' );
@@ -126,7 +126,7 @@ final class Plugin {
 
 		// 3.10 Home Video Section
 		$home_video_cpt = new \ProjectCore\PostTypes\HomeVideo();
-		$this->loader->add_action( 'init', $home_video_cpt, 'register_post_type' );
+		$this->loader->add_action( 'init', $home_video_cpt, 'register_post_type', 20 );
 
 		$home_video_meta = new \ProjectCore\Admin\HomeVideoMeta();
 		$this->loader->add_action( 'add_meta_boxes', $home_video_meta, 'register_meta_boxes' );
@@ -135,7 +135,7 @@ final class Plugin {
 
 		// 3.11 Catalogues CPT
 		$catalogue_cpt = new \ProjectCore\PostTypes\Catalogue();
-		$this->loader->add_action( 'init', $catalogue_cpt, 'register_post_type' );
+		$this->loader->add_action( 'init', $catalogue_cpt, 'register_post_type', 20 );
 
 		$catalogue_meta = new \ProjectCore\Admin\CatalogueMeta();
 		$this->loader->add_action( 'add_meta_boxes', $catalogue_meta, 'add_meta_boxes' );

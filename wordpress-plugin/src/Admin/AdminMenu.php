@@ -31,13 +31,16 @@ class AdminMenu {
 	 */
 	public function render_dashboard() {
 		$post_types = [
-			'hero-slider'     => [ 'label' => __( 'Hero Slider', 'project-core' ), 'icon' => 'dashicons-images-alt2' ],
+			'hero-slides'     => [ 'label' => __( 'Hero Slider', 'project-core' ), 'icon' => 'dashicons-images-alt2' ],
 			'home-categories' => [ 'label' => __( 'Home Categories', 'project-core' ), 'icon' => 'dashicons-layout' ],
 			'home-video'      => [ 'label' => __( 'Home Video', 'project-core' ), 'icon' => 'dashicons-video-alt3' ],
+			'portfolio'       => [ 'label' => __( 'Projects', 'project-core' ), 'icon' => 'dashicons-portfolio' ],
+			'logoshowcase'    => [ 'label' => __( 'External Partners', 'project-core' ), 'icon' => 'dashicons-networking' ],
 			'our-partners'    => [ 'label' => __( 'Our Partners', 'project-core' ), 'icon' => 'dashicons-groups' ],
 			'our-customers'   => [ 'label' => __( 'Our Customers', 'project-core' ), 'icon' => 'dashicons-businessperson' ],
 			'catalogue'       => [ 'label' => __( 'Catalogues', 'project-core' ), 'icon' => 'dashicons-pdf' ],
 			'partners-slider' => [ 'label' => __( 'Logos Slider', 'project-core' ), 'icon' => 'dashicons-slides' ],
+			'product_gallery' => [ 'label' => __( 'Product Gallery', 'project-core' ), 'icon' => 'dashicons-images-alt' ],
 		];
 
 		?>

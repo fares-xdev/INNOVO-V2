@@ -118,7 +118,7 @@ const ProductDetail = () => {
               <>
                 <ChevronRight className="w-3 h-3" />
                 <Link 
-                  to={`/products?category=${product.categories[0].id}`} 
+                  to={`/products?filter_type=${product.categories[0].slug}`} 
                   className="hover:text-foreground transition-colors"
                 >
                   {decodeHtmlEntities(product.categories[0].name)}
@@ -247,7 +247,7 @@ const ProductDetail = () => {
                   <span className="text-muted-foreground">
                     {product.categories.map((cat, i) => (
                       <span key={cat.id}>
-                        <Link to={`/products?type=${cat.id}`} className="hover:text-primary transition-colors">
+                        <Link to={`/products?filter_type=${cat.slug}`} className="hover:text-primary transition-colors">
                           {decodeHtmlEntities(cat.name)}
                         </Link>
                         {i < product.categories.length - 1 ? ", " : ""}
@@ -277,7 +277,7 @@ const ProductDetail = () => {
                 <div className="text-sm">
                   <span className="font-bold text-foreground">Brand: </span>
                   <Link 
-                    to={`/products?brand=${product.attributes.find(attr => attr.id === BRAND_ATTR_ID || attr.name.toLowerCase() === "brand")?.terms[0].id}`}
+                    to={`/products?filter_brand=${product.attributes.find(attr => attr.id === BRAND_ATTR_ID || attr.name.toLowerCase() === "brand")?.terms[0].slug}`}
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     {product.attributes.find(attr => attr.id === BRAND_ATTR_ID || attr.name.toLowerCase() === "brand")?.terms[0].name}
