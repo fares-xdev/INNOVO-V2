@@ -33,9 +33,8 @@ class OurPartnersSlider {
 			'hierarchical'        => false,
 			'public'              => true,
 			'show_ui'             => true,
-			'show_in_menu'        => true,
-			'menu_position'       => 33,
-			'menu_icon'           => 'dashicons-groups',
+			'show_in_menu'        => 'project-core',
+			'menu_position'       => null,
 			'show_in_rest'        => true, 
 			'rest_base'           => 'partners-slider',
 		];

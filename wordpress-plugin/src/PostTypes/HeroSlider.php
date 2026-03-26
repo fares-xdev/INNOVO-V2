@@ -33,9 +33,8 @@ class HeroSlider {
 			'hierarchical'        => false,
 			'public'              => true,
 			'show_ui'             => true,
-			'show_in_menu'        => true,
-			'menu_position'       => 30,
-			'menu_icon'           => 'dashicons-images-alt2',
+			'show_in_menu'        => 'project-core',
+			'menu_position'       => null,
 			'show_in_rest'        => true, 
 			'rest_base'           => 'hero-slides',
 		];

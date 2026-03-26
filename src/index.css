@@ -38,6 +38,13 @@ body {
   background-color: #F9F9F9;
   color: hsl(var(--foreground));
   font-family: 'Inter', sans-serif;
+  padding-top: 64px; /* Matches Header h-16 mobile */
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 80px; /* Matches Header h-20 desktop */
+  }
 }
 
 @font-face {
@@ -90,4 +97,16 @@ body {
 .scrollbar-none {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+}
+
+/* Hero & Section Heading Styles */
+.hero-heading, .section-heading {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 3.2vw;
+  line-height: 1.4;
+  color: #242424;
+  text-align: center;
+  cursor: default;
+  user-select: none;
 }

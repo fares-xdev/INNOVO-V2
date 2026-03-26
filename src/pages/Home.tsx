@@ -195,12 +195,15 @@ const Home = () => {
           const dynamicSlides = heroResponse.map((s: { 
             _embedded?: { 'wp:featuredmedia'?: Array<{ source_url: string }> },
             title?: { rendered: string },
-            hero_details?: { description: string }
+            hero_details?: { description: string, slide_order?: number }
           }) => ({
             image: s._embedded?.['wp:featuredmedia']?.[0]?.source_url || heroHome,
             title: s.title?.rendered || "",
             description: s.hero_details?.description || "",
-          }));
+            order: s.hero_details?.slide_order || 0,
+          }))
+          .sort((a, b) => a.order - b.order);
+          
           setSlides(dynamicSlides);
         } else {
           // Absolute fallback if no slides in DB
@@ -394,9 +397,9 @@ const Home = () => {
                   : ""
                 }`}
               />
-              <div className="relative z-20 h-full flex flex-col items-center justify-center text-center text-white px-4 md:px-0">
+              <div className="relative z-20 h-full flex flex-col items-center justify-center text-center text-white px-4 md:px-0 cursor-default select-none">
                 <h1 
-                  className="text-4xl md:text-7xl font-bold mb-4 leading-tight tracking-tight max-w-4xl"
+                  className="hero-heading !text-white max-w-4xl mb-6 shadow-sm drop-shadow-lg"
                   dangerouslySetInnerHTML={{ __html: slide.title }}
                 />
                 <div className="max-w-2xl">
@@ -432,7 +435,7 @@ const Home = () => {
         <section className="pt-10 pb-10 bg-white">
           <div className="container">
             <div className="text-center mb-12">
-              <h2 className="font-heading text-4xl md:text-5xl font-bold text-[#333] mb-4 tracking-wide max-w-[90%] lg:max-w-2xl mx-auto whitespace-nowrap">
+              <h2 className="section-heading mb-4 tracking-wide max-w-[90%] lg:max-w-2xl mx-auto whitespace-nowrap">
                 Our Customers
               </h2>
             </div>
@@ -571,7 +574,7 @@ const Home = () => {
         <section className="pt-10 pb-10 bg-white">
           <div className="container">
             <div className="text-center mb-12">
-              <h2 className="font-heading text-4xl md:text-5xl font-bold text-[#333] mb-4 tracking-wide max-w-[90%] lg:max-w-2xl mx-auto whitespace-nowrap">
+              <h2 className="section-heading mb-4 tracking-wide max-w-[90%] lg:max-w-2xl mx-auto whitespace-nowrap">
                 Our Partners
               </h2>
             </div>
@@ -649,7 +652,7 @@ const Home = () => {
         <section className="py-24 bg-white">
           <div className="container">
             <div className="text-center mb-16">
-              <h2 className="font-heading text-4xl md:text-5xl font-bold text-[#333] mb-4 tracking-wide max-w-[90%] lg:max-w-2xl mx-auto whitespace-nowrap">
+              <h2 className="section-heading mb-4 tracking-wide max-w-[90%] lg:max-w-2xl mx-auto whitespace-nowrap">
                 Categories
               </h2>
             </div>
@@ -745,7 +748,7 @@ const Home = () => {
         <section className="py-24 bg-[#F9F9F9]">
           <div className="container">
             <div className="text-center mb-12 relative">
-              <h2 className="font-heading text-4xl md:text-5xl font-bold text-[#333] mb-4 tracking-wide max-w-[90%] lg:max-w-2xl mx-auto whitespace-nowrap">
+              <h2 className="section-heading mb-4 tracking-wide max-w-[90%] lg:max-w-2xl mx-auto whitespace-nowrap">
                 Portfolio
               </h2>
               
@@ -833,7 +836,7 @@ const Home = () => {
           <div className="w-full">
             <div className="text-center mb-16 px-6">
               <Link to="/blog" className="inline-block group">
-                <h2 className="font-heading text-4xl md:text-5xl font-bold text-[#333] mb-4 tracking-wide max-w-[90%] lg:max-w-2xl mx-auto cursor-pointer hover:text-primary transition-colors whitespace-nowrap">
+                <h2 className="section-heading mb-4 tracking-wide max-w-[90%] lg:max-w-2xl mx-auto cursor-pointer hover:text-primary transition-colors whitespace-nowrap">
                   Latest News
                 </h2>
               </Link>
