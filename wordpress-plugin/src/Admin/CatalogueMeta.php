@@ -181,6 +181,7 @@ class CatalogueMeta {
 			$brand = sanitize_text_field( $_POST['catalogue_brand_name'] );
 			update_post_meta( $post_id, self::META_BRAND_NAME, $brand );
 			
+			// Optional: Sync Post Title to Brand Name
 			if ( ! empty( $brand ) ) {
 				remove_action( 'save_post', [ $this, 'save_metadata' ] );
 				wp_update_post( [ 'ID' => $post_id, 'post_title' => $brand ] );
