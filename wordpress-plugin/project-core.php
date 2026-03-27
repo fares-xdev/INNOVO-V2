@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Project Core
  * Description:       A professional foundation for Headless WordPress & WooCommerce projects.
- * Version:           1.2.0
+ * Version:           1.3.1
  * Author:            Fares
  * Text Domain:       project-core
  * Domain Path:       /languages
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Define constants.
  */
-define( 'PROJECT_CORE_VERSION', '1.2.0' );
+define( 'PROJECT_CORE_VERSION', '1.3.1' );
 define( 'PROJECT_CORE_PATH', plugin_dir_path( __FILE__ ) );
 define( 'PROJECT_CORE_URL', plugin_dir_url( __FILE__ ) );
 
@@ -81,14 +81,12 @@ add_filter( 'register_post_type_args', function( $args, $post_type ) {
 	if ( 'portfolio' === $post_type ) {
 		$args['show_in_rest'] = true;
 		$args['rest_base']    = 'projects'; // Access via /wp-json/wp/v2/projects
-		$args['show_in_menu'] = 'project-core';
 	}
 
 	// Enable Partners (Logos from Showcase plugin)
 	if ( 'logoshowcase' === $post_type ) {
 		$args['show_in_rest'] = true;
 		$args['rest_base']    = 'partners'; // Access via /wp-json/wp/v2/partners
-		$args['show_in_menu'] = 'project-core';
 	}
 
 	return $args;

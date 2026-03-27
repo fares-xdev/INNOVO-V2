@@ -34,13 +34,11 @@ class AdminMenu {
 			'hero-slides'     => [ 'label' => __( 'Hero Slider', 'project-core' ), 'icon' => 'dashicons-images-alt2' ],
 			'home-categories' => [ 'label' => __( 'Home Categories', 'project-core' ), 'icon' => 'dashicons-layout' ],
 			'home-video'      => [ 'label' => __( 'Home Video', 'project-core' ), 'icon' => 'dashicons-video-alt3' ],
-			'portfolio'       => [ 'label' => __( 'Projects', 'project-core' ), 'icon' => 'dashicons-portfolio' ],
-			'logoshowcase'    => [ 'label' => __( 'External Partners', 'project-core' ), 'icon' => 'dashicons-networking' ],
 			'our-partners'    => [ 'label' => __( 'Our Partners', 'project-core' ), 'icon' => 'dashicons-groups' ],
 			'our-customers'   => [ 'label' => __( 'Our Customers', 'project-core' ), 'icon' => 'dashicons-businessperson' ],
 			'catalogue'       => [ 'label' => __( 'Catalogues', 'project-core' ), 'icon' => 'dashicons-pdf' ],
 			'partners-slider' => [ 'label' => __( 'Logos Slider', 'project-core' ), 'icon' => 'dashicons-slides' ],
-			'product_gallery' => [ 'label' => __( 'Product Gallery', 'project-core' ), 'icon' => 'dashicons-images-alt' ],
+			'social-links'    => [ 'label' => __( 'Social Links', 'project-core' ), 'icon' => 'dashicons-share' ],
 		];
 
 		?>
@@ -52,7 +50,7 @@ class AdminMenu {
 						<p style="font-size: 1.1rem; color: #4a5568; margin-top: 8px;"><?php _e( 'Developed & Maintained by <strong style="color:#1a202c">Fares</strong>', 'project-core' ); ?></p>
 					</div>
 					<div style="text-align: right;">
-						<span style="background: #CD2727; color: white; padding: 6px 14px; border-radius: 99px; font-weight: 700; font-size: 0.875rem;">v 1.2.0</span>
+						<span style="background: #CD2727; color: white; padding: 6px 14px; border-radius: 99px; font-weight: 700; font-size: 0.875rem;">v <?php echo PROJECT_CORE_VERSION; ?></span>
 					</div>
 				</div>
 				
@@ -64,11 +62,8 @@ class AdminMenu {
 							</div>
 							<h3><?php echo esc_html( $data['label'] ); ?></h3>
 							<div class="card-footer">
-								<a href="<?php echo esc_url( admin_url( "edit.php?post_type={$slug}" ) ); ?>" class="button button-primary manage-btn">
+								<a href="<?php echo esc_url( admin_url( "edit.php?post_type={$slug}" ) ); ?>" class="button button-primary manage-btn" style="width: 100%;">
 									<?php _e( 'Manage Items', 'project-core' ); ?>
-								</a>
-								<a href="<?php echo esc_url( admin_url( "post-new.php?post_type={$slug}" ) ); ?>" class="button add-btn">
-									<?php _e( 'Add New', 'project-core' ); ?>
 								</a>
 							</div>
 						</div>
@@ -84,75 +79,76 @@ class AdminMenu {
 				gap: 25px;
 			}
 			.project-core-card {
-				background: #fff;
-				padding: 35px;
-				border-radius: 15px;
-				border: 1px solid #edf2f7;
+				background: #ffffff;
+				padding: 40px 30px;
+				border-radius: 20px;
+				border: 1px solid #f1f5f9;
 				text-align: center;
-				transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-				position: relative;
-				overflow: hidden;
+				transition: all 0.3s ease;
+				box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
 			}
 			.project-core-card:hover {
-				transform: translateY(-10px);
+				transform: translateY(-8px);
 				box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 				border-color: #CD2727;
 			}
 			.icon-wrapper {
-				background: #f7fafc;
+				background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
 				width: 80px;
 				height: 80px;
+				margin: 0 auto 25px;
 				border-radius: 50%;
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				margin: 0 auto 20px;
-				transition: all 0.3s;
+				transition: all 0.3s ease;
+				border: 1px solid #f1f5f9;
 			}
 			.project-core-card:hover .icon-wrapper {
 				background: #fff5f5;
+				border-color: #fee2e2;
 			}
 			.project-core-card .dashicons {
-				font-size: 40px;
-				width: 40px;
-				height: 40px;
-				color: #2d3748;
+				font-size: 36px;
+				width: 36px;
+				height: 36px;
+				color: #475569;
 				transition: color 0.3s;
 			}
 			.project-core-card:hover .dashicons {
 				color: #CD2727;
 			}
 			.project-core-card h3 {
-				margin: 0 0 25px 0;
-				font-size: 1.4rem;
+				margin: 0 0 30px 0;
+				font-size: 1.15rem;
 				font-weight: 700;
-				color: #2d3748;
+				color: #1e293b;
+				letter-spacing: 0.02em;
+				line-height: 1.4;
 				text-transform: uppercase;
-				letter-spacing: 0.05em;
 			}
 			.card-footer {
-				display: flex;
-				gap: 10px;
-				justify-content: center;
+				margin-top: auto;
 			}
 			.manage-btn {
-				background: #1a202c !important;
+				background: #0f172a !important;
 				border: none !important;
-				padding: 8px 18px !important;
+				padding: 12px 20px !important;
 				height: auto !important;
-				line-height: inherit !important;
-				border-radius: 8px !important;
+				line-height: 1 !important;
+				border-radius: 12px !important;
 				font-weight: 600 !important;
+				font-size: 14px !important;
+				transition: all 0.2s ease !important;
+				box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1) !important;
 			}
 			.manage-btn:hover {
 				background: #CD2727 !important;
-			}
-			.add-btn {
-				border-radius: 8px !important;
-				padding: 8px 18px !important;
-				height: auto !important;
-				line-height: inherit !important;
-				font-weight: 600 !important;
+				transform: scale(1.02);
+				box-shadow: 0 10px 15px -3px rgba(205, 39, 39, 0.3) !important;
 			}
 		</style>
 		<?php

@@ -47,9 +47,8 @@ class ProductGallery {
 			'hierarchical'        => false,
 			'public'              => false,
 			'show_ui'             => true,
-			'show_in_menu'        => 'project-core', // Moved under main menu
-			'menu_position'       => 25,
-			'menu_icon'           => 'dashicons-images-alt2',
+			'show_in_menu'        => 'project-core',
+			'menu_position'       => null,
 			'show_in_admin_bar'   => true,
 			'show_in_nav_menus'   => false,
 			'can_export'          => true,
