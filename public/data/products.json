@@ -46,7 +46,20 @@
       }
     ],
     "tags": [],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 859,
+            "name": "Framery",
+            "slug": "framery"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -108,7 +121,20 @@
       }
     ],
     "tags": [],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 859,
+            "name": "Framery",
+            "slug": "framery"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -170,7 +196,20 @@
       }
     ],
     "tags": [],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 859,
+            "name": "Framery",
+            "slug": "framery"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -232,7 +271,20 @@
       }
     ],
     "tags": [],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 859,
+            "name": "Framery",
+            "slug": "framery"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -294,7 +346,20 @@
       }
     ],
     "tags": [],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 859,
+            "name": "Framery",
+            "slug": "framery"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -443,6 +508,18 @@
             "id": 769,
             "name": "T legged",
             "slug": "t-legged"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
           }
         ]
       }
@@ -642,6 +719,18 @@
             "slug": "waiting"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -765,6 +854,18 @@
             "id": 539,
             "name": "High table",
             "slug": "high-table"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
           }
         ]
       }
@@ -1266,6 +1367,18 @@
             "slug": "waiting"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -1419,6 +1532,18 @@
             "slug": "training"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -1560,6 +1685,18 @@
             "id": 211,
             "name": "Waiting",
             "slug": "waiting"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
           }
         ]
       }
@@ -1821,6 +1958,18 @@
             "id": 211,
             "name": "Waiting",
             "slug": "waiting"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
           }
         ]
       }
@@ -2106,6 +2255,18 @@
             "slug": "waiting"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -2368,6 +2529,18 @@
             "id": 765,
             "name": "Task chair",
             "slug": "task-chair"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
           }
         ]
       }
@@ -2670,6 +2843,18 @@
             "slug": "high-tables"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -2828,6 +3013,18 @@
             "id": 209,
             "name": "High Chair",
             "slug": "high-chair"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
           }
         ]
       }
@@ -3057,6 +3254,18 @@
             "id": 211,
             "name": "Waiting",
             "slug": "waiting"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
           }
         ]
       }
@@ -3382,6 +3591,18 @@
             "slug": "sofa"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -3574,6 +3795,18 @@
             "id": 760,
             "name": "tables",
             "slug": "tables"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
           }
         ]
       }
@@ -3880,6 +4113,18 @@
             "slug": "swing"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -4103,6 +4348,18 @@
             "slug": "swivel-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -4266,6 +4523,18 @@
             "id": 728,
             "name": "Educational Waiting",
             "slug": "educational-waiting"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -4461,6 +4730,18 @@
             "slug": "educational-waiting"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -4616,6 +4897,18 @@
             "id": 211,
             "name": "Waiting",
             "slug": "waiting"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -4811,6 +5104,18 @@
             "slug": "educational-waiting"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -4944,6 +5249,18 @@
             "id": 496,
             "name": "marble top",
             "slug": "marble-top"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -5083,6 +5400,18 @@
             "id": 515,
             "name": "swivel chair",
             "slug": "swivel-chair"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -5246,6 +5575,18 @@
             "id": 211,
             "name": "Waiting",
             "slug": "waiting"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -5420,6 +5761,18 @@
             "slug": "waiting"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -5567,6 +5920,18 @@
             "id": 515,
             "name": "swivel chair",
             "slug": "swivel-chair"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -5754,6 +6119,18 @@
             "slug": "swivel-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -5912,6 +6289,18 @@
             "slug": "swivel-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -6050,6 +6439,18 @@
             "id": 515,
             "name": "swivel chair",
             "slug": "swivel-chair"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -6208,6 +6609,18 @@
             "id": 515,
             "name": "swivel chair",
             "slug": "swivel-chair"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -6395,6 +6808,18 @@
             "slug": "swivel-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -6556,6 +6981,18 @@
             "id": 515,
             "name": "swivel chair",
             "slug": "swivel-chair"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -6734,6 +7171,18 @@
             "slug": "swivel-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -6876,6 +7325,18 @@
             "id": 515,
             "name": "swivel chair",
             "slug": "swivel-chair"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -7041,6 +7502,18 @@
             "slug": "swivel-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -7197,6 +7670,18 @@
             "id": 515,
             "name": "swivel chair",
             "slug": "swivel-chair"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -7375,6 +7860,18 @@
             "slug": "waiting-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -7538,6 +8035,18 @@
             "slug": "waiting-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -7692,6 +8201,18 @@
             "slug": "waiting-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -7837,6 +8358,18 @@
             "slug": "waiting-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -7980,6 +8513,18 @@
             "id": 748,
             "name": "waiting chair",
             "slug": "waiting-chair"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -8136,6 +8681,18 @@
             "slug": "waiting-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -8288,6 +8845,18 @@
             "id": 211,
             "name": "Waiting",
             "slug": "waiting"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -8457,6 +9026,18 @@
             "slug": "waiting-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -8622,6 +9203,18 @@
             "id": 748,
             "name": "waiting chair",
             "slug": "waiting-chair"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -8791,6 +9384,18 @@
             "slug": "waiting-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -8929,6 +9534,18 @@
             "id": 515,
             "name": "swivel chair",
             "slug": "swivel-chair"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -9096,6 +9713,18 @@
             "id": 515,
             "name": "swivel chair",
             "slug": "swivel-chair"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -9292,6 +9921,18 @@
             "slug": "swivel-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -9448,6 +10089,18 @@
             "id": 515,
             "name": "swivel chair",
             "slug": "swivel-chair"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
           }
         ]
       }
@@ -9903,6 +10556,18 @@
             "slug": "melamine-top"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -10079,6 +10744,18 @@
             "id": 515,
             "name": "swivel chair",
             "slug": "swivel-chair"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
           }
         ]
       }
@@ -10268,6 +10945,18 @@
             "slug": "swivel-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -10437,6 +11126,18 @@
             "slug": "swivel-chair"
           }
         ]
+      },
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
       }
     ],
     "variations": [],
@@ -10580,7 +11281,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -10688,7 +11414,32 @@
       }
     ],
     "tags": [],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -10769,7 +11520,32 @@
       }
     ],
     "tags": [],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -10904,7 +11680,32 @@
       }
     ],
     "tags": [],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -11066,7 +11867,32 @@
       }
     ],
     "tags": [],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -11169,7 +11995,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -11316,7 +12167,20 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -11441,7 +12305,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -11611,7 +12500,20 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -11898,7 +12800,42 @@
         "link": "https://innovo-eg.com/product-tag/interstuhl-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -12135,7 +13072,37 @@
         "link": "https://innovo-eg.com/product-tag/interstuhl-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -12651,7 +13618,37 @@
         "link": "https://innovo-eg.com/product-tag/interstuhl-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -13590,7 +14587,37 @@
         "link": "https://innovo-eg.com/product-tag/interstuhl-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -13728,7 +14755,32 @@
         "link": "https://innovo-eg.com/product-tag/interstuhl-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -14073,7 +15125,32 @@
         "link": "https://innovo-eg.com/product-tag/interstuhl-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -14409,7 +15486,37 @@
         "link": "https://innovo-eg.com/product-tag/interstuhl-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -15825,7 +16932,32 @@
         "link": "https://innovo-eg.com/product-tag/interstuhl-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -16071,7 +17203,37 @@
         "link": "https://innovo-eg.com/product-tag/interstuhl-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -16425,7 +17587,37 @@
         "link": "https://innovo-eg.com/product-tag/interstuhl-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -16842,7 +18034,32 @@
         "link": "https://innovo-eg.com/product-tag/interstuhl-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -17493,7 +18710,32 @@
         "link": "https://innovo-eg.com/product-tag/interstuhl-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -18648,7 +19890,32 @@
         "link": "https://innovo-eg.com/product-tag/interstuhl-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 75,
+            "name": "INTERSTUHL",
+            "slug": "interstuhl"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -18774,7 +20041,32 @@
         "link": "https://innovo-eg.com/product-tag/gonzaga-storege/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 82,
+            "name": "Gonzaga",
+            "slug": "gonzaga"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -18891,7 +20183,32 @@
         "link": "https://innovo-eg.com/product-tag/gonzaga-storege/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 82,
+            "name": "Gonzaga",
+            "slug": "gonzaga"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -19098,7 +20415,32 @@
         "link": "https://innovo-eg.com/product-tag/gonzaga-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 82,
+            "name": "Gonzaga",
+            "slug": "gonzaga"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -19200,7 +20542,37 @@
         "link": "https://innovo-eg.com/product-tag/gonzaga-workstations/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 82,
+            "name": "Gonzaga",
+            "slug": "gonzaga"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -19332,7 +20704,32 @@
         "link": "https://innovo-eg.com/product-tag/gonzaga-acoustics/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 82,
+            "name": "Gonzaga",
+            "slug": "gonzaga"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -19538,7 +20935,37 @@
         "link": "https://innovo-eg.com/product-tag/gonzaga-workstations/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 82,
+            "name": "Gonzaga",
+            "slug": "gonzaga"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -19699,7 +21126,32 @@
         "link": "https://innovo-eg.com/product-tag/gonzaga-workstations/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 82,
+            "name": "Gonzaga",
+            "slug": "gonzaga"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -19834,7 +21286,32 @@
         "link": "https://innovo-eg.com/product-tag/gonzaga-workstations/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 82,
+            "name": "Gonzaga",
+            "slug": "gonzaga"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -19981,7 +21458,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-acoustics/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -20087,7 +21589,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-acoustics/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -20224,7 +21751,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-acoustics/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -20330,7 +21882,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-acoustics/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -20454,7 +22031,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-acoustics/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -20560,7 +22162,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-acoustics/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -20657,7 +22284,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-acoustics/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -20862,7 +22514,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-acoustics/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -21094,7 +22771,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-acoustics/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -21290,7 +22992,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-acoustics/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -21393,7 +23120,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -21532,7 +23284,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -21761,7 +23538,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -21900,7 +23702,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -22102,7 +23929,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -22277,7 +24129,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -22389,7 +24266,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -22519,7 +24421,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -22622,7 +24549,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -22734,7 +24686,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -22828,7 +24805,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -22931,7 +24933,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -23034,7 +25061,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -23155,7 +25207,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -23267,7 +25344,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -23406,7 +25508,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -23527,7 +25654,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -23639,7 +25791,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -23769,7 +25946,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -23935,7 +26137,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -24038,7 +26265,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -24123,7 +26375,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -24235,7 +26512,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -24410,7 +26712,37 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -24531,7 +26863,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -24643,7 +27000,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -24800,7 +27182,37 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -24952,7 +27364,37 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -25127,7 +27569,37 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -25257,7 +27729,37 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -25369,7 +27871,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -25526,7 +28053,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -25656,7 +28208,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -25837,7 +28414,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -25944,7 +28546,37 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -26049,7 +28681,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -26252,7 +28909,42 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -26377,7 +29069,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -26522,7 +29239,37 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -26620,7 +29367,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -26745,7 +29517,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -26843,7 +29640,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -26946,7 +29768,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -27080,7 +29927,37 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -27214,7 +30091,37 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -27330,7 +30237,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -27482,7 +30414,37 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -27601,7 +30563,37 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -27722,7 +30714,37 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -27874,7 +30896,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -28004,7 +31051,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -28147,7 +31219,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -28263,7 +31360,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -28403,7 +31525,32 @@
         "link": "https://innovo-eg.com/product-tag/narbutas-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 76,
+            "name": "Narbutas",
+            "slug": "narbutas"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -28528,7 +31675,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -28627,7 +31804,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -28726,7 +31933,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -28856,7 +32088,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -29059,7 +32316,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -29189,7 +32476,42 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -29296,7 +32618,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -29309,7 +32661,13 @@
       "text": "Read more",
       "description": "Read more about &ldquo;ENOKI&rdquo;",
       "url": "https://innovo-eg.com/product/enoki/"
-    }
+    },
+    "downloads": [
+      {
+        "label": "Technical Data Sheet",
+        "url": "https://www.quinti.com/wp-content/uploads/2019/05/ENOKI_en-1.pdf"
+      }
+    ]
   },
   {
     "id": 8503,
@@ -29416,7 +32774,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -29523,7 +32906,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -29622,7 +33030,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -29725,7 +33158,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -29927,7 +33385,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -30024,7 +33507,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -30171,7 +33679,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -30332,7 +33865,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -30597,7 +34155,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -30862,7 +34445,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -31127,7 +34735,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -31248,7 +34881,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -31396,7 +35054,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -31557,7 +35240,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -31858,7 +35566,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -32033,7 +35766,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -32217,7 +35975,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -32378,7 +36161,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -32508,7 +36316,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -32629,7 +36462,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -32750,7 +36608,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -32875,7 +36758,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -32963,7 +36871,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -33089,7 +37022,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -33209,7 +37172,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -33303,7 +37296,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -33455,7 +37478,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -33576,7 +37629,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -33701,7 +37784,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -33826,7 +37939,42 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -33965,7 +38113,42 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -34216,7 +38399,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -34346,7 +38559,42 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -34458,7 +38706,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -34651,7 +38924,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -34826,7 +39129,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -34956,7 +39289,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -35095,7 +39458,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -35225,7 +39618,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -35350,7 +39773,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -35475,7 +39928,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -35623,7 +40101,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -35735,7 +40238,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -35973,7 +40501,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -36094,7 +40647,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -36228,7 +40811,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -36394,7 +41007,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -36555,7 +41198,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -36644,7 +41317,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -36791,7 +41489,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -36893,7 +41616,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -36995,7 +41743,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -37107,7 +41880,42 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -37239,7 +42047,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -37371,7 +42204,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -37516,7 +42379,37 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -37657,7 +42550,32 @@
         "link": "https://innovo-eg.com/product-tag/quinti-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 80,
+            "name": "Quinti",
+            "slug": "quinti"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -37835,7 +42753,32 @@
         "link": "https://innovo-eg.com/product-tag/las-acoustics/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -37941,7 +42884,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -38056,7 +43024,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -38217,7 +43210,37 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -38341,7 +43364,37 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -38465,7 +43518,37 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -38589,7 +43672,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -38704,7 +43812,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -38828,7 +43961,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -38952,7 +44110,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -39085,7 +44268,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -39236,7 +44444,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -39375,7 +44608,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -39490,7 +44748,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -39614,7 +44897,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -39734,7 +45042,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -39827,7 +45160,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -40014,7 +45372,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -40111,7 +45494,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -40271,7 +45679,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -40431,7 +45864,37 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -40555,7 +46018,37 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -40697,7 +46190,37 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -40839,7 +46362,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -41022,7 +46570,37 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -41164,7 +46742,32 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -41510,7 +47113,32 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -41679,7 +47307,37 @@
         "link": "https://innovo-eg.com/product-tag/las-seating/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -41893,7 +47551,32 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -42283,7 +47966,32 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -42564,7 +48272,32 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -42910,7 +48643,37 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -43108,7 +48871,32 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -43472,7 +49260,32 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -43614,7 +49427,37 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -43882,7 +49725,32 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -44006,7 +49874,32 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -44148,7 +50041,32 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -44332,7 +50250,32 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -44501,7 +50444,32 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -44742,7 +50710,42 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 543,
+            "name": "Executive",
+            "slug": "executive"
+          },
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -44998,7 +51001,37 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -45206,7 +51239,37 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -45509,7 +51572,37 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -45974,7 +52067,37 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 200,
+            "name": "Managerial",
+            "slug": "managerial"
+          },
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,
@@ -46156,7 +52279,32 @@
         "link": "https://innovo-eg.com/product-tag/las-office-furniture/"
       }
     ],
-    "attributes": [],
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Brand",
+        "taxonomy": "pa_brand",
+        "terms": [
+          {
+            "id": 74,
+            "name": "LAS",
+            "slug": "las"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Category",
+        "taxonomy": "pa_category_furniture",
+        "terms": [
+          {
+            "id": 199,
+            "name": "Operative",
+            "slug": "operative"
+          }
+        ]
+      }
+    ],
     "variations": [],
     "has_options": false,
     "is_purchasable": false,

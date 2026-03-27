@@ -83,17 +83,32 @@ export interface WordPressPost {
 // ─── Static Data Cache ─────────────────────────────────────
 // In-memory cache to avoid re-fetching JSON files on every call
 
-const cache: Record<string, unknown> = {};
+const dataCache: Record<string, unknown> = {};
 
-async function loadStaticData<T>(filename: string): Promise<T> {
-  if (cache[filename]) return cache[filename] as T;
-  const response = await fetch(`/data/${filename}`);
-  if (!response.ok) {
-    throw new Error(`Failed to load static data: ${filename} (HTTP ${response.status})`);
+async function loadStaticData<T>(filename: string): Promise<T | null> {
+  // Check memory cache first
+  if (dataCache[filename]) {
+    return dataCache[filename] as T;
   }
-  const data = await response.json();
-  cache[filename] = data;
-  return data as T;
+
+  try {
+    const response = await fetch(`/data/${filename}`);
+    if (!response.ok) {
+      throw new Error(`Failed to load ${filename}: ${response.statusText}`);
+    }
+    const data = await response.json();
+    dataCache[filename] = data;
+    return data as T;
+  } catch (error) {
+    console.error(`API Error: Could not load static data [${filename}]`, error);
+    // Return empty list as fallback for common collection files to prevent UI crashes
+    if (filename.endsWith('.json') && 
+       (filename.includes('products') || filename.includes('posts') || 
+        filename.includes('projects') || filename.includes('catalogues'))) {
+      return [] as unknown as T;
+    }
+    return null;
+  }
 }
 
 // ─── Products ──────────────────────────────────────────────
@@ -441,7 +456,9 @@ export async function fetchPosts(page = 1, perPage = 10, category?: number) {
 }
 
 export async function fetchPostBySlug(slug: string) {
+  if (!slug) return null;
   const posts = await loadStaticData<WordPressPost[]>('posts.json');
+  if (!Array.isArray(posts)) return null;
   return posts.find(p => p.slug === slug) || null;
 }
 
@@ -494,6 +511,8 @@ export async function fetchProjects(page = 1, perPage = 9) {
 }
 
 export async function fetchProjectBySlug(slug: string) {
+  if (!slug) return null;
   const projects = await loadStaticData<WordPressProject[]>('projects.json');
+  if (!Array.isArray(projects)) return null;
   return projects.find(p => p.slug === slug) || null;
 }

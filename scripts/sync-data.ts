@@ -9,13 +9,23 @@
 
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const API_BASE_CORE = "https://innovo-eg.com/wp-json/wp/v2";
 const API_BASE_STORE = "https://innovo-eg.com/wp-json/wc/store";
-const OUTPUT_DIR = path.resolve(import.meta.dirname, '..', 'public', 'data');
+const OUTPUT_DIR = path.resolve(__dirname, '..', 'public', 'data');
 
 const BRAND_ATTR_ID = 1;
 const CATEGORY_ATTR_ID = 5;
+
+// Basic Types
+interface WCProduct {
+  id: number;
+  [key: string]: any;
+}
 
 // ─── Helpers ───────────────────────────────────────────────
 
@@ -81,7 +91,7 @@ async function syncProducts(): Promise<any[]> {
 
   // Enrich each product with download links from Core API (parallel batches)
   console.log("    → Fetching download links for each product (parallel batches)...");
-  let enriched = 0;
+  let enrichedDownloads = 0;
   const BATCH_SIZE = 10;
   for (let i = 0; i < products.length; i += BATCH_SIZE) {
     const batch = products.slice(i, i + BATCH_SIZE);
@@ -89,20 +99,51 @@ async function syncProducts(): Promise<any[]> {
       try {
         const { data: coreData } = await fetchJSON(`${API_BASE_CORE}/product/${product.id}`);
         if (coreData?.downloads?.length) {
-          // Only store download metadata (label + url), not the actual files
           product.downloads = coreData.downloads.map((d: any) => ({
             label: d.label || d.name || 'Download',
             url: d.url || d.file,
           }));
-          enriched++;
+          enrichedDownloads++;
         }
-      } catch {
-        // Core API endpoint may not exist for all products, silently skip
-      }
+      } catch { /* Skip */ }
     }));
-    process.stdout.write(`\r    → Progress: ${Math.min(i + BATCH_SIZE, products.length)}/${products.length}`);
+    process.stdout.write(`\r      Progress: ${Math.min(i + BATCH_SIZE, products.length)}/${products.length}`);
   }
-  console.log(`\n    → Enriched ${enriched} products with download links`);
+  console.log(`\n    → Enriched ${enrichedDownloads} products with download links`);
+
+  // ENRICH WITH MISSING ATTRIBUTES (Brands & Categories)
+  // Store API sometimes omits global attributes from the main list.
+  // We fetch products per term and inject them back.
+  console.log("    → Enriching missing attributes (Brands & Categories)...");
+
+  const enrichAttribute = async (attrId: number, taxonomy: string, name: string) => {
+    const { data: terms } = await fetchJSON(`${API_BASE_STORE}/products/attributes/${attrId}/terms`);
+    if (!Array.isArray(terms)) return;
+    
+    for (const term of terms) {
+      if (term.count === 0) continue;
+      const termProducts = await fetchAllPages(`${API_BASE_STORE}/products?attributes[0][attribute]=${taxonomy}&attributes[0][term_id]=${term.id}`);
+      for (const tp of termProducts) {
+        const p = products.find(prod => prod.id === tp.id);
+        if (p) {
+          if (!p.attributes) p.attributes = [];
+          let attr = p.attributes.find((a: any) => a.id === attrId);
+          if (!attr) {
+            attr = { id: attrId, name, taxonomy, terms: [] };
+            p.attributes.push(attr);
+          }
+          if (!attr.terms.find((t: any) => t.id === term.id)) {
+            attr.terms.push({ id: term.id, name: term.name, slug: term.slug });
+          }
+        }
+      }
+      process.stdout.write(`\r      Injected ${name} term: ${term.name}`);
+    }
+    console.log(`\n      ✓ ${name} enrichment complete`);
+  };
+
+  await enrichAttribute(BRAND_ATTR_ID, 'pa_brand', 'Brand');
+  await enrichAttribute(CATEGORY_ATTR_ID, 'pa_category_furniture', 'Category');
 
   writeJSON('products.json', products);
   return products;
