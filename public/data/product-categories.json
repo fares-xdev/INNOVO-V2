@@ -1,0 +1,196 @@
+[
+  {
+    "id": 399,
+    "name": "Accessories",
+    "slug": "accessories",
+    "description": "",
+    "parent": 415,
+    "count": 3,
+    "image": null,
+    "review_count": 0,
+    "permalink": "https://innovo-eg.com/products/office-furniture/accessories/"
+  },
+  {
+    "id": 107,
+    "name": "Acoustics",
+    "slug": "acoustics",
+    "description": "",
+    "parent": 0,
+    "count": 17,
+    "image": {
+      "id": 9758,
+      "src": "https://innovo-eg.com/wp-content/uploads/2021/01/Acoustics-scaled.jpg",
+      "thumbnail": "https://innovo-eg.com/wp-content/uploads/2021/01/Acoustics-scaled-600x600.jpg",
+      "srcset": "https://innovo-eg.com/wp-content/uploads/2021/01/Acoustics-scaled-1200x800.jpg 1200w, https://innovo-eg.com/wp-content/uploads/2021/01/Acoustics-300x200.jpg 300w, https://innovo-eg.com/wp-content/uploads/2021/01/Acoustics-1024x683.jpg 1024w, https://innovo-eg.com/wp-content/uploads/2021/01/Acoustics-768x512.jpg 768w, https://innovo-eg.com/wp-content/uploads/2021/01/Acoustics-1536x1024.jpg 1536w, https://innovo-eg.com/wp-content/uploads/2021/01/Acoustics-2048x1365.jpg 2048w",
+      "sizes": "(max-width: 2560px) 100vw, 2560px",
+      "name": "SLALOM Salone Del Mobile 2019",
+      "alt": ""
+    },
+    "review_count": 0,
+    "permalink": "https://innovo-eg.com/products/acoustics/"
+  },
+  {
+    "id": 420,
+    "name": "Break out &amp; Cafeteria",
+    "slug": "break-out-cafeteria",
+    "description": "",
+    "parent": 397,
+    "count": 9,
+    "image": null,
+    "review_count": 0,
+    "permalink": "https://innovo-eg.com/products/seating/break-out-cafeteria/"
+  },
+  {
+    "id": 102,
+    "name": "Chairs",
+    "slug": "chairs",
+    "description": "",
+    "parent": 397,
+    "count": 96,
+    "image": {
+      "id": 9759,
+      "src": "https://innovo-eg.com/wp-content/uploads/2021/01/Chairs.jpg",
+      "thumbnail": "https://innovo-eg.com/wp-content/uploads/2021/01/Chairs-600x600.jpg",
+      "srcset": "https://innovo-eg.com/wp-content/uploads/2021/01/Chairs-1200x800.jpg 1200w, https://innovo-eg.com/wp-content/uploads/2021/01/Chairs-300x200.jpg 300w, https://innovo-eg.com/wp-content/uploads/2021/01/Chairs-1024x683.jpg 1024w, https://innovo-eg.com/wp-content/uploads/2021/01/Chairs-768x512.jpg 768w, https://innovo-eg.com/wp-content/uploads/2021/01/Chairs-1536x1024.jpg 1536w, https://innovo-eg.com/wp-content/uploads/2021/01/Chairs-2048x1365.jpg 2048w",
+      "sizes": "(max-width: 2085px) 100vw, 2085px",
+      "name": "Chairs",
+      "alt": ""
+    },
+    "review_count": 0,
+    "permalink": "https://innovo-eg.com/products/seating/chairs/"
+  },
+  {
+    "id": 101,
+    "name": "Desks",
+    "slug": "desks",
+    "description": "",
+    "parent": 415,
+    "count": 43,
+    "image": {
+      "id": 9760,
+      "src": "https://innovo-eg.com/wp-content/uploads/2021/01/Desks.jpg",
+      "thumbnail": "https://innovo-eg.com/wp-content/uploads/2021/01/Desks-600x600.jpg",
+      "srcset": "https://innovo-eg.com/wp-content/uploads/2021/01/Desks-1200x777.jpg 1200w, https://innovo-eg.com/wp-content/uploads/2021/01/Desks-300x194.jpg 300w, https://innovo-eg.com/wp-content/uploads/2021/01/Desks-1024x663.jpg 1024w, https://innovo-eg.com/wp-content/uploads/2021/01/Desks-768x497.jpg 768w, https://innovo-eg.com/wp-content/uploads/2021/01/Desks-1536x994.jpg 1536w",
+      "sizes": "(max-width: 1920px) 100vw, 1920px",
+      "name": "Desks",
+      "alt": ""
+    },
+    "review_count": 0,
+    "permalink": "https://innovo-eg.com/products/office-furniture/desks/"
+  },
+  {
+    "id": 504,
+    "name": "High tables",
+    "slug": "high-tables",
+    "description": "",
+    "parent": 415,
+    "count": 1,
+    "image": null,
+    "review_count": 0,
+    "permalink": "https://innovo-eg.com/products/office-furniture/high-tables/"
+  },
+  {
+    "id": 105,
+    "name": "Lounges",
+    "slug": "lounges",
+    "description": "",
+    "parent": 397,
+    "count": 29,
+    "image": [],
+    "review_count": 0,
+    "permalink": "https://innovo-eg.com/products/seating/lounges/"
+  },
+  {
+    "id": 416,
+    "name": "Meeting Tables",
+    "slug": "meeting-tables",
+    "description": "",
+    "parent": 415,
+    "count": 29,
+    "image": null,
+    "review_count": 0,
+    "permalink": "https://innovo-eg.com/products/office-furniture/meeting-tables/"
+  },
+  {
+    "id": 415,
+    "name": "Office Furniture",
+    "slug": "office-furniture",
+    "description": "",
+    "parent": 0,
+    "count": 112,
+    "image": {
+      "id": 9759,
+      "src": "https://innovo-eg.com/wp-content/uploads/2021/01/Chairs.jpg",
+      "thumbnail": "https://innovo-eg.com/wp-content/uploads/2021/01/Chairs-600x600.jpg",
+      "srcset": "https://innovo-eg.com/wp-content/uploads/2021/01/Chairs-1200x800.jpg 1200w, https://innovo-eg.com/wp-content/uploads/2021/01/Chairs-300x200.jpg 300w, https://innovo-eg.com/wp-content/uploads/2021/01/Chairs-1024x683.jpg 1024w, https://innovo-eg.com/wp-content/uploads/2021/01/Chairs-768x512.jpg 768w, https://innovo-eg.com/wp-content/uploads/2021/01/Chairs-1536x1024.jpg 1536w, https://innovo-eg.com/wp-content/uploads/2021/01/Chairs-2048x1365.jpg 2048w",
+      "sizes": "(max-width: 2085px) 100vw, 2085px",
+      "name": "Chairs",
+      "alt": ""
+    },
+    "review_count": 0,
+    "permalink": "https://innovo-eg.com/products/office-furniture/"
+  },
+  {
+    "id": 418,
+    "name": "Reception Counters",
+    "slug": "reception-counters",
+    "description": "",
+    "parent": 415,
+    "count": 6,
+    "image": null,
+    "review_count": 0,
+    "permalink": "https://innovo-eg.com/products/office-furniture/reception-counters/"
+  },
+  {
+    "id": 397,
+    "name": "Seating",
+    "slug": "seating",
+    "description": "",
+    "parent": 0,
+    "count": 135,
+    "image": [],
+    "review_count": 0,
+    "permalink": "https://innovo-eg.com/products/seating/"
+  },
+  {
+    "id": 395,
+    "name": "Storage",
+    "slug": "storage",
+    "description": "",
+    "parent": 415,
+    "count": 14,
+    "image": null,
+    "review_count": 0,
+    "permalink": "https://innovo-eg.com/products/office-furniture/storage/"
+  },
+  {
+    "id": 417,
+    "name": "Tables",
+    "slug": "tables",
+    "description": "",
+    "parent": 415,
+    "count": 24,
+    "image": null,
+    "review_count": 0,
+    "permalink": "https://innovo-eg.com/products/office-furniture/tables/"
+  },
+  {
+    "id": 103,
+    "name": "Workstations",
+    "slug": "workstations",
+    "description": "",
+    "parent": 415,
+    "count": 20,
+    "image": {
+      "id": 9763,
+      "src": "https://innovo-eg.com/wp-content/uploads/2021/01/workstation.jpg",
+      "thumbnail": "https://innovo-eg.com/wp-content/uploads/2021/01/workstation-600x600.jpg",
+      "srcset": "https://innovo-eg.com/wp-content/uploads/2021/01/workstation-1200x960.jpg 1200w, https://innovo-eg.com/wp-content/uploads/2021/01/workstation-300x240.jpg 300w, https://innovo-eg.com/wp-content/uploads/2021/01/workstation-1024x819.jpg 1024w, https://innovo-eg.com/wp-content/uploads/2021/01/workstation-768x614.jpg 768w, https://innovo-eg.com/wp-content/uploads/2021/01/workstation-1536x1229.jpg 1536w",
+      "sizes": "(max-width: 1920px) 100vw, 1920px",
+      "name": "Workstation",
+      "alt": ""
+    },
+    "review_count": 0,
+    "permalink": "https://innovo-eg.com/products/office-furniture/workstations/"
+  }
+]

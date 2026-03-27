@@ -1,0 +1,50 @@
+[
+  {
+    "id": 859,
+    "name": "Framery",
+    "slug": "framery",
+    "description": "",
+    "parent": 0,
+    "count": 5
+  },
+  {
+    "id": 82,
+    "name": "Gonzaga",
+    "slug": "gonzaga",
+    "description": "",
+    "parent": 0,
+    "count": 8
+  },
+  {
+    "id": 75,
+    "name": "INTERSTUHL",
+    "slug": "interstuhl",
+    "description": "",
+    "parent": 0,
+    "count": 29
+  },
+  {
+    "id": 74,
+    "name": "LAS",
+    "slug": "las",
+    "description": "",
+    "parent": 0,
+    "count": 50
+  },
+  {
+    "id": 76,
+    "name": "Narbutas",
+    "slug": "narbutas",
+    "description": "",
+    "parent": 0,
+    "count": 73
+  },
+  {
+    "id": 80,
+    "name": "Quinti",
+    "slug": "quinti",
+    "description": "",
+    "parent": 0,
+    "count": 97
+  }
+]
