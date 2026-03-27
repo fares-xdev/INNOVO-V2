@@ -414,3 +414,8 @@ export async function fetchAdjacentPosts(date: string) {
 
   return { previous, next };
 }
+
+export async function fetchSocialLinks() {
+  const response = await fetch(`${API_BASE_CORE}/social-links?_embed&per_page=20`);
+  return await response.json();
+}

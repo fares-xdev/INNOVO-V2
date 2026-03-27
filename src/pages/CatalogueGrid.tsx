@@ -73,32 +73,32 @@ const CatalogueGrid = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#fafafa]">
+    <div className="min-h-screen flex flex-col bg-background">
       <Header />
       
-      <main className="flex-grow pt-32 pb-20 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto w-full">
-        <div className="text-center mb-16 space-y-4">
-          <h1 className="text-4xl md:text-5xl font-bold font-montserrat text-[#1a1a1a] uppercase tracking-tight">
-            Our <span className="text-[#dd0000]">Catalogues</span>
+      <main className="flex-grow container mx-auto w-full py-8">
+        <div className="text-center mb-10">
+          <h1 className="xts-title">
+            Our <span className="text-primary">Catalogues</span>
           </h1>
-          <p className="text-gray-500 max-w-2xl mx-auto font-montserrat">
+          <p className="text-muted-foreground max-w-2xl mx-auto font-montserrat -mt-2">
             Browse and download our comprehensive range of brand catalogues to find the perfect solutions for your space.
           </p>
         </div>
 
         {isLoading ? (
           <div className="flex justify-center items-center py-20">
-            <Loader2 className="w-10 h-10 animate-spin text-[#dd0000]" />
+            <Loader2 className="w-10 h-10 animate-spin text-primary" />
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
             {catalogues.length > 0 ? (
               catalogues.map((item) => (
                 <CatalogueCard key={item.id} catalogue={item} />
               ))
             ) : (
               <div className="col-span-full text-center py-20 bg-white shadow-sm rounded-lg">
-                <p className="text-gray-400 font-montserrat">No catalogues found. Check back soon!</p>
+                <p className="text-muted-foreground font-montserrat">No catalogues found. Check back soon!</p>
               </div>
             )}
           </div>

@@ -298,7 +298,7 @@ const Products = () => {
   const clearFilters = () => {
     const newParams = new URLSearchParams();
     newParams.set("page", "1");
-    if (searchQuery) newParams.set("search", searchQuery);
+    // Removed keeping of searchQuery to truly show "all" products
     setSearchParams(newParams);
     setSidebarOpen(false);
   };
@@ -586,7 +586,7 @@ const Products = () => {
             </div>
           </div>
           
-          <div className="w-full h-[1px] bg-gray-200/60" />
+          <div className="w-full h-[1px] bg-gray-300/70" />
 
           {/* Grid Controls (Show, View) */}
           <div className="flex items-center justify-end gap-6 py-2 opacity-70">
