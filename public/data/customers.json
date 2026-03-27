@@ -1,0 +1,128 @@
+[
+  {
+    "id": 13687,
+    "date": "2026-03-24T00:30:17",
+    "date_gmt": "2026-03-24T00:30:17",
+    "guid": {
+      "rendered": "https://innovo-eg.com/?post_type=our-customers&#038;p=13687"
+    },
+    "modified": "2026-03-24T00:30:17",
+    "modified_gmt": "2026-03-24T00:30:17",
+    "slug": "13687",
+    "status": "publish",
+    "type": "our-customers",
+    "link": "https://innovo-eg.com/our-customers/13687/",
+    "title": {
+      "rendered": ""
+    },
+    "featured_media": 0,
+    "template": "",
+    "logos_gallery": [
+      {
+        "id": "7129",
+        "url": "https://innovo-eg.com/wp-content/uploads/2020/09/1280px-Pepsi_logo_new.svg.png",
+        "title": "1280px-Pepsi_logo_new.svg"
+      },
+      {
+        "id": "7107",
+        "url": "https://innovo-eg.com/wp-content/uploads/2020/09/1189px-Nissan-logo.svg.png",
+        "title": "1189px-Nissan-logo.svg"
+      },
+      {
+        "id": "7105",
+        "url": "https://innovo-eg.com/wp-content/uploads/2020/09/448-4480976_cib-was-the-only-egyptian-business-to-make.jpg",
+        "title": "448-4480976_cib-was-the-only-egyptian-business-to-make"
+      },
+      {
+        "id": "7106",
+        "url": "https://innovo-eg.com/wp-content/uploads/2020/09/1024px-Vodafone_2017_logo.svg.png",
+        "title": "1024px-Vodafone_2017_logo.svg"
+      },
+      {
+        "id": "7108",
+        "url": "https://innovo-eg.com/wp-content/uploads/2020/09/1200px-HSBC_logo_2018.svg.png",
+        "title": "1200px-HSBC_logo_(2018).svg"
+      },
+      {
+        "id": "8360",
+        "url": "https://innovo-eg.com/wp-content/uploads/2020/12/etisalat-logo-wide.png",
+        "title": "Etisalat Logo Wide"
+      },
+      {
+        "id": "12393",
+        "url": "https://innovo-eg.com/wp-content/uploads/2022/01/Amazon_logo.png",
+        "title": "Amazon Logo"
+      },
+      {
+        "id": "12396",
+        "url": "https://innovo-eg.com/wp-content/uploads/2022/01/Barclays_logo.png",
+        "title": "Barclays Logo"
+      },
+      {
+        "id": "12407",
+        "url": "https://innovo-eg.com/wp-content/uploads/2022/01/Microsoft_logo.png",
+        "title": "Microsoft Logo"
+      },
+      {
+        "id": "12409",
+        "url": "https://innovo-eg.com/wp-content/uploads/2022/01/Orascom_logo.png",
+        "title": "Orascom Logo"
+      },
+      {
+        "id": "12402",
+        "url": "https://innovo-eg.com/wp-content/uploads/2022/01/Emaar-logo.png",
+        "title": "Emaar Logo"
+      },
+      {
+        "id": "12398",
+        "url": "https://innovo-eg.com/wp-content/uploads/2022/01/BDC_logo.jpg",
+        "title": "BDC Logo"
+      },
+      {
+        "id": "12399",
+        "url": "https://innovo-eg.com/wp-content/uploads/2022/01/Benya_logo.jpg",
+        "title": "Benya Logo"
+      },
+      {
+        "id": "12400",
+        "url": "https://innovo-eg.com/wp-content/uploads/2022/01/DHL_logo.png",
+        "title": "DHL Logo"
+      },
+      {
+        "id": "12401",
+        "url": "https://innovo-eg.com/wp-content/uploads/2022/01/E-finance_logo.png",
+        "title": "E Finance Logo"
+      }
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>- INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/our-customers/13687/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"- INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/our-customers/13687/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/Innovo.eg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/our-customers/13687/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/our-customers/13687/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-customers/13687/#webpage\",\"url\":\"https://innovo-eg.com/our-customers/13687/\",\"name\":\"- INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"datePublished\":\"2026-03-24T00:30:17+00:00\",\"dateModified\":\"2026-03-24T00:30:17+00:00\",\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/our-customers/13687/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/our-customers/13687/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/our-customers/13687/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-customers/13687/\",\"url\":\"https://innovo-eg.com/our-customers/13687/\",\"name\":\"- INNOVO\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/our-customers/13687/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/our-customers/13687/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-customers/13687"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-customers"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/types/our-customers"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/media?parent=13687"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

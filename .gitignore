@@ -22,6 +22,9 @@ out
 *.swp
 *.swo
 
+# Generated static data
+# public/data/
+
 # OS
 .DS_Store
 Thumbs.db
