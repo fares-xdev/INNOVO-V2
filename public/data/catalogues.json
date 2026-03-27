@@ -2,100 +2,21 @@
   {
     "id": 13705,
     "date": "2026-03-25T11:13:35",
-    "date_gmt": "2026-03-25T11:13:35",
-    "guid": {
-      "rendered": "https://innovo-eg.com/?post_type=catalogue&#038;p=13705"
-    },
-    "modified": "2026-03-25T11:14:07",
-    "modified_gmt": "2026-03-25T11:14:07",
     "slug": "13705",
-    "status": "publish",
-    "type": "catalogue",
     "link": "https://innovo-eg.com/catalogue/13705/",
     "title": {
       "rendered": "Interstuhl"
     },
     "featured_media": 7206,
-    "template": "",
-    "catalogue_details": {
-      "brand_name": "Interstuhl",
-      "description": "German Supplier",
-      "pdfs": []
-    },
-    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Interstuhl - INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/catalogue/13705/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Interstuhl - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/catalogue/13705/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/Innovo.eg\" />\n<meta property=\"article:modified_time\" content=\"2026-03-25T11:14:07+00:00\" />\n<meta property=\"og:image\" content=\"https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png\" />\n\t<meta property=\"og:image:width\" content=\"145\" />\n\t<meta property=\"og:image:height\" content=\"61\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/catalogue/13705/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/catalogue/13705/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/catalogue/13705/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png\",\"width\":145,\"height\":61},{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/catalogue/13705/#webpage\",\"url\":\"https://innovo-eg.com/catalogue/13705/\",\"name\":\"Interstuhl - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://innovo-eg.com/catalogue/13705/#primaryimage\"},\"datePublished\":\"2026-03-25T11:13:35+00:00\",\"dateModified\":\"2026-03-25T11:14:07+00:00\",\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/catalogue/13705/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/catalogue/13705/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/catalogue/13705/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/catalogue/13705/\",\"url\":\"https://innovo-eg.com/catalogue/13705/\",\"name\":\"Interstuhl\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/catalogue/13705/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/catalogue/13705/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
-    "_links": {
-      "self": [
-        {
-          "href": "https://innovo-eg.com/wp-json/wp/v2/catalogues/13705"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://innovo-eg.com/wp-json/wp/v2/catalogues"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://innovo-eg.com/wp-json/wp/v2/types/catalogue"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://innovo-eg.com/wp-json/wp/v2/media/7206"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://innovo-eg.com/wp-json/wp/v2/media?parent=13705"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    },
     "_embedded": {
       "wp:featuredmedia": [
         {
-          "id": 7206,
-          "date": "2020-09-18T08:34:21",
-          "slug": "interstuhl_logo",
-          "type": "attachment",
-          "link": "https://innovo-eg.com/interstuhl_logo/",
-          "title": {
-            "rendered": "Interstuhl_logo"
-          },
-          "author": 8,
-          "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Interstuhl_logo - INNOVO</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Interstuhl_logo - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/Innovo.eg\" />\n<meta property=\"og:image\" content=\"https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png\" />\n\t<meta property=\"og:image:width\" content=\"145\" />\n\t<meta property=\"og:image:height\" content=\"61\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png#webpage\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png\",\"name\":\"Interstuhl_logo - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"datePublished\":\"2020-09-18T08:34:21+00:00\",\"dateModified\":\"2020-09-18T08:34:21+00:00\",\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png\",\"name\":\"Interstuhl_logo\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
-          "caption": {
-            "rendered": ""
-          },
+          "source_url": "https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png",
           "alt_text": "",
-          "media_type": "image",
-          "mime_type": "image/png",
           "media_details": {
             "width": 145,
             "height": 61,
-            "file": "2020/09/Interstuhl_logo.png",
             "sizes": {
-              "woocommerce_gallery_thumbnail": {
-                "file": "Interstuhl_logo-100x61.png",
-                "width": 100,
-                "height": 61,
-                "mime_type": "image/png",
-                "source_url": "https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo-100x61.png"
-              },
-              "shop_thumbnail": {
-                "file": "Interstuhl_logo-100x61.png",
-                "width": 100,
-                "height": 61,
-                "mime_type": "image/png",
-                "source_url": "https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo-100x61.png"
-              },
               "full": {
                 "file": "Interstuhl_logo.png",
                 "width": 145,
@@ -103,51 +24,7 @@
                 "mime_type": "image/png",
                 "source_url": "https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png"
               }
-            },
-            "image_meta": {
-              "aperture": "0",
-              "credit": "",
-              "camera": "",
-              "caption": "",
-              "created_timestamp": "0",
-              "copyright": "",
-              "focal_length": "0",
-              "iso": "0",
-              "shutter_speed": "0",
-              "title": "",
-              "orientation": "0",
-              "keywords": []
             }
-          },
-          "source_url": "https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png",
-          "_links": {
-            "self": [
-              {
-                "href": "https://innovo-eg.com/wp-json/wp/v2/media/7206"
-              }
-            ],
-            "collection": [
-              {
-                "href": "https://innovo-eg.com/wp-json/wp/v2/media"
-              }
-            ],
-            "about": [
-              {
-                "href": "https://innovo-eg.com/wp-json/wp/v2/types/attachment"
-              }
-            ],
-            "author": [
-              {
-                "embeddable": true,
-                "href": "https://innovo-eg.com/wp-json/wp/v2/users/8"
-              }
-            ],
-            "replies": [
-              {
-                "embeddable": true,
-                "href": "https://innovo-eg.com/wp-json/wp/v2/comments?post=7206"
-              }
-            ]
           }
         }
       ]
@@ -156,130 +33,21 @@
   {
     "id": 13704,
     "date": "2026-03-25T11:05:19",
-    "date_gmt": "2026-03-25T11:05:19",
-    "guid": {
-      "rendered": "https://innovo-eg.com/?post_type=catalogue&#038;p=13704"
-    },
-    "modified": "2026-03-25T11:05:19",
-    "modified_gmt": "2026-03-25T11:05:19",
     "slug": "13704",
-    "status": "publish",
-    "type": "catalogue",
     "link": "https://innovo-eg.com/catalogue/13704/",
     "title": {
       "rendered": "Las"
     },
     "featured_media": 7207,
-    "template": "",
-    "catalogue_details": {
-      "brand_name": "Las",
-      "description": "Italian Supplier",
-      "pdfs": []
-    },
-    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Las - INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/catalogue/13704/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Las - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/catalogue/13704/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/Innovo.eg\" />\n<meta property=\"og:image\" content=\"https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg\" />\n\t<meta property=\"og:image:width\" content=\"90\" />\n\t<meta property=\"og:image:height\" content=\"72\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/catalogue/13704/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/catalogue/13704/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/catalogue/13704/#primaryimage\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg\",\"width\":90,\"height\":72},{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/catalogue/13704/#webpage\",\"url\":\"https://innovo-eg.com/catalogue/13704/\",\"name\":\"Las - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://innovo-eg.com/catalogue/13704/#primaryimage\"},\"datePublished\":\"2026-03-25T11:05:19+00:00\",\"dateModified\":\"2026-03-25T11:05:19+00:00\",\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/catalogue/13704/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/catalogue/13704/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/catalogue/13704/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/catalogue/13704/\",\"url\":\"https://innovo-eg.com/catalogue/13704/\",\"name\":\"Las\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/catalogue/13704/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/catalogue/13704/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
-    "_links": {
-      "self": [
-        {
-          "href": "https://innovo-eg.com/wp-json/wp/v2/catalogues/13704"
-        }
-      ],
-      "collection": [
-        {
-          "href": "https://innovo-eg.com/wp-json/wp/v2/catalogues"
-        }
-      ],
-      "about": [
-        {
-          "href": "https://innovo-eg.com/wp-json/wp/v2/types/catalogue"
-        }
-      ],
-      "wp:featuredmedia": [
-        {
-          "embeddable": true,
-          "href": "https://innovo-eg.com/wp-json/wp/v2/media/7207"
-        }
-      ],
-      "wp:attachment": [
-        {
-          "href": "https://innovo-eg.com/wp-json/wp/v2/media?parent=13704"
-        }
-      ],
-      "curies": [
-        {
-          "name": "wp",
-          "href": "https://api.w.org/{rel}",
-          "templated": true
-        }
-      ]
-    },
     "_embedded": {
       "wp:featuredmedia": [
         {
-          "id": 7207,
-          "date": "2020-09-18T08:34:45",
-          "slug": "logo-las",
-          "type": "attachment",
-          "link": "https://innovo-eg.com/logo-las/",
-          "title": {
-            "rendered": "LOGO-LAS"
-          },
-          "author": 8,
-          "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>LOGO-LAS - INNOVO</title>\n<meta name=\"robots\" content=\"noindex, follow\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"LOGO-LAS - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/Innovo.eg\" />\n<meta property=\"og:image\" content=\"https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg\" />\n\t<meta property=\"og:image:width\" content=\"90\" />\n\t<meta property=\"og:image:height\" content=\"72\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg#webpage\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg\",\"name\":\"LOGO-LAS - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"datePublished\":\"2020-09-18T08:34:45+00:00\",\"dateModified\":\"2020-09-18T08:34:45+00:00\",\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg\",\"name\":\"LOGO-LAS\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
-          "caption": {
-            "rendered": ""
-          },
+          "source_url": "https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg",
           "alt_text": "",
-          "media_type": "image",
-          "mime_type": "image/jpeg",
           "media_details": {
             "width": 90,
             "height": 72,
-            "file": "2020/09/LOGO-LAS.jpg",
-            "sizes": {},
-            "image_meta": {
-              "aperture": "0",
-              "credit": "",
-              "camera": "",
-              "caption": "",
-              "created_timestamp": "0",
-              "copyright": "",
-              "focal_length": "0",
-              "iso": "0",
-              "shutter_speed": "0",
-              "title": "",
-              "orientation": "0",
-              "keywords": []
-            }
-          },
-          "source_url": "https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg",
-          "_links": {
-            "self": [
-              {
-                "href": "https://innovo-eg.com/wp-json/wp/v2/media/7207"
-              }
-            ],
-            "collection": [
-              {
-                "href": "https://innovo-eg.com/wp-json/wp/v2/media"
-              }
-            ],
-            "about": [
-              {
-                "href": "https://innovo-eg.com/wp-json/wp/v2/types/attachment"
-              }
-            ],
-            "author": [
-              {
-                "embeddable": true,
-                "href": "https://innovo-eg.com/wp-json/wp/v2/users/8"
-              }
-            ],
-            "replies": [
-              {
-                "embeddable": true,
-                "href": "https://innovo-eg.com/wp-json/wp/v2/comments?post=7207"
-              }
-            ]
+            "sizes": {}
           }
         }
       ]
