@@ -189,10 +189,7 @@ const ProductsOverlay = () => {
     else if (taxonomy === "pa_category_furniture") rawData = categoryCountsQuery.data;
     else if (taxonomy === "product_cat") rawData = typeCountsQuery.data;
 
-    if (!rawData) return 0;
-    
-    // In this API version, we found that requesting 'product_cat' counts via 'calculate_attribute_counts'
-    // returns them in the 'attribute_counts' array.
+    const data = rawData as any;
     const list = data.attribute_counts || [];
     
     if (!Array.isArray(list)) return 0;
@@ -233,7 +230,6 @@ const ProductsOverlay = () => {
   const clearFilters = () => {
     const newParams = new URLSearchParams();
     newParams.set("page", "1");
-    if (searchQuery) newParams.set("search", searchQuery);
     setSearchParams(newParams);
     setSidebarOpen(false);
   };
@@ -511,7 +507,7 @@ const ProductsOverlay = () => {
             </div>
           </div>
           
-          <div className="w-full h-[1px] bg-gray-200/60" />
+          <div className="w-full h-[1px] bg-gray-300/70" />
 
           <div className="flex items-center justify-end gap-6 py-2 opacity-70">
             <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.2em] text-muted-foreground">

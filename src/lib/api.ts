@@ -497,22 +497,7 @@ export async function fetchAdjacentPosts(date: string) {
   return { previous, next };
 }
 
-// ─── Projects ──────────────────────────────────────────────
-
-export async function fetchProjects(page = 1, perPage = 9) {
-  const allProjects = await loadStaticData<WordPressProject[]>('projects.json');
-  
-  const total = allProjects.length;
-  const totalPages = Math.ceil(total / perPage);
-  const start = (page - 1) * perPage;
-  const data = allProjects.slice(start, start + perPage);
-  
-  return { data, total, totalPages };
-}
-
-export async function fetchProjectBySlug(slug: string) {
-  if (!slug) return null;
-  const projects = await loadStaticData<WordPressProject[]>('projects.json');
-  if (!Array.isArray(projects)) return null;
-  return projects.find(p => p.slug === slug) || null;
+export async function fetchSocialLinks() {
+  const response = await fetch(`${API_BASE_CORE}/social-links?_embed&per_page=20`);
+  return await response.json();
 }

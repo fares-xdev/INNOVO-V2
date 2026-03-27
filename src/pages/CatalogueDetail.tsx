@@ -116,11 +116,11 @@ const CatalogueDetail = () => {
   const logoUrl = catalogue._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#fafafa]">
+    <div className="min-h-screen flex flex-col bg-background">
       <Header />
       
       {/* Header Section */}
-      <section className="bg-[#1a1a1a] text-white py-20 px-4">
+      <section className="bg-black text-white pt-10 pb-20 px-4">
         <div className="max-w-6xl mx-auto flex flex-col items-center text-center">
           {logoUrl && (
             <div className="bg-white p-4 rounded-sm mb-8 w-48 h-24 flex items-center justify-center">
@@ -128,12 +128,12 @@ const CatalogueDetail = () => {
             </div>
           )}
           {description && (
-            <span className="text-xs uppercase tracking-[0.3em] text-[#dd0000] font-bold mb-4">
+            <span className="text-xs uppercase tracking-[0.3em] text-primary font-bold mb-4">
               {description}
             </span>
           )}
-          <h1 className="text-4xl md:text-6xl font-extrabold font-montserrat uppercase tracking-tight">
-            {brandName} <span className="text-[#dd0000]">Catalogues</span>
+          <h1 className="text-4xl md:text-6xl font-extrabold font-montserrat uppercase tracking-tight !text-white !p-0 !mt-0 !mb-0">
+            {brandName} <span className="text-primary">Catalogues</span>
           </h1>
         </div>
       </section>
