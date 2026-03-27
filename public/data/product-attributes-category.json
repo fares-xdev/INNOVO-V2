@@ -1,0 +1,26 @@
+[
+  {
+    "id": 543,
+    "name": "Executive",
+    "slug": "executive",
+    "description": "",
+    "parent": 0,
+    "count": 74
+  },
+  {
+    "id": 200,
+    "name": "Managerial",
+    "slug": "managerial",
+    "description": "",
+    "parent": 0,
+    "count": 99
+  },
+  {
+    "id": 199,
+    "name": "Operative",
+    "slug": "operative",
+    "description": "",
+    "parent": 0,
+    "count": 194
+  }
+]
