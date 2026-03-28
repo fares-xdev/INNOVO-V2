@@ -1,0 +1,35 @@
+[
+  {
+    "id": 13848,
+    "slug": "13848",
+    "title": {
+      "rendered": "instagram"
+    },
+    "social_details": {
+      "url": "https://www.instagram.com/innovo_officefurniture/",
+      "icon": "instagram"
+    }
+  },
+  {
+    "id": 13847,
+    "slug": "facebook",
+    "title": {
+      "rendered": "facebook"
+    },
+    "social_details": {
+      "url": "https://www.facebook.com/Innovo.eg",
+      "icon": "facebook"
+    }
+  },
+  {
+    "id": 13846,
+    "slug": "linkedin",
+    "title": {
+      "rendered": "linkedin"
+    },
+    "social_details": {
+      "url": "https://www.linkedin.com/company/innovo-office-furniture",
+      "icon": "linkedin"
+    }
+  }
+]

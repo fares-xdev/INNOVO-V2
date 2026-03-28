@@ -1,0 +1,166 @@
+[
+  {
+    "id": 16,
+    "count": 0,
+    "description": "",
+    "link": "https://innovo-eg.com/category/decoration/",
+    "name": "Decoration",
+    "slug": "decoration",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Decoration Archives - INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/category/decoration/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Decoration Archives - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/category/decoration/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/category/decoration/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/category/decoration/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"CollectionPage\",\"@id\":\"https://innovo-eg.com/category/decoration/#webpage\",\"url\":\"https://innovo-eg.com/category/decoration/\",\"name\":\"Decoration Archives - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/category/decoration/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/category/decoration/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/category/decoration/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/category/decoration/\",\"url\":\"https://innovo-eg.com/category/decoration/\",\"name\":\"Decoration\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/category/decoration/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/category/decoration/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/categories/16"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/posts?categories=16"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "count": 0,
+    "description": "",
+    "link": "https://innovo-eg.com/category/design-trends/",
+    "name": "Design trends",
+    "slug": "design-trends",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Design trends Archives - INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/category/design-trends/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Design trends Archives - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/category/design-trends/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/category/design-trends/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/category/design-trends/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"CollectionPage\",\"@id\":\"https://innovo-eg.com/category/design-trends/#webpage\",\"url\":\"https://innovo-eg.com/category/design-trends/\",\"name\":\"Design trends Archives - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/category/design-trends/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/category/design-trends/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/category/design-trends/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/category/design-trends/\",\"url\":\"https://innovo-eg.com/category/design-trends/\",\"name\":\"Design trends\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/category/design-trends/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/category/design-trends/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/categories/17"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/posts?categories=17"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "count": 4,
+    "description": "",
+    "link": "https://innovo-eg.com/category/furniture/",
+    "name": "Furniture",
+    "slug": "furniture",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Furniture Archives - INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/category/furniture/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Furniture Archives - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/category/furniture/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/category/furniture/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/category/furniture/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"CollectionPage\",\"@id\":\"https://innovo-eg.com/category/furniture/#webpage\",\"url\":\"https://innovo-eg.com/category/furniture/\",\"name\":\"Furniture Archives - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/category/furniture/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/category/furniture/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/category/furniture/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/category/furniture/\",\"url\":\"https://innovo-eg.com/category/furniture/\",\"name\":\"Furniture\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/category/furniture/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/category/furniture/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/categories/18"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/posts?categories=18"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "count": 0,
+    "description": "",
+    "link": "https://innovo-eg.com/category/uncategorized/",
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Uncategorized Archives - INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/category/uncategorized/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Uncategorized Archives - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/category/uncategorized/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/category/uncategorized/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/category/uncategorized/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"CollectionPage\",\"@id\":\"https://innovo-eg.com/category/uncategorized/#webpage\",\"url\":\"https://innovo-eg.com/category/uncategorized/\",\"name\":\"Uncategorized Archives - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/category/uncategorized/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/category/uncategorized/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/category/uncategorized/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/category/uncategorized/\",\"url\":\"https://innovo-eg.com/category/uncategorized/\",\"name\":\"Uncategorized\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/category/uncategorized/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/category/uncategorized/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/categories/1"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/posts?categories=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

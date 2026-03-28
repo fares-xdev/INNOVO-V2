@@ -1,0 +1,515 @@
+[
+  {
+    "id": 13685,
+    "date": "2026-03-24T00:27:01",
+    "date_gmt": "2026-03-24T00:27:01",
+    "guid": {
+      "rendered": "https://innovo-eg.com/?post_type=our-partners&#038;p=13685"
+    },
+    "modified": "2026-03-24T00:27:01",
+    "modified_gmt": "2026-03-24T00:27:01",
+    "slug": "buzzi-space",
+    "status": "publish",
+    "type": "our-partners",
+    "link": "https://innovo-eg.com/our-partners/buzzi-space/",
+    "title": {
+      "rendered": "Buzzi Space"
+    },
+    "featured_media": 0,
+    "template": "",
+    "partner_details": {
+      "brand_id": "392",
+      "brand_name": "Buzzi Space",
+      "description": "Netherlands Supplier",
+      "link": "https://www.buzzi.space/",
+      "background_image": "https://innovo-eg.com/wp-content/uploads/2021/01/5990.jpg",
+      "order": 11
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Buzzi Space - INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/our-partners/buzzi-space/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Buzzi Space - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/our-partners/buzzi-space/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/Innovo.eg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/our-partners/buzzi-space/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/our-partners/buzzi-space/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/buzzi-space/#webpage\",\"url\":\"https://innovo-eg.com/our-partners/buzzi-space/\",\"name\":\"Buzzi Space - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"datePublished\":\"2026-03-24T00:27:01+00:00\",\"dateModified\":\"2026-03-24T00:27:01+00:00\",\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/our-partners/buzzi-space/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/our-partners/buzzi-space/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/our-partners/buzzi-space/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/buzzi-space/\",\"url\":\"https://innovo-eg.com/our-partners/buzzi-space/\",\"name\":\"Buzzi Space\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/our-partners/buzzi-space/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/our-partners/buzzi-space/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners/13685"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/types/our-partners"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/media?parent=13685"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 13686,
+    "date": "2026-03-24T00:26:27",
+    "date_gmt": "2026-03-24T00:26:27",
+    "guid": {
+      "rendered": "https://innovo-eg.com/?post_type=our-partners&#038;p=13686"
+    },
+    "modified": "2026-03-24T00:26:27",
+    "modified_gmt": "2026-03-24T00:26:27",
+    "slug": "13686",
+    "status": "publish",
+    "type": "our-partners",
+    "link": "https://innovo-eg.com/our-partners/13686/",
+    "title": {
+      "rendered": "Gonzaga"
+    },
+    "featured_media": 0,
+    "template": "",
+    "partner_details": {
+      "brand_id": "82",
+      "brand_name": "Gonzaga",
+      "description": "Slovenian Supplier",
+      "link": "https://gonzaga.eu/",
+      "background_image": "https://innovo-eg.com/wp-content/uploads/2021/01/Spyn-E-002-modifica-Custom.jpg",
+      "order": 12
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Gonzaga - INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/our-partners/13686/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Gonzaga - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/our-partners/13686/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/Innovo.eg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/our-partners/13686/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/our-partners/13686/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13686/#webpage\",\"url\":\"https://innovo-eg.com/our-partners/13686/\",\"name\":\"Gonzaga - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"datePublished\":\"2026-03-24T00:26:27+00:00\",\"dateModified\":\"2026-03-24T00:26:27+00:00\",\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/our-partners/13686/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/our-partners/13686/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/our-partners/13686/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13686/\",\"url\":\"https://innovo-eg.com/our-partners/13686/\",\"name\":\"Gonzaga\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/our-partners/13686/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/our-partners/13686/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners/13686"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/types/our-partners"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/media?parent=13686"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 13684,
+    "date": "2026-03-24T00:24:33",
+    "date_gmt": "2026-03-24T00:24:33",
+    "guid": {
+      "rendered": "https://innovo-eg.com/?post_type=our-partners&#038;p=13684"
+    },
+    "modified": "2026-03-24T00:24:33",
+    "modified_gmt": "2026-03-24T00:24:33",
+    "slug": "13684",
+    "status": "publish",
+    "type": "our-partners",
+    "link": "https://innovo-eg.com/our-partners/13684/",
+    "title": {
+      "rendered": "Narbutas"
+    },
+    "featured_media": 0,
+    "template": "",
+    "partner_details": {
+      "brand_id": "76",
+      "brand_name": "Narbutas",
+      "description": "Lithuanian Supplier",
+      "link": "https://www.narbutas.com/",
+      "background_image": "https://innovo-eg.com/wp-content/uploads/2021/01/acoustic-furniture-SILENT-ROOM-S-bench-desks-MOTION-task-chairs-WIND-Interior-2-1920x1080-1.jpg",
+      "order": 10
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Narbutas - INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/our-partners/13684/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Narbutas - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/our-partners/13684/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/Innovo.eg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/our-partners/13684/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/our-partners/13684/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13684/#webpage\",\"url\":\"https://innovo-eg.com/our-partners/13684/\",\"name\":\"Narbutas - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"datePublished\":\"2026-03-24T00:24:33+00:00\",\"dateModified\":\"2026-03-24T00:24:33+00:00\",\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/our-partners/13684/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/our-partners/13684/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/our-partners/13684/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13684/\",\"url\":\"https://innovo-eg.com/our-partners/13684/\",\"name\":\"Narbutas\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/our-partners/13684/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/our-partners/13684/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners/13684"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/types/our-partners"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/media?parent=13684"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 13682,
+    "date": "2026-03-24T00:22:18",
+    "date_gmt": "2026-03-24T00:22:18",
+    "guid": {
+      "rendered": "https://innovo-eg.com/?post_type=our-partners&#038;p=13682"
+    },
+    "modified": "2026-03-24T00:22:18",
+    "modified_gmt": "2026-03-24T00:22:18",
+    "slug": "13682",
+    "status": "publish",
+    "type": "our-partners",
+    "link": "https://innovo-eg.com/our-partners/13682/",
+    "title": {
+      "rendered": "Balsan"
+    },
+    "featured_media": 0,
+    "template": "",
+    "partner_details": {
+      "brand_id": "77",
+      "brand_name": "Balsan",
+      "description": "French Supplier",
+      "link": "https://en.balsan.com/",
+      "background_image": "https://innovo-eg.com/wp-content/uploads/2021/01/1810-osd-balsan-carre-couture-0222-bandeauincrust_1.jpg",
+      "order": 7
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Balsan - INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/our-partners/13682/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Balsan - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/our-partners/13682/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/Innovo.eg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/our-partners/13682/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/our-partners/13682/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13682/#webpage\",\"url\":\"https://innovo-eg.com/our-partners/13682/\",\"name\":\"Balsan - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"datePublished\":\"2026-03-24T00:22:18+00:00\",\"dateModified\":\"2026-03-24T00:22:18+00:00\",\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/our-partners/13682/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/our-partners/13682/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/our-partners/13682/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13682/\",\"url\":\"https://innovo-eg.com/our-partners/13682/\",\"name\":\"Balsan\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/our-partners/13682/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/our-partners/13682/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners/13682"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/types/our-partners"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/media?parent=13682"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 13680,
+    "date": "2026-03-24T00:18:43",
+    "date_gmt": "2026-03-24T00:18:43",
+    "guid": {
+      "rendered": "https://innovo-eg.com/?post_type=our-partners&#038;p=13680"
+    },
+    "modified": "2026-03-24T00:21:06",
+    "modified_gmt": "2026-03-24T00:21:06",
+    "slug": "13680",
+    "status": "publish",
+    "type": "our-partners",
+    "link": "https://innovo-eg.com/our-partners/13680/",
+    "title": {
+      "rendered": "Slalom"
+    },
+    "featured_media": 0,
+    "template": "",
+    "partner_details": {
+      "brand_id": "198",
+      "brand_name": "Slalom",
+      "description": "Italian Supplier",
+      "link": "https://slalom-it.com/",
+      "background_image": "https://innovo-eg.com/wp-content/uploads/2021/01/OASIS-4-scaled.jpg",
+      "order": 8
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Slalom - INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/our-partners/13680/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Slalom - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/our-partners/13680/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/Innovo.eg\" />\n<meta property=\"article:modified_time\" content=\"2026-03-24T00:21:06+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/our-partners/13680/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/our-partners/13680/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13680/#webpage\",\"url\":\"https://innovo-eg.com/our-partners/13680/\",\"name\":\"Slalom - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"datePublished\":\"2026-03-24T00:18:43+00:00\",\"dateModified\":\"2026-03-24T00:21:06+00:00\",\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/our-partners/13680/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/our-partners/13680/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/our-partners/13680/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13680/\",\"url\":\"https://innovo-eg.com/our-partners/13680/\",\"name\":\"Slalom\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/our-partners/13680/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/our-partners/13680/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners/13680"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/types/our-partners"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/media?parent=13680"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 13678,
+    "date": "2026-03-24T00:17:04",
+    "date_gmt": "2026-03-24T00:17:04",
+    "guid": {
+      "rendered": "https://innovo-eg.com/?post_type=our-partners&#038;p=13678"
+    },
+    "modified": "2026-03-24T00:20:20",
+    "modified_gmt": "2026-03-24T00:20:20",
+    "slug": "13678",
+    "status": "publish",
+    "type": "our-partners",
+    "link": "https://innovo-eg.com/our-partners/13678/",
+    "title": {
+      "rendered": "Framery"
+    },
+    "featured_media": 0,
+    "template": "",
+    "partner_details": {
+      "brand_id": "859",
+      "brand_name": "Framery",
+      "description": "Finnish supplier",
+      "link": "https://framery.com/en/",
+      "background_image": "https://innovo-eg.com/wp-content/uploads/2026/02/Cover-photo.jpg",
+      "order": 6
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Framery - INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/our-partners/13678/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Framery - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/our-partners/13678/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/Innovo.eg\" />\n<meta property=\"article:modified_time\" content=\"2026-03-24T00:20:20+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/our-partners/13678/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/our-partners/13678/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13678/#webpage\",\"url\":\"https://innovo-eg.com/our-partners/13678/\",\"name\":\"Framery - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"datePublished\":\"2026-03-24T00:17:04+00:00\",\"dateModified\":\"2026-03-24T00:20:20+00:00\",\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/our-partners/13678/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/our-partners/13678/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/our-partners/13678/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13678/\",\"url\":\"https://innovo-eg.com/our-partners/13678/\",\"name\":\"Framery\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/our-partners/13678/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/our-partners/13678/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners/13678"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/types/our-partners"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/media?parent=13678"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 13677,
+    "date": "2026-03-24T00:16:07",
+    "date_gmt": "2026-03-24T00:16:07",
+    "guid": {
+      "rendered": "https://innovo-eg.com/?post_type=our-partners&#038;p=13677"
+    },
+    "modified": "2026-03-24T00:19:39",
+    "modified_gmt": "2026-03-24T00:19:39",
+    "slug": "13677",
+    "status": "publish",
+    "type": "our-partners",
+    "link": "https://innovo-eg.com/our-partners/13677/",
+    "title": {
+      "rendered": "Quinti"
+    },
+    "featured_media": 0,
+    "template": "",
+    "partner_details": {
+      "brand_id": "80",
+      "brand_name": "Quinti",
+      "description": "Italian Supplier",
+      "link": "https://www.quinti.com/",
+      "background_image": "https://innovo-eg.com/wp-content/uploads/2021/01/QUINTI-GALL-HIP-1.jpg",
+      "order": 5
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Quinti - INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/our-partners/13677/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Quinti - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/our-partners/13677/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/Innovo.eg\" />\n<meta property=\"article:modified_time\" content=\"2026-03-24T00:19:39+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/our-partners/13677/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/our-partners/13677/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13677/#webpage\",\"url\":\"https://innovo-eg.com/our-partners/13677/\",\"name\":\"Quinti - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"datePublished\":\"2026-03-24T00:16:07+00:00\",\"dateModified\":\"2026-03-24T00:19:39+00:00\",\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/our-partners/13677/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/our-partners/13677/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/our-partners/13677/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13677/\",\"url\":\"https://innovo-eg.com/our-partners/13677/\",\"name\":\"Quinti\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/our-partners/13677/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/our-partners/13677/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners/13677"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/types/our-partners"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/media?parent=13677"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 13676,
+    "date": "2026-03-24T00:14:45",
+    "date_gmt": "2026-03-24T00:14:45",
+    "guid": {
+      "rendered": "https://innovo-eg.com/?post_type=our-partners&#038;p=13676"
+    },
+    "modified": "2026-03-24T00:14:45",
+    "modified_gmt": "2026-03-24T00:14:45",
+    "slug": "13676",
+    "status": "publish",
+    "type": "our-partners",
+    "link": "https://innovo-eg.com/our-partners/13676/",
+    "title": {
+      "rendered": "LAS"
+    },
+    "featured_media": 0,
+    "template": "",
+    "partner_details": {
+      "brand_id": "74",
+      "brand_name": "LAS",
+      "description": "Italian Supplier",
+      "link": "https://www.las.it/en/",
+      "background_image": "https://innovo-eg.com/wp-content/uploads/2020/10/LAS.jpg",
+      "order": 3
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>LAS - INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/our-partners/13676/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"LAS - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/our-partners/13676/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/Innovo.eg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/our-partners/13676/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/our-partners/13676/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13676/#webpage\",\"url\":\"https://innovo-eg.com/our-partners/13676/\",\"name\":\"LAS - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"datePublished\":\"2026-03-24T00:14:45+00:00\",\"dateModified\":\"2026-03-24T00:14:45+00:00\",\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/our-partners/13676/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/our-partners/13676/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/our-partners/13676/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13676/\",\"url\":\"https://innovo-eg.com/our-partners/13676/\",\"name\":\"LAS\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/our-partners/13676/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/our-partners/13676/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners/13676"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/types/our-partners"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/media?parent=13676"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 13675,
+    "date": "2026-03-24T00:13:57",
+    "date_gmt": "2026-03-24T00:13:57",
+    "guid": {
+      "rendered": "https://innovo-eg.com/?post_type=our-partners&#038;p=13675"
+    },
+    "modified": "2026-03-24T00:13:57",
+    "modified_gmt": "2026-03-24T00:13:57",
+    "slug": "13675",
+    "status": "publish",
+    "type": "our-partners",
+    "link": "https://innovo-eg.com/our-partners/13675/",
+    "title": {
+      "rendered": "INTERSTUHL"
+    },
+    "featured_media": 0,
+    "template": "",
+    "partner_details": {
+      "brand_id": "75",
+      "brand_name": "INTERSTUHL",
+      "description": "German Supplier",
+      "link": "https://www.interstuhl.com/I/ia-en/index.php",
+      "background_image": "https://innovo-eg.com/wp-content/uploads/2020/10/interstuhl.jpg",
+      "order": 2
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO Premium plugin v15.8.2 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>INTERSTUHL - INNOVO</title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://innovo-eg.com/our-partners/13675/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"INTERSTUHL - INNOVO\" />\n<meta property=\"og:url\" content=\"https://innovo-eg.com/our-partners/13675/\" />\n<meta property=\"og:site_name\" content=\"INNOVO\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/Innovo.eg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Organization\",\"Place\"],\"@id\":\"https://innovo-eg.com/#organization\",\"name\":\"Innovo Office Furniture\",\"url\":\"https://innovo-eg.com/\",\"sameAs\":[\"https://www.facebook.com/Innovo.eg\",\"https://www.instagram.com/innovo_officefurniture/\",\"https://www.linkedin.com/company/innovo-office-furniture\"],\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://innovo-eg.com/#logo\",\"inLanguage\":\"en-US\",\"url\":\"https://innovo-eg.com/wp-content/uploads/2022/01/Innovo-Logo.png\",\"width\":547,\"height\":135,\"caption\":\"Innovo Office Furniture\"},\"image\":{\"@id\":\"https://innovo-eg.com/#logo\"},\"location\":{\"@id\":\"https://innovo-eg.com/our-partners/13675/#local-place\"},\"address\":{\"@id\":\"https://innovo-eg.com/our-partners/13675/#local-place-address\"}},{\"@type\":\"WebSite\",\"@id\":\"https://innovo-eg.com/#website\",\"url\":\"https://innovo-eg.com/\",\"name\":\"INNOVO\",\"description\":\"Your Office Furniture Partner\",\"publisher\":{\"@id\":\"https://innovo-eg.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":\"https://innovo-eg.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13675/#webpage\",\"url\":\"https://innovo-eg.com/our-partners/13675/\",\"name\":\"INTERSTUHL - INNOVO\",\"isPartOf\":{\"@id\":\"https://innovo-eg.com/#website\"},\"datePublished\":\"2026-03-24T00:13:57+00:00\",\"dateModified\":\"2026-03-24T00:13:57+00:00\",\"breadcrumb\":{\"@id\":\"https://innovo-eg.com/our-partners/13675/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://innovo-eg.com/our-partners/13675/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://innovo-eg.com/our-partners/13675/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/\",\"url\":\"https://innovo-eg.com/\",\"name\":\"Home\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@type\":\"WebPage\",\"@id\":\"https://innovo-eg.com/our-partners/13675/\",\"url\":\"https://innovo-eg.com/our-partners/13675/\",\"name\":\"INTERSTUHL\"}}]},{\"@type\":\"Place\",\"@id\":\"https://innovo-eg.com/our-partners/13675/#local-place\",\"address\":{\"@type\":\"PostalAddress\",\"@id\":\"https://innovo-eg.com/our-partners/13675/#local-place-address\",\"streetAddress\":\"\",\"addressLocality\":\"\",\"postalCode\":\"\",\"addressRegion\":\"\",\"addressCountry\":\"\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"\",\"longitude\":\"\"},\"openingHoursSpecification\":[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"opens\":\"09:00\",\"closes\":\"17:00\"}]}]}</script>\n<!-- / Yoast SEO Premium plugin. -->",
+    "_links": {
+      "self": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners/13675"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/our-partners"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/types/our-partners"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://innovo-eg.com/wp-json/wp/v2/media?parent=13675"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
