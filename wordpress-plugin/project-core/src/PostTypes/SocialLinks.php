@@ -44,7 +44,8 @@ class SocialLinks {
 			'hierarchical'        => false,
 			'public'              => true,
 			'show_ui'             => true,
-			'show_in_menu'        => 'project-core', // Show under Project Core menu
+			'show_in_menu'        => 'project-core',
+			'menu_position'       => 30,
 			'menu_icon'           => 'dashicons-share',
 			'show_in_admin_bar'   => true,
 			'show_in_nav_menus'   => true,

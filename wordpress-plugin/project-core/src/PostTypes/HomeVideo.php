@@ -36,7 +36,7 @@ class HomeVideo {
 			'public'             => true,
 			'publicly_queryable' => true,
 			'show_ui'            => true,
-			'show_in_menu'       => true,
+			'show_in_menu'       => 'project-core',
 			'query_var'          => true,
 			'rewrite'            => [ 'slug' => 'home-video' ],
 			'capability_type'    => 'post',

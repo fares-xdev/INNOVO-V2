@@ -41,7 +41,7 @@ function handle_innovo_contact_form($request) {
 
     // Prepare the email
     $to = get_option('admin_email'); // Default to admin email, or hardcode your email
-    // Recipient for testing
+    // You can override it here if you want it specifically to go to info@innovo-eg.com
     $to = "info@innovo-eg.com";
 
     $subject = "New Contact Form Submission from: " . $first_name . " " . $last_name;

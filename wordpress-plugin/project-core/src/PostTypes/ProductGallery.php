@@ -48,7 +48,7 @@ class ProductGallery {
 			'public'              => false,
 			'show_ui'             => true,
 			'show_in_menu'        => 'project-core',
-			'menu_position'       => null,
+			'menu_position'       => 30,
 			'show_in_admin_bar'   => true,
 			'show_in_nav_menus'   => false,
 			'can_export'          => true,

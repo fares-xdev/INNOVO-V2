@@ -44,7 +44,7 @@ class Catalogue {
 			'hierarchical'        => false,
 			'public'              => true,
 			'show_ui'             => true,
-			'show_in_menu'        => true,
+			'show_in_menu'        => 'project-core',
 			'menu_position'       => 32,
 			'menu_icon'           => 'dashicons-pdf',
 			'show_in_admin_bar'   => true,

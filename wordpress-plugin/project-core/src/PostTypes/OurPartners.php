@@ -44,7 +44,7 @@ class OurPartners {
 			'hierarchical'        => false,
 			'public'              => true,
 			'show_ui'             => true,
-			'show_in_menu'        => true, // Show in its own menu or under Project Core
+			'show_in_menu'        => 'project-core',
 			'menu_position'       => 31,
 			'menu_icon'           => 'dashicons-groups',
 			'show_in_admin_bar'   => true,
