@@ -1,0 +1,16 @@
+# WordPress
+wp-config.php
+# No need for others as this is inside a plugin folder
+
+# Folders to ignore
+node_modules
+.pnpm-store
+vendor
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
