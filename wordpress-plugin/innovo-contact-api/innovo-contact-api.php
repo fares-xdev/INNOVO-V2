@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Innovo Contact Form API
  * Description: Custom REST API endpoint for the React frontend contact form.
- * Version: 1.0
- * Author: Innovo Team
+ * Version: 1.1
+ * Author: fares
  */
 
 if (!defined('ABSPATH')) {
