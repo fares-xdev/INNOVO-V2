@@ -12,6 +12,8 @@ const ContactUs = () => {
     phone: "",
     message: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
   const [errors, setErrors] = useState<Record<string, string>>({});
 
   const validateForm = () => {
@@ -31,12 +33,34 @@ const ContactUs = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (validateForm()) {
-      alert("Thank you for your message! We'll get back to you soon.");
-      setForm({ firstName: "", lastName: "", email: "", phone: "", message: "" });
-      setErrors({});
+      setIsSubmitting(true);
+      setSubmitStatus("idle");
+      
+      try {
+        const response = await fetch("https://innovo-eg.com/wp-json/innovo/v1/contact", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(form),
+        });
+
+        if (response.ok) {
+          setSubmitStatus("success");
+          setForm({ firstName: "", lastName: "", email: "", phone: "", message: "" });
+          setErrors({});
+        } else {
+          setSubmitStatus("error");
+        }
+      } catch (error) {
+        console.error("Submission error:", error);
+        setSubmitStatus("error");
+      } finally {
+        setIsSubmitting(false);
+      }
     }
   };
 
@@ -202,12 +226,27 @@ const ContactUs = () => {
                 />
               </div>
               <div className="md:col-span-2">
-                <button
-                  type="submit"
-                  className="w-full md:w-auto px-16 py-5 bg-[#CD2727] text-white rounded-xl font-bold uppercase tracking-widest hover:bg-[#242424] transition-all duration-300 shadow-lg shadow-[#CD2727]/20 active:scale-95"
-                >
-                  Send
-                </button>
+                <div className="flex flex-col gap-4">
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="w-full md:w-auto px-16 py-5 bg-[#CD2727] text-white rounded-xl font-bold uppercase tracking-widest hover:bg-[#A31F1F] transition-all duration-300 shadow-lg shadow-[#CD2727]/20 active:scale-95 disabled:opacity-70 disabled:cursor-not-allowed"
+                  >
+                    {isSubmitting ? "Sending..." : "Send"}
+                  </button>
+                  
+                  {submitStatus === "success" && (
+                    <p className="text-green-600 font-medium text-sm animate-in fade-in slide-in-from-top-1">
+                      Thank you for your message! We'll get back to you soon.
+                    </p>
+                  )}
+                  
+                  {submitStatus === "error" && (
+                    <p className="text-red-600 font-medium text-sm animate-in fade-in slide-in-from-top-1">
+                      Something went wrong. Please try again or contact us directly.
+                    </p>
+                  )}
+                </div>
               </div>
             </form>
           </div>
