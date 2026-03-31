@@ -82,7 +82,7 @@ const Header = () => {
         if (Array.isArray(cats)) {
           const allowedCategories = [
             "chairs", "desks", "tables", "workstations", 
-            "breakout areas", "lounges", "acoustics", "carpets"
+            "break out & cafeteria", "lounges", "acoustics", "carpets"
           ];
           
           const filteredCats = cats.filter((c: Term) => {
