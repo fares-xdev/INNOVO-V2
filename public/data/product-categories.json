@@ -41,6 +41,17 @@
     "permalink": "https://innovo-eg.com/products/seating/break-out-cafeteria/"
   },
   {
+    "id": 820,
+    "name": "Carpets",
+    "slug": "carpets",
+    "description": "",
+    "parent": 0,
+    "count": 5,
+    "image": null,
+    "review_count": 0,
+    "permalink": "https://innovo-eg.com/products/carpets/"
+  },
+  {
     "id": 102,
     "name": "Chairs",
     "slug": "chairs",

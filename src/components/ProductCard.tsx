@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import LazyImage from "./ui/LazyImage";
+import { decodeHtmlEntities } from "@/lib/api";
 
 interface ProductCardProps {
   name: string;
@@ -27,7 +28,9 @@ const ProductCard = ({ name, image, slug, brand }: ProductCardProps) => {
               {brand}
             </span>
           )}
-          <h3 style={{ fontFamily: 'Montserrat' }} className="text-[14px] font-bold text-[#2d2d2d] leading-tight group-hover:text-[#CD2727] transition-colors" dangerouslySetInnerHTML={{ __html: name }} />
+          <h3 style={{ fontFamily: 'Montserrat' }} className="text-[14px] font-bold text-[#2d2d2d] leading-tight group-hover:text-[#CD2727] transition-colors">
+            {decodeHtmlEntities(name)}
+          </h3>
         </div>
       </Link>
     </div>

@@ -1,5 +1,13 @@
 [
   {
+    "id": 77,
+    "name": "Balsan",
+    "slug": "balsan",
+    "description": "",
+    "parent": 0,
+    "count": 5
+  },
+  {
     "id": 859,
     "name": "Framery",
     "slug": "framery",

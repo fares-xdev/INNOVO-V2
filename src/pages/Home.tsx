@@ -686,10 +686,9 @@ const Home = () => {
                                   }}
                                 />
                               </div>
-                              <span 
-                                className="text-white font-bold text-lg md:text-xl tracking-tight px-4 text-center leading-tight relative z-20"
-                                dangerouslySetInnerHTML={{ __html: cat.name }}
-                              />
+                              <span className="text-white font-bold text-lg md:text-xl tracking-tight px-4 text-center leading-tight relative z-20">
+                                {decodeHtmlEntities(cat.name)}
+                              </span>
                             </div>
                           </Link>
                         </CarouselItem>

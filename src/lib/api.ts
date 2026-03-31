@@ -356,7 +356,16 @@ export async function fetchProductAttributes(attributeId: number) {
 
 export function decodeHtmlEntities(text: unknown): string {
   if (typeof text !== 'string') return "";
+  
   const entities: Record<string, string> = {
+    '&amp;': '&',
+    '&lt;': '<',
+    '&gt;': '>',
+    '&quot;': '"',
+    '&#39;': "'",
+    '&#039;': "'",
+    '&nbsp;': ' ',
+    '&#038;': '&',
     '&#8211;': '–',
     '&#8212;': '—',
     '&#8216;': '\u2018',
@@ -364,19 +373,17 @@ export function decodeHtmlEntities(text: unknown): string {
     '&#8220;': '\u201C',
     '&#8221;': '\u201D',
     '&#8230;': '…',
-    '&nbsp;': ' ',
-    '&amp;': '&',
-    '&lt;': '<',
-    '&gt;': '>',
-    '&quot;': '"',
-    '&#39;': "'",
-    '&#039;': "'",
     '&laquo;': '«',
     '&raquo;': '»',
     '&copy;': '©',
     '&reg;': '®',
   };
-  return text.replace(/&#\d+;|&[a-z]+;/gi, (match) => entities[match] || match);
+
+  return text.replace(/&#(\d+);|&#x([a-f0-9]+);|&[a-z0-9]+;/gi, (match, dec, hex) => {
+    if (dec) return String.fromCharCode(parseInt(dec, 10));
+    if (hex) return String.fromCharCode(parseInt(hex, 16));
+    return entities[match] || match;
+  });
 }
 
 export function cleanWordPressContent(html: string): string {

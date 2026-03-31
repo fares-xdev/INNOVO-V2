@@ -565,17 +565,17 @@ const Products = () => {
                 <div className="flex flex-wrap gap-2 mt-1">
                   {activeTypes.map(c => (
                     <Badge key={c.id} variant="secondary" className="bg-gray-100 text-[#242424] hover:bg-gray-200 border-none px-3 py-1 flex items-center gap-2 rounded-full cursor-pointer" onClick={() => toggleFilter("filter_type", c.slug)}>
-                      {c.name} <X className="w-3 h-3" />
+                      {decodeHtmlEntities(c.name)} <X className="w-3 h-3" />
                     </Badge>
                   ))}
                   {activeCatAttrs.map(c => (
                     <Badge key={c.id} variant="secondary" className="bg-gray-100 text-[#242424] hover:bg-gray-200 border-none px-3 py-1 flex items-center gap-2 rounded-full cursor-pointer" onClick={() => toggleFilter("filter_cat", c.slug)}>
-                      {c.name} <X className="w-3 h-3" />
+                      {decodeHtmlEntities(c.name)} <X className="w-3 h-3" />
                     </Badge>
                   ))}
                   {activeBrands.map(b => (
                     <Badge key={b.id} variant="secondary" className="bg-gray-100 text-[#242424] hover:bg-gray-200 border-none px-3 py-1 flex items-center gap-2 rounded-full cursor-pointer" onClick={() => toggleFilter("filter_brand", b.slug)}>
-                      {b.name} <X className="w-3 h-3" />
+                      {decodeHtmlEntities(b.name)} <X className="w-3 h-3" />
                     </Badge>
                   ))}
                   <button onClick={clearFilters} className="text-xs text-primary font-bold hover:underline ml-1">
