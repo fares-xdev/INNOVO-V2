@@ -1,0 +1,56 @@
+[
+  {
+    "id": 13705,
+    "date": "2026-03-25T11:13:35",
+    "slug": "13705",
+    "link": "https://innovo-eg.com/catalogue/13705/",
+    "title": {
+      "rendered": "Interstuhl"
+    },
+    "featured_media": 7206,
+    "_embedded": {
+      "wp:featuredmedia": [
+        {
+          "source_url": "https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png",
+          "alt_text": "",
+          "media_details": {
+            "width": 145,
+            "height": 61,
+            "sizes": {
+              "full": {
+                "file": "Interstuhl_logo.png",
+                "width": 145,
+                "height": 61,
+                "mime_type": "image/png",
+                "source_url": "https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl_logo.png"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 13704,
+    "date": "2026-03-25T11:05:19",
+    "slug": "13704",
+    "link": "https://innovo-eg.com/catalogue/13704/",
+    "title": {
+      "rendered": "Las"
+    },
+    "featured_media": 7207,
+    "_embedded": {
+      "wp:featuredmedia": [
+        {
+          "source_url": "https://innovo-eg.com/wp-content/uploads/2020/09/LOGO-LAS.jpg",
+          "alt_text": "",
+          "media_details": {
+            "width": 90,
+            "height": 72,
+            "sizes": {}
+          }
+        }
+      ]
+    }
+  }
+]

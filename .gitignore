@@ -3,7 +3,7 @@ node_modules
 .pnpm-store
 
 # Build
-dist
+# dist
 build
 .next
 out
