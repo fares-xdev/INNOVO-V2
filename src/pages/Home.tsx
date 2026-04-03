@@ -672,11 +672,11 @@ const Home = () => {
                       if (!cat) return null;
 
                       return (
-                        <CarouselItem key={item.id} className="pl-4 basis-full sm:basis-1/2 md:basis-1/3 pt-24 md:pt-32">
+                        <CarouselItem key={item.id} className="pl-4 basis-full sm:basis-1/2 md:basis-1/3 pt-28 md:pt-40">
                           <Link to={`/products?category=${cat.id}`} className="block group">
-                            <div className="bg-[#E5E5E5] rounded-2xl h-[160px] md:h-[200px] max-w-[280px] mx-auto relative flex flex-col items-center justify-end pb-6 md:pb-8 shadow-sm">
+                            <div className="bg-[#E5E5E5] rounded-2xl h-[160px] md:h-[200px] max-w-[280px] mx-auto relative flex flex-col items-center justify-end pb-6 md:pb-8 shadow-md">
                               {/* 3D Pop-out Image */}
-                              <div className="absolute -top-16 md:-top-24 left-1/2 -translate-x-1/2 w-[85%] md:w-[95%] h-[140px] md:h-[200px] flex items-center justify-center drop-shadow-[0_20px_30px_rgba(0,0,0,0.15)] transition-transform duration-500 group-hover:-translate-y-3 z-10">
+                              <div className="absolute -top-20 md:-top-32 left-1/2 -translate-x-1/2 w-[100%] md:w-[110%] h-[180px] md:h-[250px] flex items-center justify-center drop-shadow-[20px_10px_10px_rgba(0,0,0,0.25)] transition-transform duration-500 group-hover:-translate-y-4 z-10">
                                 <img 
                                   src={getOriginalImage(customImage) || "https://innovo-eg.com/wp-content/uploads/2020/09/Interstuhl-pure-is3-1-300x300.png"} 
                                   alt={cat.name}
